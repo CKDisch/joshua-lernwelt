@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-11-03",
   "subjects": [
     {
@@ -146,28 +146,312 @@
       "icon": "🇫🇷",
       "lang": "fr",
       "topics": [
+        "Le caractère",
+        "Le visage",
         "Description d'une personne",
-        "Lexique",
-        "Dictée"
+        "Orthographe / Dictée",
+        "Nom ↔ adjectif",
+        "Classes grammaticales"
       ],
       "questions": [
         {
-          "topic": "Description d'une personne",
-          "fr": "Quelle phrase décrit les cheveux ?",
-          "de": "Welcher Satz beschreibt die Haare?",
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « l’honnêteté » ?",
+          "de": "Welches Adjektiv gehört zu „l’honnêteté“?",
           "choices": [
-            "Il a les cheveux bouclés.",
-            "Il a les yeux verts.",
-            "Il est grand."
-          ],
-          "choicesDe": [
-            "Er hat lockige Haare.",
-            "Er hat grüne Augen.",
-            "Er ist groß."
+            "honnête",
+            "honnété",
+            "honnet"
           ],
           "answer": 0,
-          "whyFr": "« Les cheveux bouclés » signifie « lockige Haare ».",
-          "whyDe": "« Les cheveux bouclés » bedeutet „lockige Haare“."
+          "whyFr": "On écrit : l’honnêteté → honnête.",
+          "whyDe": "Richtig ist: l’honnêteté → honnête."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la patience » ?",
+          "de": "Welches Adjektiv gehört zu „la patience“?",
+          "choices": [
+            "patient",
+            "patienteux",
+            "patien"
+          ],
+          "answer": 0,
+          "whyFr": "La patience → patient / patiente.",
+          "whyDe": "la patience → patient / patiente."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la politesse » ?",
+          "de": "Welches Adjektiv gehört zu „la politesse“?",
+          "choices": [
+            "poli",
+            "polite",
+            "politesse"
+          ],
+          "answer": 0,
+          "whyFr": "La politesse → poli / polie.",
+          "whyDe": "la politesse → poli / polie."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la loyauté » ?",
+          "de": "Welches Adjektiv gehört zu „la loyauté“?",
+          "choices": [
+            "loyal",
+            "loyaleux",
+            "loyauté"
+          ],
+          "answer": 0,
+          "whyFr": "La loyauté → loyal / loyale.",
+          "whyDe": "la loyauté → loyal / loyale."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la modestie » ?",
+          "de": "Welches Adjektiv gehört zu „la modestie“?",
+          "choices": [
+            "modeste",
+            "modestieux",
+            "modesté"
+          ],
+          "answer": 0,
+          "whyFr": "La modestie → modeste.",
+          "whyDe": "la modestie → modeste."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la nervosité » ?",
+          "de": "Welches Adjektiv gehört zu „la nervosité“?",
+          "choices": [
+            "nerveux",
+            "nervosé",
+            "nervos"
+          ],
+          "answer": 0,
+          "whyFr": "La nervosité → nerveux / nerveuse.",
+          "whyDe": "la nervosité → nerveux / nerveuse."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la discrétion » ?",
+          "de": "Welches Adjektiv gehört zu „la discrétion“?",
+          "choices": [
+            "discret",
+            "discrèteux",
+            "discrétion"
+          ],
+          "answer": 0,
+          "whyFr": "La discrétion → discret / discrète.",
+          "whyDe": "la discrétion → discret / discrète."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la mélancolie » ?",
+          "de": "Welches Adjektiv gehört zu „la mélancolie“?",
+          "choices": [
+            "mélancolique",
+            "mélancole",
+            "mélancolieux"
+          ],
+          "answer": 0,
+          "whyFr": "La mélancolie → mélancolique.",
+          "whyDe": "la mélancolie → mélancolique."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la vanité » ?",
+          "de": "Welches Adjektiv gehört zu „la vanité“?",
+          "choices": [
+            "vaniteux",
+            "vanité",
+            "vanitaire"
+          ],
+          "answer": 0,
+          "whyFr": "La vanité → vaniteux / vaniteuse.",
+          "whyDe": "la vanité → vaniteux / vaniteuse."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « l’orgueil » ?",
+          "de": "Welches Adjektiv gehört zu „l’orgueil“?",
+          "choices": [
+            "orgueilleux",
+            "orgueille",
+            "orgueillant"
+          ],
+          "answer": 0,
+          "whyFr": "L’orgueil → orgueilleux / orgueilleuse.",
+          "whyDe": "l’orgueil → orgueilleux / orgueilleuse."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « le courage » ?",
+          "de": "Welches Adjektiv gehört zu „le courage“?",
+          "choices": [
+            "courageux",
+            "courage",
+            "courageant"
+          ],
+          "answer": 0,
+          "whyFr": "Le courage → courageux / courageuse.",
+          "whyDe": "le courage → courageux / courageuse."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la joie » ?",
+          "de": "Welches Adjektiv gehört zu „la joie“?",
+          "choices": [
+            "joyeux",
+            "joieux",
+            "joye"
+          ],
+          "answer": 0,
+          "whyFr": "La joie → joyeux / joyeuse.",
+          "whyDe": "la joie → joyeux / joyeuse."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la gentillesse » ?",
+          "de": "Welches Adjektiv gehört zu „la gentillesse“?",
+          "choices": [
+            "gentil",
+            "gentilleux",
+            "gentillesse"
+          ],
+          "answer": 0,
+          "whyFr": "La gentillesse → gentil / gentille.",
+          "whyDe": "la gentillesse → gentil / gentille."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la franchise » ?",
+          "de": "Welches Adjektiv gehört zu „la franchise“?",
+          "choices": [
+            "franc",
+            "francheux",
+            "franché"
+          ],
+          "answer": 0,
+          "whyFr": "La franchise → franc / franche.",
+          "whyDe": "la franchise → franc / franche."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la douceur » ?",
+          "de": "Welches Adjektiv gehört zu „la douceur“?",
+          "choices": [
+            "doux",
+            "douceur",
+            "dousse"
+          ],
+          "answer": 0,
+          "whyFr": "La douceur → doux / douce.",
+          "whyDe": "la douceur → doux / douce."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la méfiance » ?",
+          "de": "Welches Adjektiv gehört zu „la méfiance“?",
+          "choices": [
+            "méfiant",
+            "méfianceux",
+            "méfieux"
+          ],
+          "answer": 0,
+          "whyFr": "La méfiance → méfiant / méfiante.",
+          "whyDe": "la méfiance → méfiant / méfiante."
+        },
+        {
+          "topic": "Le caractère",
+          "fr": "Quel adjectif correspond à « la jalousie » ?",
+          "de": "Welches Adjektiv gehört zu „la jalousie“?",
+          "choices": [
+            "jaloux",
+            "jalouseux",
+            "jalous"
+          ],
+          "answer": 0,
+          "whyFr": "La jalousie → jaloux / jalouse.",
+          "whyDe": "la jalousie → jaloux / jalouse."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Quelle phrase décrit correctement les cheveux ?",
+          "de": "Welcher Satz beschreibt die Haare korrekt?",
+          "choices": [
+            "Il a les cheveux auburn et bouclés.",
+            "Il est les cheveux auburn et bouclés.",
+            "Il a les cheveux auburne et bouclé."
+          ],
+          "answer": 0,
+          "whyFr": "On emploie « avoir » : il a les cheveux auburn et bouclés.",
+          "whyDe": "Bei Haaren verwendet man „avoir“."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Comment peut-on décrire des yeux ?",
+          "de": "Wie kann man Augen beschreiben?",
+          "choices": [
+            "des yeux en amande",
+            "des yeux en trompette",
+            "des yeux bombés de cheveux"
+          ],
+          "answer": 0,
+          "whyFr": "Le document donne notamment « les yeux en amande ».",
+          "whyDe": "Im Material steht unter anderem „les yeux en amande“."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Quel groupe de mots décrit le nez ?",
+          "de": "Welche Wortgruppe beschreibt die Nase?",
+          "choices": [
+            "un nez en trompette",
+            "des lèvres en trompette",
+            "un front en trompette"
+          ],
+          "answer": 0,
+          "whyFr": "« En trompette » figure dans le lexique du nez.",
+          "whyDe": "„en trompette“ steht im Wortschatz zur Nase."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Quel adjectif peut décrire les sourcils ?",
+          "de": "Welches Adjektiv kann Augenbrauen beschreiben?",
+          "choices": [
+            "broussailleux",
+            "auburn",
+            "pulpeuses"
+          ],
+          "answer": 0,
+          "whyFr": "On trouve « les sourcils broussailleux » dans le document.",
+          "whyDe": "Im Material steht „les sourcils broussailleux“."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Quelle expression décrit les lèvres ?",
+          "de": "Welche Formulierung beschreibt die Lippen?",
+          "choices": [
+            "des lèvres charnues",
+            "des lèvres dégarnies",
+            "des lèvres auburn"
+          ],
+          "answer": 0,
+          "whyFr": "Le lexique propose notamment « charnues », « pulpeuses », « minces » et « pincées ».",
+          "whyDe": "Beim Lippen-Wortschatz stehen u. a. charnues, pulpeuses, minces und pincées."
+        },
+        {
+          "topic": "Le visage",
+          "fr": "Quelle expression décrit le menton ?",
+          "de": "Welche Formulierung beschreibt das Kinn?",
+          "choices": [
+            "un menton pointu",
+            "un menton soyeux",
+            "un menton frisé"
+          ],
+          "answer": 0,
+          "whyFr": "Le menton peut être « avancé, pointu, à fossette, rond ».",
+          "whyDe": "Das Kinn kann im Material u. a. avancé, pointu, à fossette oder rond sein."
         },
         {
           "topic": "Description d'une personne",
@@ -179,10 +463,271 @@
             "Elle ont les yeux bleus."
           ],
           "answer": 0,
-          "whyFr": "Pour décrire les yeux, on emploie « avoir » : elle a les yeux bleus.",
-          "whyDe": "Für Augenfarben verwendet man im Französischen „avoir“: elle a les yeux bleus."
+          "whyFr": "Pour décrire les yeux, on emploie « avoir ».",
+          "whyDe": "Für Augen verwendet man „avoir“."
+        },
+        {
+          "topic": "Description d'une personne",
+          "fr": "Quelle phrase décrit le caractère ?",
+          "de": "Welcher Satz beschreibt den Charakter?",
+          "choices": [
+            "Elle est douce et sensible.",
+            "Elle a les cheveux frisés.",
+            "Elle a les yeux en amande."
+          ],
+          "answer": 0,
+          "whyFr": "« Douce » et « sensible » décrivent ici le caractère.",
+          "whyDe": "„douce“ und „sensible“ beschreiben hier den Charakter."
+        },
+        {
+          "topic": "Description d'une personne",
+          "fr": "Quelle phrase mélange correctement description physique et morale ?",
+          "de": "Welcher Satz verbindet Aussehen und Charakter korrekt?",
+          "choices": [
+            "Il a les cheveux bouclés et il est courageux.",
+            "Il est les cheveux bouclés et a courageux.",
+            "Il a courageux et il est les cheveux bouclés."
+          ],
+          "answer": 0,
+          "whyFr": "On dit « avoir les cheveux… » mais « être courageux ».",
+          "whyDe": "Haare mit avoir, Charaktereigenschaft mit être."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle orthographe est correcte ?",
+          "de": "Welche Schreibweise ist korrekt?",
+          "choices": [
+            "auburn",
+            "auburne",
+            "oburn"
+          ],
+          "answer": 0,
+          "whyFr": "Le mot du document est « auburn ».",
+          "whyDe": "Im Material steht „auburn“."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle orthographe est correcte ?",
+          "de": "Welche Schreibweise ist korrekt?",
+          "choices": [
+            "soyeux",
+            "soieux",
+            "soyeu"
+          ],
+          "answer": 0,
+          "whyFr": "On écrit « soyeux ».",
+          "whyDe": "Richtig: soyeux."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle orthographe est correcte ?",
+          "de": "Welche Schreibweise ist korrekt?",
+          "choices": [
+            "renfrognée",
+            "renfrougnée",
+            "renfrogniée"
+          ],
+          "answer": 0,
+          "whyFr": "Le mot corrigé dans le travail est « renfrognée ».",
+          "whyDe": "Im korrigierten Test steht „renfrognée“."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle orthographe est correcte ?",
+          "de": "Welche Schreibweise ist korrekt?",
+          "choices": [
+            "gracieuse",
+            "gracieuze",
+            "gracieusse"
+          ],
+          "answer": 0,
+          "whyFr": "On écrit « gracieuse ».",
+          "whyDe": "Richtig: gracieuse."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle orthographe est correcte ?",
+          "de": "Welche Schreibweise ist korrekt?",
+          "choices": [
+            "chétive",
+            "chêtive",
+            "chétifve"
+          ],
+          "answer": 0,
+          "whyFr": "On écrit « chétive ».",
+          "whyDe": "Richtig: chétive."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle phrase est entièrement bien orthographiée ?",
+          "de": "Welcher Satz ist vollständig richtig geschrieben?",
+          "choices": [
+            "Elle est intelligente, aimable et honnête.",
+            "Elle est inteligante, aimable et honête.",
+            "Elle est intelligente, amable et honnète."
+          ],
+          "answer": 0,
+          "whyFr": "Attention à « intelligente », « aimable » et « honnête ».",
+          "whyDe": "Achte besonders auf intelligente, aimable und honnête."
+        },
+        {
+          "topic": "Orthographe / Dictée",
+          "fr": "Quelle phrase est entièrement bien orthographiée ?",
+          "de": "Welcher Satz ist vollständig richtig geschrieben?",
+          "choices": [
+            "Il est courageux, joyeux et sociable.",
+            "Il est courageu, joieux et socialble.",
+            "Il est courrageux, joyeu et sociable."
+          ],
+          "answer": 0,
+          "whyFr": "Les formes correctes sont « courageux », « joyeux », « sociable ».",
+          "whyDe": "Richtig sind courageux, joyeux und sociable."
+        },
+        {
+          "topic": "Nom ↔ adjectif",
+          "fr": "Complète la paire : la sensibilité → …",
+          "de": "Ergänze das Paar: la sensibilité → …",
+          "choices": [
+            "sensible",
+            "sensibilité",
+            "sensif"
+          ],
+          "answer": 0,
+          "whyFr": "La sensibilité → sensible.",
+          "whyDe": "la sensibilité → sensible."
+        },
+        {
+          "topic": "Nom ↔ adjectif",
+          "fr": "Complète la paire : la serviabilité → …",
+          "de": "Ergänze das Paar: la serviabilité → …",
+          "choices": [
+            "serviable",
+            "serviableux",
+            "serviabilité"
+          ],
+          "answer": 0,
+          "whyFr": "La serviabilité → serviable.",
+          "whyDe": "la serviabilité → serviable."
+        },
+        {
+          "topic": "Nom ↔ adjectif",
+          "fr": "Complète la paire : la désobéissance → …",
+          "de": "Ergänze das Paar: la désobéissance → …",
+          "choices": [
+            "désobéissant",
+            "désobéissance",
+            "désobéissable"
+          ],
+          "answer": 0,
+          "whyFr": "La désobéissance → désobéissant / désobéissante.",
+          "whyDe": "la désobéissance → désobéissant / désobéissante."
+        },
+        {
+          "topic": "Nom ↔ adjectif",
+          "fr": "Complète la paire : la crainte → …",
+          "de": "Ergänze das Paar: la crainte → …",
+          "choices": [
+            "craintif",
+            "craint",
+            "crainteux"
+          ],
+          "answer": 0,
+          "whyFr": "La crainte → craintif / craintive.",
+          "whyDe": "la crainte → craintif / craintive."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « courageux » ?",
+          "de": "Welche Wortart ist „courageux“?",
+          "choices": [
+            "adjectif qualificatif",
+            "nom commun",
+            "adverbe"
+          ],
+          "answer": 0,
+          "whyFr": "« Courageux » donne une information sur un nom ou un pronom.",
+          "whyDe": "„courageux“ ist ein Adjektiv."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « courage » ?",
+          "de": "Welche Wortart ist „courage“?",
+          "choices": [
+            "nom commun",
+            "adjectif qualificatif",
+            "préposition"
+          ],
+          "answer": 0,
+          "whyFr": "« Le courage » est un nom commun.",
+          "whyDe": "„le courage“ ist ein Nomen."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « toujours » ?",
+          "de": "Welche Wortart ist „toujours“?",
+          "choices": [
+            "adverbe",
+            "déterminant",
+            "pronom"
+          ],
+          "answer": 0,
+          "whyFr": "« Toujours » est un adverbe.",
+          "whyDe": "„toujours“ ist ein Adverb."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « pour » ?",
+          "de": "Welche Wortart ist „pour“?",
+          "choices": [
+            "préposition",
+            "verbe",
+            "adjectif"
+          ],
+          "answer": 0,
+          "whyFr": "« Pour » est une préposition.",
+          "whyDe": "„pour“ ist eine Präposition."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « mais » ?",
+          "de": "Welche Wortart ist „mais“?",
+          "choices": [
+            "conjonction de coordination",
+            "adverbe",
+            "nom commun"
+          ],
+          "answer": 0,
+          "whyFr": "« Mais » est une conjonction de coordination.",
+          "whyDe": "„mais“ ist eine nebenordnende Konjunktion."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « lorsque » ?",
+          "de": "Welche Wortart ist „lorsque“?",
+          "choices": [
+            "conjonction de subordination",
+            "préposition",
+            "interjection"
+          ],
+          "answer": 0,
+          "whyFr": "« Lorsque » est une conjonction de subordination.",
+          "whyDe": "„lorsque“ ist eine unterordnende Konjunktion."
+        },
+        {
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « qui » dans la liste du document ?",
+          "de": "Welche Wortart hat „qui“ in der Liste des Blattes?",
+          "choices": [
+            "pronom relatif",
+            "adverbe",
+            "déterminant"
+          ],
+          "answer": 0,
+          "whyFr": "Le document classe « qui » parmi les pronoms relatifs.",
+          "whyDe": "Auf dem Blatt steht „qui“ bei den Relativpronomen."
         }
-      ]
+      ],
+      "languageNote": "Unterrichtssprache: Französisch. Aktueller Schwerpunkt nach vorliegenden Materialien: Dictée mit Wortschatz zur Personenbeschreibung, besonders « le caractère »; ergänzend « le visage ». Die classes grammaticales sind im Material belegt, aber nicht als Hauptstoff des Diktats bestätigt."
     },
     {
       "id": "mathematik",

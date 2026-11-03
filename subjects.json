@@ -1253,7 +1253,10 @@
         "Antiproportionale Zuordnungen",
         "Wertetabellen und Graphen",
         "Verhältnisse und Proportionalitätsfaktor",
-        "Sachaufgaben und Prüfungstraining"
+        "Sachaufgaben und Prüfungstraining",
+        "Bruchrechnung – Rechenregeln",
+        "Prozentrechnung – Grundwert und Prozentsatz",
+        "Zuordnungen erkennen und begründen"
       ],
       "questions": [
         {
@@ -4159,9 +4162,285 @@
           ],
           "answer": 3,
           "why": "Pro Stunde 75/4 km; in 6 Stunden 75·6/4 = 225/2 km."
+        },
+        {
+          "topic": "Bruchrechnung – Rechenregeln",
+          "q": "Berechne 3/4 + 5/6 · 2/5. Welche Regel gilt zuerst?",
+          "choices": [
+            "13/12; Punktrechnung vor Strichrechnung",
+            "19/30; Addition zuerst",
+            "7/12; Kürzen vor allem",
+            "11/12; Division zuerst"
+          ],
+          "answer": 0,
+          "why": "Zuerst 5/6 · 2/5 = 1/3, dann 3/4 + 1/3 = 13/12."
+        },
+        {
+          "topic": "Bruchrechnung – Rechenregeln",
+          "q": "Berechne (3/4 + 5/6) · 2/5.",
+          "choices": [
+            "19/30",
+            "13/12",
+            "7/15",
+            "23/30"
+          ],
+          "answer": 0,
+          "why": "Klammer zuerst: 3/4 + 5/6 = 19/12. Danach · 2/5 = 19/30."
+        },
+        {
+          "topic": "Bruchrechnung – Rechenregeln",
+          "q": "Berechne 7/8 − (1/3 + 1/4).",
+          "choices": [
+            "7/24",
+            "1/24",
+            "5/12",
+            "1/3"
+          ],
+          "answer": 0,
+          "why": "In der Klammer 1/3 + 1/4 = 7/12; dann 7/8 − 7/12 = 21/24 − 14/24 = 7/24."
+        },
+        {
+          "topic": "Bruchrechnung – Rechenregeln",
+          "q": "Berechne (2 1/3 − 5/6) : 3/4.",
+          "choices": [
+            "2",
+            "3/2",
+            "4/3",
+            "8/3"
+          ],
+          "answer": 0,
+          "why": "2 1/3 = 7/3. Differenz 7/3 − 5/6 = 3/2. Division durch 3/4 ergibt 3/2 · 4/3 = 2."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Ordne 5/8, 7/12 und 2/3 aufsteigend.",
+          "choices": [
+            "7/12 < 5/8 < 2/3",
+            "5/8 < 7/12 < 2/3",
+            "2/3 < 5/8 < 7/12",
+            "7/12 < 2/3 < 5/8"
+          ],
+          "answer": 0,
+          "why": "Gemeinsamer Nenner 24: 14/24, 15/24, 16/24."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Welche Zahl muss in 21/28 = ?/12 stehen?",
+          "choices": [
+            "9",
+            "7",
+            "8",
+            "10"
+          ],
+          "answer": 0,
+          "why": "21/28 = 3/4; erweitert auf Nenner 12 ist das 9/12."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 4 5/7 in einen unechten Bruch um.",
+          "choices": [
+            "33/7",
+            "29/7",
+            "20/7",
+            "37/7"
+          ],
+          "answer": 0,
+          "why": "4 · 7 + 5 = 33. Der Nenner bleibt 7."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Schreibe 47/6 als gemischte Zahl.",
+          "choices": [
+            "7 5/6",
+            "8 1/6",
+            "6 5/6",
+            "7 1/6"
+          ],
+          "answer": 0,
+          "why": "47 : 6 = 7 Rest 5."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Wandle 0,375 in einen vollständig gekürzten Bruch um.",
+          "choices": [
+            "3/8",
+            "37/100",
+            "3/5",
+            "5/8"
+          ],
+          "answer": 0,
+          "why": "0,375 = 375/1000 = 3/8."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Wie viel Prozent sind 7/20?",
+          "choices": [
+            "35 %",
+            "28 %",
+            "14 %",
+            "70 %"
+          ],
+          "answer": 0,
+          "why": "7/20 = 35/100 = 35 %."
+        },
+        {
+          "topic": "Prozentrechnung – Grundwert und Prozentsatz",
+          "q": "18 % einer Zahl sind 45. Wie groß ist der Grundwert?",
+          "choices": [
+            "250",
+            "225",
+            "810",
+            "63"
+          ],
+          "answer": 0,
+          "why": "G = 45 : 0,18 = 250."
+        },
+        {
+          "topic": "Prozentrechnung – Grundwert und Prozentsatz",
+          "q": "Ein Preis steigt von 80 € auf 94 €. Wie groß ist die prozentuale Erhöhung?",
+          "choices": [
+            "17,5 %",
+            "14 %",
+            "15 %",
+            "20 %"
+          ],
+          "answer": 0,
+          "why": "Erhöhung 14 € bezogen auf den ursprünglichen Grundwert 80 €: 14/80 = 0,175 = 17,5 %."
+        },
+        {
+          "topic": "Prozentrechnung – Grundwert und Prozentsatz",
+          "q": "Ein Preis von 240 € sinkt zuerst um 25 % und steigt danach um 20 %. Wie hoch ist der Endpreis?",
+          "choices": [
+            "216 €",
+            "228 €",
+            "240 €",
+            "204 €"
+          ],
+          "answer": 0,
+          "why": "240 · 0,75 · 1,20 = 216 €. Die Prozentsätze beziehen sich auf unterschiedliche Grundwerte."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "9 Tage entsprechen 450 produzierten Autos. Wie viele Autos werden bei gleicher Tagesleistung in 6 Tagen produziert?",
+          "choices": [
+            "300",
+            "270",
+            "360",
+            "675"
+          ],
+          "answer": 0,
+          "why": "450 : 9 = 50 Autos pro Tag. 6 · 50 = 300."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "5 kg Äpfel kosten 13,50 €. Wie viel kosten 8 kg?",
+          "choices": [
+            "21,60 €",
+            "20,60 €",
+            "18,50 €",
+            "22,50 €"
+          ],
+          "answer": 0,
+          "why": "Preis pro kg: 13,50 € : 5 = 2,70 €. Für 8 kg: 8 · 2,70 € = 21,60 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "6 gleich schnelle Maschinen brauchen 15 Stunden. Wie lange brauchen 10 Maschinen für dieselbe Arbeit?",
+          "choices": [
+            "9 Stunden",
+            "25 Stunden",
+            "11 Stunden",
+            "6 Stunden"
+          ],
+          "answer": 0,
+          "why": "Maschinen · Stunden bleibt konstant: 6 · 15 : 10 = 9."
+        },
+        {
+          "topic": "Zuordnungen erkennen und begründen",
+          "q": "Welche Zuordnung ist nicht proportional?",
+          "choices": [
+            "Taxikosten mit 5 € Grundgebühr und 2 € je km",
+            "Preis von Äpfeln bei festem Kilopreis",
+            "Strecke bei konstanter Geschwindigkeit",
+            "Gewicht von gleichen Paketen"
+          ],
+          "answer": 0,
+          "why": "Bei proportionalen Zuordnungen muss zum Eingabewert 0 der Ausgabewert 0 gehören. Die Grundgebühr verhindert das."
+        },
+        {
+          "topic": "Zuordnungen erkennen und begründen",
+          "q": "Eine Wertetabelle enthält (2|7), (4|14), (6|21). Was gilt?",
+          "choices": [
+            "Proportional mit k = 3,5",
+            "Antiproportional mit Produkt 14",
+            "Nicht proportional",
+            "Proportional mit k = 7"
+          ],
+          "answer": 0,
+          "why": "7/2 = 14/4 = 21/6 = 3,5."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "Welche Eigenschaft hat der Graph einer proportionalen Zuordnung?",
+          "choices": [
+            "Gerade durch den Ursprung",
+            "Immer eine waagerechte Gerade",
+            "Immer eine Kurve",
+            "Gerade mit beliebigem Achsenabschnitt"
+          ],
+          "answer": 0,
+          "why": "Für y = kx ist der Graph eine Gerade durch (0|0)."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "Eine Gerade verläuft durch (0|0) und (4|10). Welcher Punkt liegt ebenfalls auf ihr?",
+          "choices": [
+            "(6|15)",
+            "(6|12)",
+            "(8|18)",
+            "(10|20)"
+          ],
+          "answer": 0,
+          "why": "k = 10/4 = 2,5. Bei x = 6 gilt y = 15."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Behälter ist zu 3/5 gefüllt. Nach dem Einfüllen von 12 Litern ist er zu 4/5 gefüllt. Wie groß ist sein Fassungsvermögen?",
+          "choices": [
+            "60 Liter",
+            "48 Liter",
+            "36 Liter",
+            "72 Liter"
+          ],
+          "answer": 0,
+          "why": "Die 12 Liter entsprechen 1/5 des Volumens. Insgesamt 5 · 12 = 60 Liter."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Von einer Strecke werden zuerst 2/5 und danach 1/3 der gesamten Strecke zurückgelegt. Es bleiben 8 km. Wie lang ist die gesamte Strecke?",
+          "choices": [
+            "30 km",
+            "24 km",
+            "40 km",
+            "36 km"
+          ],
+          "answer": 0,
+          "why": "Zurückgelegt 2/5 + 1/3 = 11/15. Übrig 4/15 = 8 km; insgesamt 8 · 15/4 = 30 km."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Tank wird mit konstant 18 Litern pro Minute gefüllt. Nach 7 Minuten sind 154 Liter enthalten. Wie viel war vorher im Tank?",
+          "choices": [
+            "28 Liter",
+            "126 Liter",
+            "18 Liter",
+            "36 Liter"
+          ],
+          "answer": 0,
+          "why": "In 7 Minuten kommen 7 · 18 = 126 Liter hinzu. Anfangsinhalt 154 − 126 = 28 Liter."
         }
       ],
-      "languageNote": "Deutschsprachiger Übungstrainer. Aufgaben sind eigenständig erstellt; die Themenauswahl enthält auch ergänzende Übungsbereiche, deren genaue Unterrichtsabdeckung noch mit den Originalmaterialien abgeglichen werden muss."
+      "languageNote": "Deutsch. Enthält Themen aus den bisher besprochenen Mathematikmaterialien sowie ergänzende Trainingsaufgaben. Eigenständig formulierte Übungen, keine Original-Lehreraufgaben. Unterrichtsabdeckung und Aufgabenqualität werden weiter geprüft."
     },
     {
       "id": "biologie",

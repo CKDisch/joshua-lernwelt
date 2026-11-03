@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-11-03",
   "subjects": [
     {
@@ -151,7 +151,11 @@
         "Description d'une personne",
         "Orthographe / Dictée",
         "Nom ↔ adjectif",
-        "Classes grammaticales"
+        "Classes grammaticales",
+        "La phrase négative",
+        "Autour du mot",
+        "Description morale",
+        "Allure générale & expressions"
       ],
       "questions": [
         {
@@ -725,9 +729,513 @@
           "answer": 0,
           "whyFr": "Le document classe « qui » parmi les pronoms relatifs.",
           "whyDe": "Auf dem Blatt steht „qui“ bei den Relativpronomen."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quelle phrase est négative ?",
+          "de": "Welcher Satz ist verneint?",
+          "choices": [
+            "Je ne le connais pas.",
+            "Je le connais.",
+            "Il fait froid."
+          ],
+          "answer": 0,
+          "whyFr": "Une phrase négative contient ici « ne … pas ».",
+          "whyDe": "Die Verneinung wird hier mit „ne … pas“ gebildet."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Transforme mentalement : « Il mange. » Quelle phrase est correcte ?",
+          "de": "Verneine gedanklich: „Il mange.“ Welche Form ist korrekt?",
+          "choices": [
+            "Il ne mange pas.",
+            "Il mange ne pas.",
+            "Il pas mange."
+          ],
+          "answer": 0,
+          "whyFr": "La négation encadre le verbe : ne + verbe + pas.",
+          "whyDe": "Die Verneinung umschließt das Verb: ne + Verb + pas."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quel mot complète : « Il ne vient ___ . » pour dire « niemals » ?",
+          "de": "Welches Wort ergänzt „Il ne vient ___“, wenn „niemals“ gemeint ist?",
+          "choices": [
+            "jamais",
+            "plus",
+            "rien"
+          ],
+          "answer": 0,
+          "whyFr": "« ne … jamais » signifie « niemals ».",
+          "whyDe": "„ne … jamais“ bedeutet „niemals“."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quel mot complète : « Il ne vient ___ . » pour dire « nicht mehr » ?",
+          "de": "Welches Wort ergänzt den Satz für „nicht mehr“?",
+          "choices": [
+            "plus",
+            "jamais",
+            "personne"
+          ],
+          "answer": 0,
+          "whyFr": "« ne … plus » signifie « nicht mehr ».",
+          "whyDe": "„ne … plus“ bedeutet „nicht mehr“."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quelle réponse négative convient à « Il y a quelqu’un à la maison. » ?",
+          "de": "Welche Verneinung passt zu „Jemand ist zu Hause“?",
+          "choices": [
+            "Il n’y a personne à la maison.",
+            "Il ne y a pas quelqu’un à la maison.",
+            "Il n’y a rien personne."
+          ],
+          "answer": 0,
+          "whyFr": "Avec une personne absente, on emploie « ne … personne ».",
+          "whyDe": "Bei Personen verwendet man hier „ne … personne“."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quelle phrase signifie « Je n’ai aucune idée » ?",
+          "de": "Welcher Satz bedeutet „Ich habe keine Idee“?",
+          "choices": [
+            "Je n’ai aucune idée.",
+            "Je n’ai rien idée.",
+            "Je ne aucune idée."
+          ],
+          "answer": 0,
+          "whyFr": "« aucun / aucune » peut former une négation partielle.",
+          "whyDe": "„aucun/aucune“ kann eine Verneinung bilden."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Quelle phrase utilise correctement « ni … ni » ?",
+          "de": "Welcher Satz verwendet „ni … ni“ korrekt?",
+          "choices": [
+            "Ni lui ni elle ne viendront demain.",
+            "Ni lui et elle ne viendront demain.",
+            "Ne ni lui ni elle viendront demain."
+          ],
+          "answer": 0,
+          "whyFr": "La structure correcte est « ni … ni … ne ».",
+          "whyDe": "Die richtige Struktur ist „ni … ni … ne“."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "La phrase négative",
+          "fr": "Dans « Je ne sais rien », quel mot porte la négation ?",
+          "de": "Welches Wort trägt in „Je ne sais rien“ die Verneinung?",
+          "choices": [
+            "rien",
+            "sais",
+            "je"
+          ],
+          "answer": 0,
+          "whyFr": "« ne … rien » signifie « nichts ».",
+          "whyDe": "„ne … rien“ bedeutet „nichts“."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Qu’est-ce qu’un synonyme ?",
+          "de": "Was ist ein Synonym?",
+          "choices": [
+            "Un mot de sens proche ou semblable",
+            "Un mot de sens contraire",
+            "Un mot qui se prononce pareil seulement"
+          ],
+          "answer": 0,
+          "whyFr": "Un synonyme a un sens proche ou semblable.",
+          "whyDe": "Ein Synonym hat eine ähnliche Bedeutung."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Quel est un synonyme de « laid » dans le document ?",
+          "de": "Welches Wort ist laut Blatt ein Synonym von „laid“?",
+          "choices": [
+            "vilain",
+            "beau",
+            "joli"
+          ],
+          "answer": 0,
+          "whyFr": "Le document donne « vilain » et « repoussant » comme mots de même sens.",
+          "whyDe": "Das Blatt nennt „vilain“ und „repoussant“ als bedeutungsähnlich."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Quel est l’antonyme de « laid » indiqué dans le document ?",
+          "de": "Welches Antonym zu „laid“ steht im Material?",
+          "choices": [
+            "beau",
+            "vilain",
+            "repoussant"
+          ],
+          "answer": 0,
+          "whyFr": "« Beau » est donné comme mot de sens contraire.",
+          "whyDe": "„beau“ ist als Gegenteil angegeben."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Qu’est-ce qu’un antonyme ?",
+          "de": "Was ist ein Antonym?",
+          "choices": [
+            "Un mot de sens contraire",
+            "Un mot de même famille",
+            "Un mot de même prononciation"
+          ],
+          "answer": 0,
+          "whyFr": "Un antonyme exprime un sens contraire.",
+          "whyDe": "Ein Antonym hat eine gegensätzliche Bedeutung."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Quel mot appartient à la même famille que « laid » ?",
+          "de": "Welches Wort gehört zur Wortfamilie von „laid“?",
+          "choices": [
+            "laideur",
+            "beauté",
+            "joli"
+          ],
+          "answer": 0,
+          "whyFr": "Le document donne notamment « laideur, laidement, laideron, enlaidir ».",
+          "whyDe": "Im Material stehen u. a. laideur, laidement, laideron, enlaidir."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Qu’est-ce qu’un champ lexical ?",
+          "de": "Was ist ein Wortfeld?",
+          "choices": [
+            "Un ensemble de mots se rapportant à un même sujet",
+            "Une liste de verbes conjugués",
+            "Deux mots de sens contraire"
+          ],
+          "answer": 0,
+          "whyFr": "Un champ lexical rassemble des mots liés à un même sujet.",
+          "whyDe": "Ein Wortfeld sammelt Wörter zu demselben Thema."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Dans le champ lexical de « laid » du document, quel mot convient ?",
+          "de": "Welches Wort passt laut Material zum Wortfeld von „laid“?",
+          "choices": [
+            "difformité",
+            "courage",
+            "rapidement"
+          ],
+          "answer": 0,
+          "whyFr": "Le document associe notamment « difformité, apparence, esthétique » au champ lexical.",
+          "whyDe": "Im Blatt werden u. a. difformité, apparence und esthétique genannt."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "À quoi sert l’étymologie ?",
+          "de": "Wozu dient die Etymologie?",
+          "choices": [
+            "À étudier l’origine d’un mot",
+            "À trouver seulement son contraire",
+            "À conjuguer un verbe"
+          ],
+          "answer": 0,
+          "whyFr": "L’étymologie étudie l’origine et l’histoire d’un mot.",
+          "whyDe": "Etymologie untersucht Ursprung und Geschichte eines Wortes."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Qu’est-ce qu’un homophone ?",
+          "de": "Was ist ein Homophon?",
+          "choices": [
+            "Un mot qui se prononce comme un autre",
+            "Un mot de sens contraire",
+            "Un mot du même champ lexical"
+          ],
+          "answer": 0,
+          "whyFr": "Deux homophones se prononcent de la même façon mais peuvent s’écrire différemment.",
+          "whyDe": "Homophone klingen gleich, können aber unterschiedlich geschrieben werden."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Que distingue le « registre de langue » ?",
+          "de": "Was unterscheidet das „registre de langue“?",
+          "choices": [
+            "Soutenu, courant et familier",
+            "Singulier et pluriel",
+            "Présent et passé"
+          ],
+          "answer": 0,
+          "whyFr": "Le document présente les registres soutenu, courant et familier.",
+          "whyDe": "Im Blatt stehen gehobene, neutrale und umgangssprachliche Sprache."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Autour du mot",
+          "fr": "Que signifie « sens propre / sens figuré » ?",
+          "de": "Was bedeutet „sens propre / sens figuré“?",
+          "choices": [
+            "Sens littéral et sens imagé",
+            "Mot singulier et mot pluriel",
+            "Mot positif et mot négatif"
+          ],
+          "answer": 0,
+          "whyFr": "Le sens propre est littéral; le sens figuré est imagé.",
+          "whyDe": "„sens propre“ ist wörtlich, „sens figuré“ übertragen."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel mot est présenté comme une qualité ?",
+          "de": "Welches Wort ist als positive Eigenschaft aufgeführt?",
+          "choices": [
+            "bienveillant",
+            "hypocrite",
+            "paresseux"
+          ],
+          "answer": 0,
+          "whyFr": "« Bienveillant » figure dans la colonne des qualités.",
+          "whyDe": "„bienveillant“ steht bei den positiven Eigenschaften."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel mot est présenté comme un défaut ?",
+          "de": "Welches Wort ist als negative Eigenschaft aufgeführt?",
+          "choices": [
+            "rancunier",
+            "généreux",
+            "loyal"
+          ],
+          "answer": 0,
+          "whyFr": "« Rancunier » figure dans la colonne des défauts.",
+          "whyDe": "„rancunier“ steht bei den negativen Eigenschaften."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel mot signifie plutôt « généreux » ?",
+          "de": "Welches Wort bezeichnet eher eine positive Eigenschaft?",
+          "choices": [
+            "généreux",
+            "avare",
+            "jaloux"
+          ],
+          "answer": 0,
+          "whyFr": "« Généreux » est une qualité; « avare » et « jaloux » sont classés comme défauts.",
+          "whyDe": "„généreux“ ist positiv; avare und jaloux sind negativ eingeordnet."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel mot appartient aux défauts ?",
+          "de": "Welches Wort gehört zu den negativen Eigenschaften?",
+          "choices": [
+            "vantard",
+            "modeste",
+            "tolérant"
+          ],
+          "answer": 0,
+          "whyFr": "« Vantard » est classé parmi les défauts.",
+          "whyDe": "„vantard“ steht bei den negativen Eigenschaften."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel trio contient seulement des qualités ?",
+          "de": "Welche Dreiergruppe enthält nur positive Eigenschaften?",
+          "choices": [
+            "honnête, sincère, loyal",
+            "jaloux, envieux, avare",
+            "violent, grossier, têtu"
+          ],
+          "answer": 0,
+          "whyFr": "Ces trois adjectifs figurent dans la liste des qualités.",
+          "whyDe": "Alle drei stehen auf dem Blatt bei den positiven Eigenschaften."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Description morale",
+          "fr": "Quel trio contient seulement des défauts ?",
+          "de": "Welche Dreiergruppe enthält nur negative Eigenschaften?",
+          "choices": [
+            "hypocrite, menteur, paresseux",
+            "serviable, tolérant, courageux",
+            "doux, poli, fidèle"
+          ],
+          "answer": 0,
+          "whyFr": "Ces trois adjectifs figurent dans la liste des défauts.",
+          "whyDe": "Alle drei stehen bei den negativen Eigenschaften."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Allure générale & expressions",
+          "fr": "Quel adjectif peut décrire une silhouette ?",
+          "de": "Welches Adjektiv kann eine Silhouette beschreiben?",
+          "choices": [
+            "élancée",
+            "sournoise",
+            "honnête"
+          ],
+          "answer": 0,
+          "whyFr": "Le document propose notamment « chétive, corpulente, effilée, élancée, fine… ».",
+          "whyDe": "Bei der Silhouette stehen u. a. chétive, corpulente, effilée, élancée, fine."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Allure générale & expressions",
+          "fr": "Quel adjectif peut décrire le regard ?",
+          "de": "Welches Adjektiv kann den Blick beschreiben?",
+          "choices": [
+            "perçant",
+            "auburn",
+            "frisé"
+          ],
+          "answer": 0,
+          "whyFr": "Le document propose « surpris, étonné, vif, perçant, espiègle… » pour le regard.",
+          "whyDe": "Für den Blick stehen u. a. surpris, étonné, vif, perçant, espiègle."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Allure générale & expressions",
+          "fr": "Quel mot peut décrire l’expression du visage ?",
+          "de": "Welches Wort kann den Gesichtsausdruck beschreiben?",
+          "choices": [
+            "renfrognée",
+            "colossale",
+            "loyale"
+          ],
+          "answer": 0,
+          "whyFr": "« Renfrognée » figure parmi les expressions du visage.",
+          "whyDe": "„renfrognée“ steht bei den Gesichtsausdrücken."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Allure générale & expressions",
+          "fr": "Quel adjectif peut décrire la stature ?",
+          "de": "Welches Adjektiv kann die Statur beschreiben?",
+          "choices": [
+            "athlétique",
+            "mélancolique",
+            "jaloux"
+          ],
+          "answer": 0,
+          "whyFr": "Le document donne notamment « athlétique, colossale, herculéenne, immense, formidable, imposante ».",
+          "whyDe": "Bei der Statur stehen u. a. athlétique, colossale, herculéenne, immense, formidable, imposante."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Allure générale & expressions",
+          "fr": "Quel groupe contient seulement des mots du visage / de l’apparence ?",
+          "de": "Welche Gruppe enthält nur Wörter zur äußeren Beschreibung?",
+          "choices": [
+            "regard perçant, silhouette élancée, front radieux",
+            "jaloux, avare, menteur",
+            "toujours, demain, hier"
+          ],
+          "answer": 0,
+          "whyFr": "Les trois expressions appartiennent au lexique du portrait physique.",
+          "whyDe": "Alle drei gehören zum Wortschatz der äußeren Beschreibung."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « le » devant un nom ?",
+          "de": "Welche Wortart ist „le“ vor einem Nomen?",
+          "choices": [
+            "déterminant",
+            "pronom relatif",
+            "adverbe"
+          ],
+          "answer": 0,
+          "whyFr": "Les déterminants sont placés devant le nom.",
+          "whyDe": "Determinanten stehen vor dem Nomen."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « chien » ?",
+          "de": "Welche Wortart ist „chien“?",
+          "choices": [
+            "nom commun",
+            "verbe",
+            "adjectif qualificatif"
+          ],
+          "answer": 0,
+          "whyFr": "« Chien » désigne un être : c’est un nom commun.",
+          "whyDe": "„chien“ ist ein Nomen."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « jouer » ?",
+          "de": "Welche Wortart ist „jouer“?",
+          "choices": [
+            "verbe",
+            "préposition",
+            "déterminant"
+          ],
+          "answer": 0,
+          "whyFr": "« Jouer » est un verbe à l’infinitif.",
+          "whyDe": "„jouer“ ist ein Verb im Infinitiv."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « celui-ci » ?",
+          "de": "Welche Wortart ist „celui-ci“?",
+          "choices": [
+            "pronom démonstratif",
+            "adverbe",
+            "nom commun"
+          ],
+          "answer": 0,
+          "whyFr": "Le document classe « celui-ci » parmi les pronoms démonstratifs.",
+          "whyDe": "Auf dem Blatt steht „celui-ci“ bei den Demonstrativpronomen."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « hélas » ?",
+          "de": "Welche Wortart ist „hélas“?",
+          "choices": [
+            "interjection",
+            "préposition",
+            "verbe"
+          ],
+          "answer": 0,
+          "whyFr": "« Hélas » est une interjection.",
+          "whyDe": "„hélas“ ist eine Interjektion."
+        },
+        {
+          "_source": "drive_2026-11-03",
+          "topic": "Classes grammaticales",
+          "fr": "Quelle est la classe grammaticale de « bien que » ?",
+          "de": "Welche Wortart ist „bien que“?",
+          "choices": [
+            "conjonction de subordination",
+            "conjonction de coordination",
+            "adverbe"
+          ],
+          "answer": 0,
+          "whyFr": "Le document place « bien que » parmi les conjonctions de subordination.",
+          "whyDe": "„bien que“ steht bei den unterordnenden Konjunktionen."
         }
       ],
-      "languageNote": "Unterrichtssprache: Französisch. Aktueller Schwerpunkt nach vorliegenden Materialien: Dictée mit Wortschatz zur Personenbeschreibung, besonders « le caractère »; ergänzend « le visage ». Die classes grammaticales sind im Material belegt, aber nicht als Hauptstoff des Diktats bestätigt."
+      "languageNote": "Unterrichtssprache: Französisch. Aktueller Schwerpunkt nach vorliegenden Materialien: Dictée mit Wortschatz zur Personenbeschreibung, besonders « le caractère »; ergänzend « le visage ». Weitere belegte Unterrichtsthemen sind classes grammaticales, phrase négative und travail autour du mot. Diese Zusatzthemen sind in der App getrennt vom Diktat-Schwerpunkt."
     },
     {
       "id": "mathematik",

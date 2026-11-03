@@ -1243,44 +1243,2925 @@
       "icon": "➗",
       "lang": "de",
       "topics": [
-        "Bruchrechnung",
-        "Gemischte Zahlen"
+        "Brüche kürzen und erweitern",
+        "Brüche vergleichen und ordnen",
+        "Brüche addieren und subtrahieren",
+        "Brüche multiplizieren und dividieren",
+        "Gemischte Zahlen und unechte Brüche",
+        "Dezimalzahlen und Prozentrechnung",
+        "Proportionale Zuordnungen und Dreisatz",
+        "Antiproportionale Zuordnungen",
+        "Wertetabellen und Graphen",
+        "Verhältnisse und Proportionalitätsfaktor",
+        "Sachaufgaben und Prüfungstraining"
       ],
       "questions": [
         {
-          "topic": "Bruchrechnung",
-          "q": "Wie viel ist 1/4 + 1/2?",
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 4/12 vollständig.",
           "choices": [
-            "3/4",
-            "2/6",
-            "1/6"
+            "1/3",
+            "2/3",
+            "1/6",
+            "1/2"
           ],
           "answer": 0,
-          "why": "Auf den Nenner 4 bringen: 1/4 + 2/4 = 3/4."
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 1/3 = 1/3."
         },
         {
-          "topic": "Gemischte Zahlen",
-          "q": "Welche gemischte Zahl entspricht 17/5?",
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 3/5 und 2/7.",
           "choices": [
-            "3 2/5",
-            "2 3/5",
-            "3 1/5"
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 3·7 = 21 und 2·5 = 10."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 2/5 + 1/3.",
+          "choices": [
+            "4/5",
+            "11/16",
+            "11/15",
+            "3/8"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 15: (6 + 5)/15 = 11/15."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 2/5 · 1/3.",
+          "choices": [
+            "Keine der Antworten",
+            "2/15",
+            "3/8",
+            "1/5"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 2/15 = 2/15."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 2 1/5 in einen unechten Bruch um.",
+          "choices": [
+            "11/5",
+            "3/5",
+            "11/6",
+            "9/5"
           ],
           "answer": 0,
-          "why": "17 : 5 = 3 Rest 2, also 3 2/5."
+          "why": "2·5+1 = 11; der Nenner bleibt 5."
         },
         {
-          "topic": "Bruchrechnung",
-          "q": "Wie viel ist 5/6 − 1/3?",
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 40 €. Er wird um 10 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "4 €",
+            "44 €",
+            "30 €",
+            "36 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 40 · 10/100 = 4 €. Neuer Preis: 36 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "3 gleiche Hefte kosten 12 €. Was kosten 5 Hefte?",
+          "choices": [
+            "15 €",
+            "24 €",
+            "20 €",
+            "14 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 12 : 3 = 4 €. Für 5 Hefte: 5 · 4 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "3 gleich schnelle Personen benötigen 12 Tage. Wie viele Tage brauchen 5 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "41/5 Tage",
+            "36/5 Tage",
+            "20 Tage",
+            "12 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 3 · 12 = 36. Daher 36 : 5 = 36/5 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 2·x. Welcher y-Wert gehört zu x = 3?",
+          "choices": [
+            "6",
+            "5",
+            "8",
+            "3/2"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 2 · 3 = 6."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (3 | 6). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "6",
+            "3",
+            "5",
+            "2"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 6/3 = 2."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 12 km in 3 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 5 Stunden?",
+          "choices": [
+            "60 km",
+            "16 km",
+            "20 km",
+            "14 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 12/3 km; in 5 Stunden 12·5/3 = 20 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 15/21 vollständig.",
+          "choices": [
+            "6/7",
+            "5/7",
+            "15/7",
+            "5/21"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 5/7 = 5/7."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 4/6 und 3/8.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 4·8 = 32 und 3·6 = 18."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 3/6 − 2/4.",
+          "choices": [
+            "1/10",
+            "1/24",
+            "Keine der Antworten",
+            "0"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 24: (12 − 12)/24 = 0."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 3/6 : 2/4.",
           "choices": [
             "1/2",
-            "4/3",
-            "2/6"
+            "13/12",
+            "1",
+            "1/4"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 3/6 · 4/2 = 1."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 3 2/6 in einen unechten Bruch um.",
+          "choices": [
+            "8/3",
+            "10/3",
+            "5/6",
+            "20/7"
+          ],
+          "answer": 1,
+          "why": "3·6+2 = 20; der Nenner bleibt 6."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 45 €. Er wird um 15 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "153/4 €",
+            "27/4 €",
+            "51.75 €",
+            "30 €"
           ],
           "answer": 0,
-          "why": "1/3 = 2/6; deshalb 5/6 − 2/6 = 3/6 = 1/2."
+          "why": "Rabatt: 45 · 15/100 = 27/4 €. Neuer Preis: 153/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "4 gleiche Hefte kosten 20 €. Was kosten 6 Hefte?",
+          "choices": [
+            "22 €",
+            "24 €",
+            "34 €",
+            "30 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 20 : 4 = 5 €. Für 6 Hefte: 6 · 5 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "4 gleich schnelle Personen benötigen 13 Tage. Wie viele Tage brauchen 6 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "13 Tage",
+            "29/3 Tage",
+            "26/3 Tage",
+            "39/2 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 4 · 13 = 52. Daher 52 : 6 = 26/3 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 3·x. Welcher y-Wert gehört zu x = 4?",
+          "choices": [
+            "4/3",
+            "12",
+            "7",
+            "15"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 3 · 4 = 12."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (4 | 12). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "3",
+            "12",
+            "4",
+            "7"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 12/4 = 3."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 15 km in 4 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 6 Stunden?",
+          "choices": [
+            "17 km",
+            "90 km",
+            "75/4 km",
+            "45/2 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 15/4 km; in 6 Stunden 15·6/4 = 45/2 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 32/32 vollständig.",
+          "choices": [
+            "1/4",
+            "9/8",
+            "1",
+            "4"
+          ],
+          "answer": 2,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 1 = 1."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 5/7 und 4/9.",
+          "choices": [
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer"
+          ],
+          "answer": 1,
+          "why": "Kreuzprodukte vergleichen: 5·9 = 45 und 4·7 = 28."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 4/7 + 3/5.",
+          "choices": [
+            "41/35",
+            "7/12",
+            "6/5",
+            "41/36"
+          ],
+          "answer": 0,
+          "why": "Hauptnenner 35: (20 + 21)/35 = 41/35."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 4/7 · 3/5.",
+          "choices": [
+            "7/12",
+            "13/35",
+            "Keine der Antworten",
+            "12/35"
+          ],
+          "answer": 3,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 12/35 = 12/35."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 4 3/7 in einen unechten Bruch um.",
+          "choices": [
+            "31/8",
+            "25/7",
+            "31/7",
+            "1"
+          ],
+          "answer": 2,
+          "why": "4·7+3 = 31; der Nenner bleibt 7."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 50 €. Er wird um 20 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "30 €",
+            "40 €",
+            "10 €",
+            "60 €"
+          ],
+          "answer": 1,
+          "why": "Rabatt: 50 · 20/100 = 10 €. Neuer Preis: 40 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "5 gleiche Hefte kosten 30 €. Was kosten 7 Hefte?",
+          "choices": [
+            "42 €",
+            "32 €",
+            "35 €",
+            "46 €"
+          ],
+          "answer": 0,
+          "why": "Ein Heft kostet 30 : 5 = 6 €. Für 7 Hefte: 7 · 6 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "5 gleich schnelle Personen benötigen 14 Tage. Wie viele Tage brauchen 7 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "98/5 Tage",
+            "14 Tage",
+            "11 Tage",
+            "10 Tage"
+          ],
+          "answer": 3,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 5 · 14 = 70. Daher 70 : 7 = 10 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 4·x. Welcher y-Wert gehört zu x = 5?",
+          "choices": [
+            "24",
+            "5/4",
+            "20",
+            "9"
+          ],
+          "answer": 2,
+          "why": "Proportionalität: y = 4 · 5 = 20."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (5 | 20). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "9",
+            "4",
+            "20",
+            "5"
+          ],
+          "answer": 1,
+          "why": "k = y/x = 20/5 = 4."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 18 km in 5 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 7 Stunden?",
+          "choices": [
+            "126/5 km",
+            "20 km",
+            "126 km",
+            "108/5 km"
+          ],
+          "answer": 0,
+          "why": "Pro Stunde 18/5 km; in 7 Stunden 18·7/5 = 126/5 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 55/45 vollständig.",
+          "choices": [
+            "55/9",
+            "11/45",
+            "4/3",
+            "11/9"
+          ],
+          "answer": 3,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 11/9 = 11/9."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 6/8 und 5/10.",
+          "choices": [
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß"
+          ],
+          "answer": 2,
+          "why": "Kreuzprodukte vergleichen: 6·10 = 60 und 5·8 = 40."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 5/8 − 4/6.",
+          "choices": [
+            "-2/49",
+            "-1/24",
+            "1/14",
+            "1/16"
+          ],
+          "answer": 1,
+          "why": "Hauptnenner 48: (30 − 32)/48 = -1/24."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 5/8 : 4/6.",
+          "choices": [
+            "15/16",
+            "5/12",
+            "9/14",
+            "31/32"
+          ],
+          "answer": 0,
+          "why": "Mit dem Kehrwert multiplizieren: 5/8 · 6/4 = 15/16."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 5 4/8 in einen unechten Bruch um.",
+          "choices": [
+            "9/8",
+            "44/9",
+            "9/2",
+            "11/2"
+          ],
+          "answer": 3,
+          "why": "5·8+4 = 44; der Nenner bleibt 8."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 55 €. Er wird um 25 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "68.75 €",
+            "30 €",
+            "165/4 €",
+            "55/4 €"
+          ],
+          "answer": 2,
+          "why": "Rabatt: 55 · 25/100 = 55/4 €. Neuer Preis: 165/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "6 gleiche Hefte kosten 42 €. Was kosten 8 Hefte?",
+          "choices": [
+            "60 €",
+            "56 €",
+            "44 €",
+            "48 €"
+          ],
+          "answer": 1,
+          "why": "Ein Heft kostet 42 : 6 = 7 €. Für 8 Hefte: 8 · 7 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "6 gleich schnelle Personen benötigen 15 Tage. Wie viele Tage brauchen 8 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "45/4 Tage",
+            "20 Tage",
+            "15 Tage",
+            "49/4 Tage"
+          ],
+          "answer": 0,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 6 · 15 = 90. Daher 90 : 8 = 45/4 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 5·x. Welcher y-Wert gehört zu x = 6?",
+          "choices": [
+            "11",
+            "35",
+            "6/5",
+            "30"
+          ],
+          "answer": 3,
+          "why": "Proportionalität: y = 5 · 6 = 30."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (6 | 30). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "6",
+            "11",
+            "5",
+            "30"
+          ],
+          "answer": 2,
+          "why": "k = y/x = 30/6 = 5."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 21 km in 6 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 8 Stunden?",
+          "choices": [
+            "49/2 km",
+            "28 km",
+            "23 km",
+            "168 km"
+          ],
+          "answer": 1,
+          "why": "Pro Stunde 21/6 km; in 8 Stunden 21·8/6 = 28 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 84/60 vollständig.",
+          "choices": [
+            "7/5",
+            "42/5",
+            "7/30",
+            "3/2"
+          ],
+          "answer": 0,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 7/5 = 7/5."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 7/9 und 6/11.",
+          "choices": [
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 7·11 = 77 und 6·9 = 54."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 6/9 + 1/7.",
+          "choices": [
+            "52/63",
+            "51/64",
+            "17/21",
+            "7/16"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 63: (42 + 9)/63 = 17/21."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 6/9 · 1/7.",
+          "choices": [
+            "Keine der Antworten",
+            "2/21",
+            "7/16",
+            "1/9"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 6/63 = 2/21."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 6 1/9 in einen unechten Bruch um.",
+          "choices": [
+            "55/9",
+            "7/9",
+            "11/2",
+            "53/9"
+          ],
+          "answer": 0,
+          "why": "6·9+1 = 55; der Nenner bleibt 9."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 60 €. Er wird um 30 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "18 €",
+            "78 €",
+            "30 €",
+            "42 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 60 · 30/100 = 18 €. Neuer Preis: 42 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "7 gleiche Hefte kosten 56 €. Was kosten 9 Hefte?",
+          "choices": [
+            "63 €",
+            "76 €",
+            "72 €",
+            "58 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 56 : 7 = 8 €. Für 9 Hefte: 9 · 8 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "7 gleich schnelle Personen benötigen 16 Tage. Wie viele Tage brauchen 9 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "121/9 Tage",
+            "112/9 Tage",
+            "144/7 Tage",
+            "16 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 7 · 16 = 112. Daher 112 : 9 = 112/9 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 6·x. Welcher y-Wert gehört zu x = 7?",
+          "choices": [
+            "42",
+            "13",
+            "48",
+            "7/6"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 6 · 7 = 42."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (7 | 42). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "42",
+            "7",
+            "13",
+            "6"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 42/7 = 6."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 24 km in 7 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 9 Stunden?",
+          "choices": [
+            "216 km",
+            "192/7 km",
+            "216/7 km",
+            "26 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 24/7 km; in 9 Stunden 24·9/7 = 216/7 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 34/22 vollständig.",
+          "choices": [
+            "18/11",
+            "17/11",
+            "34/11",
+            "17/22"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 17/11 = 17/11."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 8/10 und 2/12.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 8·12 = 96 und 2·10 = 20."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 7/10 − 2/8.",
+          "choices": [
+            "5/18",
+            "37/80",
+            "4/9",
+            "9/20"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 80: (56 − 20)/80 = 9/20."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 7/10 : 2/8.",
+          "choices": [
+            "1/2",
+            "57/20",
+            "14/5",
+            "7/40"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 7/10 · 8/2 = 14/5."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 7 2/10 in einen unechten Bruch um.",
+          "choices": [
+            "34/5",
+            "36/5",
+            "9/10",
+            "72/11"
+          ],
+          "answer": 1,
+          "why": "7·10+2 = 72; der Nenner bleibt 10."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 65 €. Er wird um 35 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "169/4 €",
+            "91/4 €",
+            "87.75 €",
+            "30 €"
+          ],
+          "answer": 0,
+          "why": "Rabatt: 65 · 35/100 = 91/4 €. Neuer Preis: 169/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "8 gleiche Hefte kosten 72 €. Was kosten 10 Hefte?",
+          "choices": [
+            "74 €",
+            "80 €",
+            "94 €",
+            "90 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 72 : 8 = 9 €. Für 10 Hefte: 10 · 9 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "8 gleich schnelle Personen benötigen 17 Tage. Wie viele Tage brauchen 10 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "17 Tage",
+            "73/5 Tage",
+            "68/5 Tage",
+            "85/4 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 8 · 17 = 136. Daher 136 : 10 = 68/5 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 7·x. Welcher y-Wert gehört zu x = 8?",
+          "choices": [
+            "8/7",
+            "56",
+            "15",
+            "63"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 7 · 8 = 56."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (8 | 56). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "7",
+            "56",
+            "8",
+            "15"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 56/8 = 7."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 27 km in 3 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 5 Stunden?",
+          "choices": [
+            "29 km",
+            "135 km",
+            "36 km",
+            "45 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 27/3 km; in 5 Stunden 27·5/3 = 45 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 60/36 vollständig.",
+          "choices": [
+            "5/9",
+            "7/4",
+            "5/3",
+            "5"
+          ],
+          "answer": 2,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 5/3 = 5/3."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 9/11 und 3/13.",
+          "choices": [
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer"
+          ],
+          "answer": 1,
+          "why": "Kreuzprodukte vergleichen: 9·13 = 117 und 3·11 = 33."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 8/11 + 3/9.",
+          "choices": [
+            "35/33",
+            "11/20",
+            "106/99",
+            "21/20"
+          ],
+          "answer": 0,
+          "why": "Hauptnenner 99: (72 + 33)/99 = 35/33."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 8/11 · 3/9.",
+          "choices": [
+            "11/20",
+            "25/99",
+            "Keine der Antworten",
+            "8/33"
+          ],
+          "answer": 3,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 24/99 = 8/33."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 8 3/5 in einen unechten Bruch um.",
+          "choices": [
+            "43/6",
+            "37/5",
+            "43/5",
+            "11/5"
+          ],
+          "answer": 2,
+          "why": "8·5+3 = 43; der Nenner bleibt 5."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 70 €. Er wird um 10 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "60 €",
+            "63 €",
+            "7 €",
+            "77 €"
+          ],
+          "answer": 1,
+          "why": "Rabatt: 70 · 10/100 = 7 €. Neuer Preis: 63 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "3 gleiche Hefte kosten 30 €. Was kosten 5 Hefte?",
+          "choices": [
+            "50 €",
+            "32 €",
+            "15 €",
+            "54 €"
+          ],
+          "answer": 0,
+          "why": "Ein Heft kostet 30 : 3 = 10 €. Für 5 Hefte: 5 · 10 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "9 gleich schnelle Personen benötigen 18 Tage. Wie viele Tage brauchen 11 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "22 Tage",
+            "18 Tage",
+            "173/11 Tage",
+            "162/11 Tage"
+          ],
+          "answer": 3,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 9 · 18 = 162. Daher 162 : 11 = 162/11 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 8·x. Welcher y-Wert gehört zu x = 9?",
+          "choices": [
+            "80",
+            "9/8",
+            "72",
+            "17"
+          ],
+          "answer": 2,
+          "why": "Proportionalität: y = 8 · 9 = 72."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (9 | 72). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "17",
+            "8",
+            "72",
+            "9"
+          ],
+          "answer": 1,
+          "why": "k = y/x = 72/9 = 8."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 30 km in 4 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 6 Stunden?",
+          "choices": [
+            "45 km",
+            "32 km",
+            "180 km",
+            "75/2 km"
+          ],
+          "answer": 0,
+          "why": "Pro Stunde 30/4 km; in 6 Stunden 30·6/4 = 45 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 92/52 vollständig.",
+          "choices": [
+            "92/13",
+            "23/52",
+            "24/13",
+            "23/13"
+          ],
+          "answer": 3,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 23/13 = 23/13."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 10/12 und 4/14.",
+          "choices": [
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß"
+          ],
+          "answer": 2,
+          "why": "Kreuzprodukte vergleichen: 10·14 = 140 und 4·12 = 48."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 2/12 − 4/3.",
+          "choices": [
+            "-42/37",
+            "-7/6",
+            "-2/15",
+            "43/36"
+          ],
+          "answer": 1,
+          "why": "Hauptnenner 36: (6 − 48)/36 = -7/6."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 2/12 : 4/3.",
+          "choices": [
+            "1/8",
+            "2/9",
+            "2/5",
+            "7/48"
+          ],
+          "answer": 0,
+          "why": "Mit dem Kehrwert multiplizieren: 2/12 · 3/4 = 1/8."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 9 4/6 in einen unechten Bruch um.",
+          "choices": [
+            "13/6",
+            "58/7",
+            "25/3",
+            "29/3"
+          ],
+          "answer": 3,
+          "why": "9·6+4 = 58; der Nenner bleibt 6."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 75 €. Er wird um 15 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "86.25 €",
+            "60 €",
+            "255/4 €",
+            "45/4 €"
+          ],
+          "answer": 2,
+          "why": "Rabatt: 75 · 15/100 = 45/4 €. Neuer Preis: 255/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "4 gleiche Hefte kosten 16 €. Was kosten 6 Hefte?",
+          "choices": [
+            "Keine der Antworten",
+            "24 €",
+            "18 €",
+            "28 €"
+          ],
+          "answer": 1,
+          "why": "Ein Heft kostet 16 : 4 = 4 €. Für 6 Hefte: 6 · 4 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "3 gleich schnelle Personen benötigen 19 Tage. Wie viele Tage brauchen 5 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "57/5 Tage",
+            "95/3 Tage",
+            "19 Tage",
+            "62/5 Tage"
+          ],
+          "answer": 0,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 3 · 19 = 57. Daher 57 : 5 = 57/5 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 9·x. Welcher y-Wert gehört zu x = 10?",
+          "choices": [
+            "19",
+            "99",
+            "10/9",
+            "90"
+          ],
+          "answer": 3,
+          "why": "Proportionalität: y = 9 · 10 = 90."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (10 | 90). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "10",
+            "19",
+            "9",
+            "90"
+          ],
+          "answer": 2,
+          "why": "k = y/x = 90/10 = 9."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 33 km in 5 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 7 Stunden?",
+          "choices": [
+            "198/5 km",
+            "231/5 km",
+            "35 km",
+            "231 km"
+          ],
+          "answer": 1,
+          "why": "Pro Stunde 33/5 km; in 7 Stunden 33·7/5 = 231/5 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 130/70 vollständig.",
+          "choices": [
+            "13/7",
+            "65/7",
+            "13/35",
+            "27/14"
+          ],
+          "answer": 0,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 13/7 = 13/7."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 11/13 und 5/15.",
+          "choices": [
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 11·15 = 165 und 5·13 = 65."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 3/5 + 1/4.",
+          "choices": [
+            "9/10",
+            "17/21",
+            "17/20",
+            "4/9"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 20: (12 + 5)/20 = 17/20."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 3/5 · 1/4.",
+          "choices": [
+            "Keine der Antworten",
+            "3/20",
+            "4/9",
+            "1/5"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 3/20 = 3/20."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 10 1/7 in einen unechten Bruch um.",
+          "choices": [
+            "71/7",
+            "11/7",
+            "71/8",
+            "69/7"
+          ],
+          "answer": 0,
+          "why": "10·7+1 = 71; der Nenner bleibt 7."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 80 €. Er wird um 20 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "16 €",
+            "96 €",
+            "60 €",
+            "64 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 80 · 20/100 = 16 €. Neuer Preis: 64 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "5 gleiche Hefte kosten 25 €. Was kosten 7 Hefte?",
+          "choices": [
+            "39 €",
+            "Keine der Antworten",
+            "35 €",
+            "27 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 25 : 5 = 5 €. Für 7 Hefte: 7 · 5 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "4 gleich schnelle Personen benötigen 20 Tage. Wie viele Tage brauchen 6 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "43/3 Tage",
+            "40/3 Tage",
+            "30 Tage",
+            "20 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 4 · 20 = 80. Daher 80 : 6 = 40/3 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 2·x. Welcher y-Wert gehört zu x = 11?",
+          "choices": [
+            "22",
+            "13",
+            "24",
+            "11/2"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 2 · 11 = 22."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (11 | 22). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "22",
+            "11",
+            "13",
+            "2"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 22/11 = 2."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 36 km in 6 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 8 Stunden?",
+          "choices": [
+            "288 km",
+            "42 km",
+            "48 km",
+            "38 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 36/6 km; in 8 Stunden 36·8/6 = 48 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 174/90 vollständig.",
+          "choices": [
+            "2",
+            "29/15",
+            "58/5",
+            "29/90"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 29/15 = 29/15."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 12/14 und 6/16.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 12·16 = 192 und 6·14 = 84."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 4/6 − 2/5.",
+          "choices": [
+            "2/11",
+            "3/10",
+            "8/31",
+            "4/15"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 30: (20 − 12)/30 = 4/15."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 4/6 : 2/5.",
+          "choices": [
+            "6/11",
+            "7/4",
+            "5/3",
+            "4/15"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 4/6 · 5/2 = 5/3."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 2 2/8 in einen unechten Bruch um.",
+          "choices": [
+            "7/4",
+            "9/4",
+            "1/2",
+            "2"
+          ],
+          "answer": 1,
+          "why": "2·8+2 = 18; der Nenner bleibt 8."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 85 €. Er wird um 25 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "255/4 €",
+            "85/4 €",
+            "106.25 €",
+            "60 €"
+          ],
+          "answer": 0,
+          "why": "Rabatt: 85 · 25/100 = 85/4 €. Neuer Preis: 255/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "6 gleiche Hefte kosten 36 €. Was kosten 8 Hefte?",
+          "choices": [
+            "38 €",
+            "52 €",
+            "Keine der Antworten",
+            "48 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 36 : 6 = 6 €. Für 8 Hefte: 8 · 6 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "5 gleich schnelle Personen benötigen 12 Tage. Wie viele Tage brauchen 7 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "12 Tage",
+            "67/7 Tage",
+            "60/7 Tage",
+            "84/5 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 5 · 12 = 60. Daher 60 : 7 = 60/7 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 3·x. Welcher y-Wert gehört zu x = 3?",
+          "choices": [
+            "1",
+            "9",
+            "6",
+            "12"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 3 · 3 = 9."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (3 | 9). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "3",
+            "9",
+            "6",
+            "Keine der Antworten"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 9/3 = 3."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 39 km in 7 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 9 Stunden?",
+          "choices": [
+            "41 km",
+            "351 km",
+            "312/7 km",
+            "351/7 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 39/7 km; in 9 Stunden 39·9/7 = 351/7 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 64/32 vollständig.",
+          "choices": [
+            "1",
+            "33/16",
+            "2",
+            "4"
+          ],
+          "answer": 2,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 2 = 2."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 13/15 und 2/17.",
+          "choices": [
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer"
+          ],
+          "answer": 1,
+          "why": "Kreuzprodukte vergleichen: 13·17 = 221 und 2·15 = 30."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 5/7 + 3/6.",
+          "choices": [
+            "17/14",
+            "8/13",
+            "26/21",
+            "51/43"
+          ],
+          "answer": 0,
+          "why": "Hauptnenner 42: (30 + 21)/42 = 17/14."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 5/7 · 3/6.",
+          "choices": [
+            "8/13",
+            "8/21",
+            "Keine der Antworten",
+            "5/14"
+          ],
+          "answer": 3,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 15/42 = 5/14."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 3 3/9 in einen unechten Bruch um.",
+          "choices": [
+            "3",
+            "8/3",
+            "10/3",
+            "2/3"
+          ],
+          "answer": 2,
+          "why": "3·9+3 = 30; der Nenner bleibt 9."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 90 €. Er wird um 30 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "60 €",
+            "63 €",
+            "27 €",
+            "117 €"
+          ],
+          "answer": 1,
+          "why": "Rabatt: 90 · 30/100 = 27 €. Neuer Preis: 63 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "7 gleiche Hefte kosten 49 €. Was kosten 9 Hefte?",
+          "choices": [
+            "63 €",
+            "51 €",
+            "67 €",
+            "Keine der Antworten"
+          ],
+          "answer": 0,
+          "why": "Ein Heft kostet 49 : 7 = 7 €. Für 9 Hefte: 9 · 7 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "6 gleich schnelle Personen benötigen 13 Tage. Wie viele Tage brauchen 8 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "52/3 Tage",
+            "13 Tage",
+            "43/4 Tage",
+            "39/4 Tage"
+          ],
+          "answer": 3,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 6 · 13 = 78. Daher 78 : 8 = 39/4 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 4·x. Welcher y-Wert gehört zu x = 4?",
+          "choices": [
+            "20",
+            "1",
+            "16",
+            "8"
+          ],
+          "answer": 2,
+          "why": "Proportionalität: y = 4 · 4 = 16."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (4 | 16). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "Keine der Antworten",
+            "4",
+            "16",
+            "8"
+          ],
+          "answer": 1,
+          "why": "k = y/x = 16/4 = 4."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 42 km in 3 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 5 Stunden?",
+          "choices": [
+            "70 km",
+            "44 km",
+            "210 km",
+            "56 km"
+          ],
+          "answer": 0,
+          "why": "Pro Stunde 42/3 km; in 5 Stunden 42·5/3 = 70 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 105/51 vollständig.",
+          "choices": [
+            "105/17",
+            "35/51",
+            "36/17",
+            "35/17"
+          ],
+          "answer": 3,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 35/17 = 35/17."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 14/16 und 3/18.",
+          "choices": [
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß"
+          ],
+          "answer": 2,
+          "why": "Kreuzprodukte vergleichen: 14·18 = 252 und 3·16 = 48."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 6/8 − 4/7.",
+          "choices": [
+            "10/57",
+            "5/28",
+            "2/15",
+            "11/56"
+          ],
+          "answer": 1,
+          "why": "Hauptnenner 56: (42 − 32)/56 = 5/28."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 6/8 : 4/7.",
+          "choices": [
+            "21/16",
+            "3/7",
+            "2/3",
+            "43/32"
+          ],
+          "answer": 0,
+          "why": "Mit dem Kehrwert multiplizieren: 6/8 · 7/4 = 21/16."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 4 4/10 in einen unechten Bruch um.",
+          "choices": [
+            "4/5",
+            "4",
+            "18/5",
+            "22/5"
+          ],
+          "answer": 3,
+          "why": "4·10+4 = 44; der Nenner bleibt 10."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 95 €. Er wird um 35 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "128.25 €",
+            "60 €",
+            "247/4 €",
+            "133/4 €"
+          ],
+          "answer": 2,
+          "why": "Rabatt: 95 · 35/100 = 133/4 €. Neuer Preis: 247/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "8 gleiche Hefte kosten 64 €. Was kosten 10 Hefte?",
+          "choices": [
+            "Keine der Antworten",
+            "80 €",
+            "66 €",
+            "84 €"
+          ],
+          "answer": 1,
+          "why": "Ein Heft kostet 64 : 8 = 8 €. Für 10 Hefte: 10 · 8 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "7 gleich schnelle Personen benötigen 14 Tage. Wie viele Tage brauchen 9 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "98/9 Tage",
+            "18 Tage",
+            "14 Tage",
+            "107/9 Tage"
+          ],
+          "answer": 0,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 7 · 14 = 98. Daher 98 : 9 = 98/9 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 5·x. Welcher y-Wert gehört zu x = 5?",
+          "choices": [
+            "10",
+            "30",
+            "1",
+            "25"
+          ],
+          "answer": 3,
+          "why": "Proportionalität: y = 5 · 5 = 25."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (5 | 25). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "10",
+            "Keine der Antworten",
+            "5",
+            "25"
+          ],
+          "answer": 2,
+          "why": "k = y/x = 25/5 = 5."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 45 km in 4 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 6 Stunden?",
+          "choices": [
+            "225/4 km",
+            "135/2 km",
+            "47 km",
+            "270 km"
+          ],
+          "answer": 1,
+          "why": "Pro Stunde 45/4 km; in 6 Stunden 45·6/4 = 135/2 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 152/72 vollständig.",
+          "choices": [
+            "19/9",
+            "76/9",
+            "19/36",
+            "13/6"
+          ],
+          "answer": 0,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 19/9 = 19/9."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 15/17 und 4/19.",
+          "choices": [
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 15·19 = 285 und 4·17 = 68."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 7/9 + 1/8.",
+          "choices": [
+            "11/12",
+            "65/73",
+            "65/72",
+            "8/17"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 72: (56 + 9)/72 = 65/72."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 7/9 · 1/8.",
+          "choices": [
+            "Keine der Antworten",
+            "7/72",
+            "8/17",
+            "1/9"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 7/72 = 7/72."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 5 1/5 in einen unechten Bruch um.",
+          "choices": [
+            "26/5",
+            "6/5",
+            "13/3",
+            "24/5"
+          ],
+          "answer": 0,
+          "why": "5·5+1 = 26; der Nenner bleibt 5."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 100 €. Er wird um 10 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "10 €",
+            "110 €",
+            "Keine der Antworten",
+            "90 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 100 · 10/100 = 10 €. Neuer Preis: 90 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "3 gleiche Hefte kosten 27 €. Was kosten 5 Hefte?",
+          "choices": [
+            "15 €",
+            "49 €",
+            "45 €",
+            "29 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 27 : 3 = 9 €. Für 5 Hefte: 5 · 9 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "8 gleich schnelle Personen benötigen 15 Tage. Wie viele Tage brauchen 10 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "13 Tage",
+            "12 Tage",
+            "75/4 Tage",
+            "15 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 8 · 15 = 120. Daher 120 : 10 = 12 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 6·x. Welcher y-Wert gehört zu x = 6?",
+          "choices": [
+            "36",
+            "12",
+            "42",
+            "1"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 6 · 6 = 36."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (6 | 36). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "36",
+            "12",
+            "Keine der Antworten",
+            "6"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 36/6 = 6."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 48 km in 5 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 7 Stunden?",
+          "choices": [
+            "336 km",
+            "288/5 km",
+            "336/5 km",
+            "50 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 48/5 km; in 7 Stunden 48·7/5 = 336/5 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 205/95 vollständig.",
+          "choices": [
+            "42/19",
+            "41/19",
+            "205/19",
+            "41/95"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 41/19 = 41/19."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 16/18 und 5/20.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 16·20 = 320 und 5·18 = 90."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 8/10 − 2/9.",
+          "choices": [
+            "6/19",
+            "53/90",
+            "4/7",
+            "26/45"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 90: (72 − 20)/90 = 26/45."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 8/10 : 2/9.",
+          "choices": [
+            "10/19",
+            "73/20",
+            "18/5",
+            "8/45"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 8/10 · 9/2 = 18/5."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 6 2/6 in einen unechten Bruch um.",
+          "choices": [
+            "17/3",
+            "19/3",
+            "4/3",
+            "38/7"
+          ],
+          "answer": 1,
+          "why": "6·6+2 = 38; der Nenner bleibt 6."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 105 €. Er wird um 15 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "357/4 €",
+            "63/4 €",
+            "120.75 €",
+            "90 €"
+          ],
+          "answer": 0,
+          "why": "Rabatt: 105 · 15/100 = 63/4 €. Neuer Preis: 357/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "4 gleiche Hefte kosten 40 €. Was kosten 6 Hefte?",
+          "choices": [
+            "42 €",
+            "24 €",
+            "64 €",
+            "60 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 40 : 4 = 10 €. Für 6 Hefte: 6 · 10 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "9 gleich schnelle Personen benötigen 16 Tage. Wie viele Tage brauchen 11 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "16 Tage",
+            "155/11 Tage",
+            "144/11 Tage",
+            "176/9 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 9 · 16 = 144. Daher 144 : 11 = 144/11 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 7·x. Welcher y-Wert gehört zu x = 7?",
+          "choices": [
+            "1",
+            "49",
+            "14",
+            "56"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 7 · 7 = 49."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (7 | 49). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "7",
+            "49",
+            "14",
+            "Keine der Antworten"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 49/7 = 7."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 51 km in 6 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 8 Stunden?",
+          "choices": [
+            "53 km",
+            "408 km",
+            "119/2 km",
+            "68 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 51/6 km; in 8 Stunden 51·8/6 = 68 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 264/120 vollständig.",
+          "choices": [
+            "11/30",
+            "9/4",
+            "11/5",
+            "66/5"
+          ],
+          "answer": 2,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 11/5 = 11/5."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 17/19 und 6/21.",
+          "choices": [
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer"
+          ],
+          "answer": 1,
+          "why": "Kreuzprodukte vergleichen: 17·21 = 357 und 6·19 = 114."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 2/11 + 3/3.",
+          "choices": [
+            "13/11",
+            "5/14",
+            "40/33",
+            "39/34"
+          ],
+          "answer": 0,
+          "why": "Hauptnenner 33: (6 + 33)/33 = 13/11."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 2/11 · 3/3.",
+          "choices": [
+            "5/14",
+            "7/33",
+            "Keine der Antworten",
+            "2/11"
+          ],
+          "answer": 3,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 6/33 = 2/11."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 7 3/7 in einen unechten Bruch um.",
+          "choices": [
+            "13/2",
+            "46/7",
+            "52/7",
+            "10/7"
+          ],
+          "answer": 2,
+          "why": "7·7+3 = 52; der Nenner bleibt 7."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 110 €. Er wird um 20 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "90 €",
+            "88 €",
+            "22 €",
+            "132 €"
+          ],
+          "answer": 1,
+          "why": "Rabatt: 110 · 20/100 = 22 €. Neuer Preis: 88 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "5 gleiche Hefte kosten 20 €. Was kosten 7 Hefte?",
+          "choices": [
+            "28 €",
+            "22 €",
+            "35 €",
+            "32 €"
+          ],
+          "answer": 0,
+          "why": "Ein Heft kostet 20 : 5 = 4 €. Für 7 Hefte: 7 · 4 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "3 gleich schnelle Personen benötigen 17 Tage. Wie viele Tage brauchen 5 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "85/3 Tage",
+            "17 Tage",
+            "56/5 Tage",
+            "51/5 Tage"
+          ],
+          "answer": 3,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 3 · 17 = 51. Daher 51 : 5 = 51/5 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 8·x. Welcher y-Wert gehört zu x = 8?",
+          "choices": [
+            "72",
+            "1",
+            "64",
+            "16"
+          ],
+          "answer": 2,
+          "why": "Proportionalität: y = 8 · 8 = 64."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (8 | 64). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "Keine der Antworten",
+            "8",
+            "64",
+            "16"
+          ],
+          "answer": 1,
+          "why": "k = y/x = 64/8 = 8."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 54 km in 7 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 9 Stunden?",
+          "choices": [
+            "486/7 km",
+            "56 km",
+            "486 km",
+            "432/7 km"
+          ],
+          "answer": 0,
+          "why": "Pro Stunde 54/7 km; in 9 Stunden 54·9/7 = 486/7 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 94/42 vollständig.",
+          "choices": [
+            "94/21",
+            "47/42",
+            "16/7",
+            "47/21"
+          ],
+          "answer": 3,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 47/21 = 47/21."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 18/20 und 2/22.",
+          "choices": [
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß"
+          ],
+          "answer": 2,
+          "why": "Kreuzprodukte vergleichen: 18·22 = 396 und 2·20 = 40."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 3/12 − 4/4.",
+          "choices": [
+            "-36/49",
+            "-3/4",
+            "-1/16",
+            "37/48"
+          ],
+          "answer": 1,
+          "why": "Hauptnenner 48: (12 − 48)/48 = -3/4."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 3/12 : 4/4.",
+          "choices": [
+            "1/4",
+            "7/16",
+            "13/48",
+            "Keine der Antworten"
+          ],
+          "answer": 0,
+          "why": "Mit dem Kehrwert multiplizieren: 3/12 · 4/4 = 1/4."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 8 4/8 in einen unechten Bruch um.",
+          "choices": [
+            "3/2",
+            "68/9",
+            "15/2",
+            "17/2"
+          ],
+          "answer": 3,
+          "why": "8·8+4 = 68; der Nenner bleibt 8."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 115 €. Er wird um 25 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "143.75 €",
+            "90 €",
+            "345/4 €",
+            "115/4 €"
+          ],
+          "answer": 2,
+          "why": "Rabatt: 115 · 25/100 = 115/4 €. Neuer Preis: 345/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "6 gleiche Hefte kosten 30 €. Was kosten 8 Hefte?",
+          "choices": [
+            "44 €",
+            "40 €",
+            "32 €",
+            "48 €"
+          ],
+          "answer": 1,
+          "why": "Ein Heft kostet 30 : 6 = 5 €. Für 8 Hefte: 8 · 5 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "4 gleich schnelle Personen benötigen 18 Tage. Wie viele Tage brauchen 6 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "12 Tage",
+            "27 Tage",
+            "18 Tage",
+            "13 Tage"
+          ],
+          "answer": 0,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 4 · 18 = 72. Daher 72 : 6 = 12 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 9·x. Welcher y-Wert gehört zu x = 9?",
+          "choices": [
+            "18",
+            "90",
+            "1",
+            "81"
+          ],
+          "answer": 3,
+          "why": "Proportionalität: y = 9 · 9 = 81."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (9 | 81). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "18",
+            "Keine der Antworten",
+            "9",
+            "81"
+          ],
+          "answer": 2,
+          "why": "k = y/x = 81/9 = 9."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 57 km in 3 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 5 Stunden?",
+          "choices": [
+            "76 km",
+            "95 km",
+            "59 km",
+            "285 km"
+          ],
+          "answer": 1,
+          "why": "Pro Stunde 57/3 km; in 5 Stunden 57·5/3 = 95 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 150/66 vollständig.",
+          "choices": [
+            "25/11",
+            "75/11",
+            "25/33",
+            "51/22"
+          ],
+          "answer": 0,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 25/11 = 25/11."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 19/21 und 3/23.",
+          "choices": [
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 19·23 = 437 und 3·21 = 63."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 4/5 + 1/5.",
+          "choices": [
+            "26/25",
+            "25/26",
+            "1",
+            "1/2"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 25: (20 + 5)/25 = 1."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 4/5 · 1/5.",
+          "choices": [
+            "Keine der Antworten",
+            "4/25",
+            "1/2",
+            "1/5"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 4/25 = 4/25."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 9 1/9 in einen unechten Bruch um.",
+          "choices": [
+            "82/9",
+            "10/9",
+            "41/5",
+            "80/9"
+          ],
+          "answer": 0,
+          "why": "9·9+1 = 82; der Nenner bleibt 9."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 120 €. Er wird um 30 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "36 €",
+            "156 €",
+            "90 €",
+            "84 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 120 · 30/100 = 36 €. Neuer Preis: 84 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "7 gleiche Hefte kosten 42 €. Was kosten 9 Hefte?",
+          "choices": [
+            "63 €",
+            "58 €",
+            "54 €",
+            "44 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 42 : 7 = 6 €. Für 9 Hefte: 9 · 6 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "5 gleich schnelle Personen benötigen 19 Tage. Wie viele Tage brauchen 7 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "102/7 Tage",
+            "95/7 Tage",
+            "133/5 Tage",
+            "19 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 5 · 19 = 95. Daher 95 : 7 = 95/7 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 2·x. Welcher y-Wert gehört zu x = 10?",
+          "choices": [
+            "20",
+            "12",
+            "22",
+            "5"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 2 · 10 = 20."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (10 | 20). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "20",
+            "10",
+            "12",
+            "2"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 20/10 = 2."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 60 km in 4 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 6 Stunden?",
+          "choices": [
+            "360 km",
+            "75 km",
+            "90 km",
+            "62 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 60/4 km; in 6 Stunden 60·6/4 = 90 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 212/92 vollständig.",
+          "choices": [
+            "54/23",
+            "53/23",
+            "212/23",
+            "53/92"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 53/23 = 53/23."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 20/22 und 4/24.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 20·24 = 480 und 4·22 = 88."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 5/6 − 2/6.",
+          "choices": [
+            "1/4",
+            "19/36",
+            "18/37",
+            "1/2"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 36: (30 − 12)/36 = 1/2."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 5/6 : 2/6.",
+          "choices": [
+            "7/12",
+            "31/12",
+            "5/2",
+            "5/18"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 5/6 · 6/2 = 5/2."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 10 2/10 in einen unechten Bruch um.",
+          "choices": [
+            "49/5",
+            "51/5",
+            "6/5",
+            "102/11"
+          ],
+          "answer": 1,
+          "why": "10·10+2 = 102; der Nenner bleibt 10."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 125 €. Er wird um 35 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "325/4 €",
+            "175/4 €",
+            "168.75 €",
+            "90 €"
+          ],
+          "answer": 0,
+          "why": "Rabatt: 125 · 35/100 = 175/4 €. Neuer Preis: 325/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "8 gleiche Hefte kosten 56 €. Was kosten 10 Hefte?",
+          "choices": [
+            "58 €",
+            "80 €",
+            "74 €",
+            "70 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 56 : 8 = 7 €. Für 10 Hefte: 10 · 7 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "6 gleich schnelle Personen benötigen 20 Tage. Wie viele Tage brauchen 8 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "20 Tage",
+            "16 Tage",
+            "15 Tage",
+            "80/3 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 6 · 20 = 120. Daher 120 : 8 = 15 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 3·x. Welcher y-Wert gehört zu x = 11?",
+          "choices": [
+            "11/3",
+            "33",
+            "14",
+            "36"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 3 · 11 = 33."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (11 | 33). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "3",
+            "33",
+            "11",
+            "14"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 33/11 = 3."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 63 km in 5 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 7 Stunden?",
+          "choices": [
+            "65 km",
+            "441 km",
+            "378/5 km",
+            "441/5 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 63/5 km; in 7 Stunden 63·7/5 = 441/5 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 280/120 vollständig.",
+          "choices": [
+            "7/15",
+            "19/8",
+            "7/3",
+            "35/3"
+          ],
+          "answer": 2,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 7/3 = 7/3."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 21/23 und 5/25.",
+          "choices": [
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer"
+          ],
+          "answer": 1,
+          "why": "Kreuzprodukte vergleichen: 21·25 = 525 und 5·23 = 115."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 6/7 + 3/7.",
+          "choices": [
+            "9/7",
+            "9/14",
+            "64/49",
+            "63/50"
+          ],
+          "answer": 0,
+          "why": "Hauptnenner 49: (42 + 21)/49 = 9/7."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 6/7 · 3/7.",
+          "choices": [
+            "9/14",
+            "19/49",
+            "Keine der Antworten",
+            "18/49"
+          ],
+          "answer": 3,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 18/49 = 18/49."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 2 3/5 in einen unechten Bruch um.",
+          "choices": [
+            "13/6",
+            "7/5",
+            "13/5",
+            "1"
+          ],
+          "answer": 2,
+          "why": "2·5+3 = 13; der Nenner bleibt 5."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 130 €. Er wird um 10 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "120 €",
+            "117 €",
+            "13 €",
+            "143 €"
+          ],
+          "answer": 1,
+          "why": "Rabatt: 130 · 10/100 = 13 €. Neuer Preis: 117 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "3 gleiche Hefte kosten 24 €. Was kosten 5 Hefte?",
+          "choices": [
+            "40 €",
+            "26 €",
+            "15 €",
+            "44 €"
+          ],
+          "answer": 0,
+          "why": "Ein Heft kostet 24 : 3 = 8 €. Für 5 Hefte: 5 · 8 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "7 gleich schnelle Personen benötigen 12 Tage. Wie viele Tage brauchen 9 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "108/7 Tage",
+            "12 Tage",
+            "31/3 Tage",
+            "28/3 Tage"
+          ],
+          "answer": 3,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 7 · 12 = 84. Daher 84 : 9 = 28/3 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 4·x. Welcher y-Wert gehört zu x = 3?",
+          "choices": [
+            "16",
+            "3/4",
+            "12",
+            "7"
+          ],
+          "answer": 2,
+          "why": "Proportionalität: y = 4 · 3 = 12."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (3 | 12). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "7",
+            "4",
+            "12",
+            "3"
+          ],
+          "answer": 1,
+          "why": "k = y/x = 12/3 = 4."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 66 km in 6 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 8 Stunden?",
+          "choices": [
+            "88 km",
+            "68 km",
+            "528 km",
+            "77 km"
+          ],
+          "answer": 0,
+          "why": "Pro Stunde 66/6 km; in 8 Stunden 66·8/6 = 88 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 354/150 vollständig.",
+          "choices": [
+            "354/25",
+            "59/150",
+            "12/5",
+            "59/25"
+          ],
+          "answer": 3,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 59/25 = 59/25."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 22/24 und 6/26.",
+          "choices": [
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer",
+            "gleich groß"
+          ],
+          "answer": 2,
+          "why": "Kreuzprodukte vergleichen: 22·26 = 572 und 6·24 = 144."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 7/8 − 4/8.",
+          "choices": [
+            "24/65",
+            "3/8",
+            "3/16",
+            "25/64"
+          ],
+          "answer": 1,
+          "why": "Hauptnenner 64: (56 − 32)/64 = 3/8."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 7/8 : 4/8.",
+          "choices": [
+            "7/4",
+            "7/16",
+            "11/16",
+            "57/32"
+          ],
+          "answer": 0,
+          "why": "Mit dem Kehrwert multiplizieren: 7/8 · 8/4 = 7/4."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 3 4/6 in einen unechten Bruch um.",
+          "choices": [
+            "7/6",
+            "22/7",
+            "7/3",
+            "11/3"
+          ],
+          "answer": 3,
+          "why": "3·6+4 = 22; der Nenner bleibt 6."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 135 €. Er wird um 15 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "155.25 €",
+            "120 €",
+            "459/4 €",
+            "81/4 €"
+          ],
+          "answer": 2,
+          "why": "Rabatt: 135 · 15/100 = 81/4 €. Neuer Preis: 459/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "4 gleiche Hefte kosten 36 €. Was kosten 6 Hefte?",
+          "choices": [
+            "58 €",
+            "54 €",
+            "38 €",
+            "24 €"
+          ],
+          "answer": 1,
+          "why": "Ein Heft kostet 36 : 4 = 9 €. Für 6 Hefte: 6 · 9 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "8 gleich schnelle Personen benötigen 13 Tage. Wie viele Tage brauchen 10 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "52/5 Tage",
+            "65/4 Tage",
+            "13 Tage",
+            "57/5 Tage"
+          ],
+          "answer": 0,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 8 · 13 = 104. Daher 104 : 10 = 52/5 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 5·x. Welcher y-Wert gehört zu x = 4?",
+          "choices": [
+            "9",
+            "25",
+            "4/5",
+            "20"
+          ],
+          "answer": 3,
+          "why": "Proportionalität: y = 5 · 4 = 20."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (4 | 20). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "4",
+            "9",
+            "5",
+            "20"
+          ],
+          "answer": 2,
+          "why": "k = y/x = 20/4 = 5."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 69 km in 7 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 9 Stunden?",
+          "choices": [
+            "552/7 km",
+            "621/7 km",
+            "71 km",
+            "621 km"
+          ],
+          "answer": 1,
+          "why": "Pro Stunde 69/7 km; in 9 Stunden 69·9/7 = 621/7 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 124/52 vollständig.",
+          "choices": [
+            "31/13",
+            "62/13",
+            "31/26",
+            "63/26"
+          ],
+          "answer": 0,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 31/13 = 31/13."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 23/25 und 2/27.",
+          "choices": [
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar",
+            "erster Bruch größer"
+          ],
+          "answer": 3,
+          "why": "Kreuzprodukte vergleichen: 23·27 = 621 und 2·25 = 50."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 8/9 + 1/9.",
+          "choices": [
+            "82/81",
+            "81/82",
+            "1",
+            "1/2"
+          ],
+          "answer": 2,
+          "why": "Hauptnenner 81: (72 + 9)/81 = 1."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 8/9 · 1/9.",
+          "choices": [
+            "Keine der Antworten",
+            "8/81",
+            "1/2",
+            "1/9"
+          ],
+          "answer": 1,
+          "why": "Zähler mal Zähler, Nenner mal Nenner: 8/81 = 8/81."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 4 1/7 in einen unechten Bruch um.",
+          "choices": [
+            "29/7",
+            "5/7",
+            "29/8",
+            "27/7"
+          ],
+          "answer": 0,
+          "why": "4·7+1 = 29; der Nenner bleibt 7."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 140 €. Er wird um 20 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "28 €",
+            "168 €",
+            "120 €",
+            "112 €"
+          ],
+          "answer": 3,
+          "why": "Rabatt: 140 · 20/100 = 28 €. Neuer Preis: 112 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "5 gleiche Hefte kosten 50 €. Was kosten 7 Hefte?",
+          "choices": [
+            "35 €",
+            "74 €",
+            "70 €",
+            "52 €"
+          ],
+          "answer": 2,
+          "why": "Ein Heft kostet 50 : 5 = 10 €. Für 7 Hefte: 7 · 10 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "9 gleich schnelle Personen benötigen 14 Tage. Wie viele Tage brauchen 11 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "137/11 Tage",
+            "126/11 Tage",
+            "154/9 Tage",
+            "14 Tage"
+          ],
+          "answer": 1,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 9 · 14 = 126. Daher 126 : 11 = 126/11 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 6·x. Welcher y-Wert gehört zu x = 5?",
+          "choices": [
+            "30",
+            "11",
+            "36",
+            "5/6"
+          ],
+          "answer": 0,
+          "why": "Proportionalität: y = 6 · 5 = 30."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (5 | 30). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "30",
+            "5",
+            "11",
+            "6"
+          ],
+          "answer": 3,
+          "why": "k = y/x = 30/5 = 6."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 72 km in 3 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 5 Stunden?",
+          "choices": [
+            "360 km",
+            "96 km",
+            "120 km",
+            "74 km"
+          ],
+          "answer": 2,
+          "why": "Pro Stunde 72/3 km; in 5 Stunden 72·5/3 = 120 km."
+        },
+        {
+          "topic": "Brüche kürzen und erweitern",
+          "q": "Kürze 195/81 vollständig.",
+          "choices": [
+            "22/9",
+            "65/27",
+            "65/9",
+            "65/81"
+          ],
+          "answer": 1,
+          "why": "Zähler und Nenner durch ihren größten gemeinsamen Teiler teilen: 65/27 = 65/27."
+        },
+        {
+          "topic": "Brüche vergleichen und ordnen",
+          "q": "Vergleiche 24/26 und 3/28.",
+          "choices": [
+            "erster Bruch größer",
+            "gleich groß",
+            "zweiter Bruch größer",
+            "nicht vergleichbar"
+          ],
+          "answer": 0,
+          "why": "Kreuzprodukte vergleichen: 24·28 = 672 und 3·26 = 78."
+        },
+        {
+          "topic": "Brüche addieren und subtrahieren",
+          "q": "Berechne und kürze: 2/10 − 2/3.",
+          "choices": [
+            "0",
+            "1/2",
+            "-14/31",
+            "-7/15"
+          ],
+          "answer": 3,
+          "why": "Hauptnenner 30: (6 − 20)/30 = -7/15."
+        },
+        {
+          "topic": "Brüche multiplizieren und dividieren",
+          "q": "Berechne: 2/10 : 2/3.",
+          "choices": [
+            "4/13",
+            "7/20",
+            "3/10",
+            "2/15"
+          ],
+          "answer": 2,
+          "why": "Mit dem Kehrwert multiplizieren: 2/10 · 3/2 = 3/10."
+        },
+        {
+          "topic": "Gemischte Zahlen und unechte Brüche",
+          "q": "Wandle 5 2/8 in einen unechten Bruch um.",
+          "choices": [
+            "19/4",
+            "21/4",
+            "7/8",
+            "14/3"
+          ],
+          "answer": 1,
+          "why": "5·8+2 = 42; der Nenner bleibt 8."
+        },
+        {
+          "topic": "Dezimalzahlen und Prozentrechnung",
+          "q": "Ein Artikel kostet 145 €. Er wird um 25 % reduziert. Wie viel kostet er danach?",
+          "choices": [
+            "435/4 €",
+            "145/4 €",
+            "181.25 €",
+            "120 €"
+          ],
+          "answer": 0,
+          "why": "Rabatt: 145 · 25/100 = 145/4 €. Neuer Preis: 435/4 €."
+        },
+        {
+          "topic": "Proportionale Zuordnungen und Dreisatz",
+          "q": "6 gleiche Hefte kosten 24 €. Was kosten 8 Hefte?",
+          "choices": [
+            "26 €",
+            "48 €",
+            "36 €",
+            "32 €"
+          ],
+          "answer": 3,
+          "why": "Ein Heft kostet 24 : 6 = 4 €. Für 8 Hefte: 8 · 4 €."
+        },
+        {
+          "topic": "Antiproportionale Zuordnungen",
+          "q": "3 gleich schnelle Personen benötigen 15 Tage. Wie viele Tage brauchen 5 Personen bei gleicher Gesamtarbeit?",
+          "choices": [
+            "15 Tage",
+            "10 Tage",
+            "9 Tage",
+            "25 Tage"
+          ],
+          "answer": 2,
+          "why": "Bei gleicher Arbeit bleibt Personen · Tage konstant: 3 · 15 = 45. Daher 45 : 5 = 9 Tage."
+        },
+        {
+          "topic": "Wertetabellen und Graphen",
+          "q": "In einer proportionalen Wertetabelle gilt y = 7·x. Welcher y-Wert gehört zu x = 6?",
+          "choices": [
+            "6/7",
+            "42",
+            "13",
+            "49"
+          ],
+          "answer": 1,
+          "why": "Proportionalität: y = 7 · 6 = 42."
+        },
+        {
+          "topic": "Verhältnisse und Proportionalitätsfaktor",
+          "q": "Eine proportionale Zuordnung enthält den Punkt (6 | 42). Bestimme den Proportionalitätsfaktor k in y = k·x.",
+          "choices": [
+            "7",
+            "42",
+            "6",
+            "13"
+          ],
+          "answer": 0,
+          "why": "k = y/x = 42/6 = 7."
+        },
+        {
+          "topic": "Sachaufgaben und Prüfungstraining",
+          "q": "Ein Radfahrer fährt 75 km in 4 Stunden mit konstanter Geschwindigkeit. Wie weit kommt er in 6 Stunden?",
+          "choices": [
+            "77 km",
+            "450 km",
+            "375/4 km",
+            "225/2 km"
+          ],
+          "answer": 3,
+          "why": "Pro Stunde 75/4 km; in 6 Stunden 75·6/4 = 225/2 km."
         }
-      ]
+      ],
+      "languageNote": "Deutschsprachiger Übungstrainer. Aufgaben sind eigenständig erstellt; die Themenauswahl enthält auch ergänzende Übungsbereiche, deren genaue Unterrichtsabdeckung noch mit den Originalmaterialien abgeglichen werden muss."
     },
     {
       "id": "biologie",

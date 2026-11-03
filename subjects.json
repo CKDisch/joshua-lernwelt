@@ -234,252 +234,134 @@
       "name": "Biologie",
       "icon": "🌿",
       "lang": "de",
-      "languageNote": "Die vorliegenden Unterrichtsmaterialien zur aktuellen Klassenarbeitsvorbereitung sind deutschsprachig.",
+      "languageNote": "Unterrichtssprache: Deutsch (aus den vorliegenden Originalmaterialien). Vorbereitung auf die kommende Klassenarbeit mit Schwerpunkt Ökologie.",
       "topics": [
-        "Ökosystem Wald",
-        "Biotische und abiotische Faktoren",
-        "Produzenten und Konsumenten",
-        "Nahrungsketten und Nahrungsnetze",
-        "Biomassepyramide",
-        "Räuber-Beute und Population",
-        "Destruenten und Stoffkreislauf",
-        "Modelle in der Biologie"
+        "Ökosystem & Umweltfaktoren",
+        "Produzenten & Konsumenten",
+        "Nahrungsketten & Nahrungsnetze",
+        "Biomasse & 10-%-Regel",
+        "Räuber-Beute & biologisches Gleichgewicht",
+        "Populationen",
+        "Destruenten & Stoffkreislauf",
+        "Prüfungstraining"
       ],
       "questions": [
         {
-          "topic": "Ökosystem Wald",
-          "q": "Was beschreibt ein Ökosystem am besten?",
+          "topic": "Ökosystem & Umweltfaktoren",
+          "q": "Was ist ein abiotischer Umweltfaktor?",
           "choices": [
-            "Lebewesen und ihre unbelebte Umwelt mit ihren Wechselwirkungen",
-            "Nur alle Tiere eines Waldes",
-            "Nur Boden, Wasser und Licht"
+            "Ein unbelebter Einfluss der Umwelt",
+            "Ein Tier in einem Lebensraum",
+            "Nur eine Pflanze"
           ],
           "answer": 0,
-          "why": "Ein Ökosystem umfasst Lebewesen, unbelebte Umwelt und ihre Wechselwirkungen."
+          "why": "Abiotische Faktoren sind unbelebte Einflüsse wie Licht, Temperatur, Wasser oder Bodenfeuchte."
         },
         {
-          "topic": "Ökosystem Wald",
-          "q": "Was gehört im Wald zum Ökosystem?",
+          "topic": "Ökosystem & Umweltfaktoren",
+          "q": "Welcher Faktor ist abiotisch?",
           "choices": [
-            "Tiere, Pflanzen, Pilze, Boden, Wasser und Licht",
-            "Nur Pflanzen und Tiere",
-            "Nur Lebewesen"
+            "Temperatur",
+            "Fuchs",
+            "Pilz"
           ],
           "answer": 0,
-          "why": "Zum Ökosystem gehören biotische und abiotische Bestandteile."
+          "why": "Temperatur ist unbelebte Umwelt und damit abiotisch."
         },
         {
-          "topic": "Ökosystem Wald",
-          "q": "Was bedeutet Wechselwirkung im Ökosystem?",
-          "choices": [
-            "Lebewesen und Umwelt beeinflussen sich gegenseitig",
-            "Alle Lebewesen leben unabhängig voneinander",
-            "Nur das Wetter beeinflusst Lebewesen"
-          ],
-          "answer": 0,
-          "why": "Wechselwirkungen sind gegenseitige Einflüsse zwischen Lebewesen und Umwelt."
-        },
-        {
-          "topic": "Ökosystem Wald",
-          "q": "Welche Aussage passt zum Lebensraum Wald?",
-          "choices": [
-            "Viele Arten stehen über Nahrung und Umweltfaktoren miteinander in Beziehung",
-            "Jede Art lebt völlig unabhängig",
-            "Nur Bäume bestimmen das Ökosystem"
-          ],
-          "answer": 0,
-          "why": "Im Wald sind viele Arten und Umweltfaktoren miteinander verknüpft."
-        },
-        {
-          "topic": "Ökosystem Wald",
-          "q": "Was ist ein Lebensraum?",
-          "choices": [
-            "Ein Gebiet, in dem Lebewesen leben und passende Bedingungen finden",
-            "Nur ein Schlafplatz eines Tieres",
-            "Ein Gebiet ohne Umweltfaktoren"
-          ],
-          "answer": 0,
-          "why": "Ein Lebensraum bietet Lebewesen Bedingungen, die sie zum Leben benötigen."
-        },
-        {
-          "topic": "Ökosystem Wald",
-          "q": "Welche Aussage ist richtig?",
-          "choices": [
-            "Ein Ökosystem verändert sich, wenn sich wichtige Faktoren ändern",
-            "Ein Ökosystem bleibt immer gleich",
-            "Nur Tiere können Veränderungen verursachen"
-          ],
-          "answer": 0,
-          "why": "Änderungen bei Arten oder Umweltfaktoren können das gesamte System beeinflussen."
-        },
-        {
-          "topic": "Ökosystem Wald",
-          "q": "Welche Beziehung ist eine Wechselwirkung zwischen Lebewesen?",
-          "choices": [
-            "Fuchs frisst Hase",
-            "Temperatur sinkt",
-            "Es regnet"
-          ],
-          "answer": 0,
-          "why": "Räuber-Beute-Beziehungen sind biotische Wechselwirkungen."
-        },
-        {
-          "topic": "Ökosystem Wald",
-          "q": "Welche Aussage beschreibt eine Nahrungbeziehung?",
-          "choices": [
-            "Ein Lebewesen dient einem anderen als Nahrung",
-            "Ein Tier schläft im Bau",
-            "Der Boden wird feucht"
-          ],
-          "answer": 0,
-          "why": "Nahrungsbeziehungen verbinden Organismen über Fressen und Gefressenwerden."
-        },
-        {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Was ist ein abiotischer Faktor?",
-          "choices": [
-            "Sonnenlicht",
-            "Ein Hase",
-            "Ein Baum"
-          ],
-          "answer": 0,
-          "why": "Abiotisch bedeutet unbelebter Umweltfaktor, zum Beispiel Licht oder Temperatur."
-        },
-        {
-          "topic": "Biotische und abiotische Faktoren",
+          "topic": "Ökosystem & Umweltfaktoren",
           "q": "Welcher Faktor ist biotisch?",
           "choices": [
-            "Ein Fuchs",
-            "Temperatur",
+            "Konkurrenz durch andere Tiere",
+            "Licht",
             "Wasser"
           ],
           "answer": 0,
-          "why": "Biotische Faktoren gehen von Lebewesen aus."
+          "why": "Biotisch sind Einflüsse durch Lebewesen, zum Beispiel Konkurrenz."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Welche Gruppe enthält nur abiotische Faktoren?",
+          "topic": "Ökosystem & Umweltfaktoren",
+          "q": "Welche Kombination enthält nur abiotische Faktoren?",
           "choices": [
-            "Licht, Wasser, Temperatur",
-            "Fuchs, Hase, Baum",
-            "Pilz, Boden, Licht"
+            "Licht, Temperatur, Wasser",
+            "Fuchs, Hase, Gras",
+            "Pilz, Wasser, Licht"
           ],
           "answer": 0,
-          "why": "Licht, Wasser und Temperatur sind unbelebte Umweltfaktoren."
+          "why": "Licht, Temperatur und Wasser sind unbelebte Umweltfaktoren."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Welche Gruppe enthält nur biotische Faktoren?",
+          "topic": "Ökosystem & Umweltfaktoren",
+          "q": "Welche Kombination enthält nur biotische Faktoren?",
           "choices": [
-            "Pflanzen, Tiere, Pilze",
-            "Licht, Wasser, Wind",
-            "Bodenfeuchte, Temperatur, Baum"
+            "Hase, Fuchs, Pilz",
+            "Licht, Bodenfeuchte, Temperatur",
+            "Wasser, Gras, Wind"
           ],
           "answer": 0,
-          "why": "Pflanzen, Tiere und Pilze sind Lebewesen und damit biotisch."
+          "why": "Hase, Fuchs und Pilz sind Lebewesen und damit biotisch."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Warum ist Nahrung ein biotischer Faktor?",
+          "topic": "Ökosystem & Umweltfaktoren",
+          "q": "Was beschreibt eine Wechselwirkung im Ökosystem?",
           "choices": [
-            "Weil sie von anderen Lebewesen stammt",
-            "Weil sie immer warm ist",
-            "Weil sie kein Lebewesen beeinflusst"
+            "Lebewesen und Umwelt beeinflussen sich gegenseitig.",
+            "Nur Tiere beeinflussen Pflanzen.",
+            "Abiotische Faktoren haben keinen Einfluss auf Lebewesen."
           ],
           "answer": 0,
-          "why": "Nahrung entsteht durch oder aus Lebewesen und ist deshalb ein biotischer Einfluss."
+          "why": "Im Ökosystem wirken Lebewesen untereinander und mit ihrer unbelebten Umwelt zusammen."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Ist Bodenfeuchtigkeit biotisch oder abiotisch?",
-          "choices": [
-            "Abiotisch",
-            "Biotisch",
-            "Beides gleichzeitig"
-          ],
-          "answer": 0,
-          "why": "Bodenfeuchtigkeit ist ein unbelebter Umweltfaktor."
+          "topic": "Ökosystem & Umweltfaktoren",
+          "type": "open",
+          "q": "Nenne zwei abiotische und zwei biotische Faktoren im Wald.",
+          "modelAnswer": "Zum Beispiel abiotisch: Licht und Temperatur. Biotisch: Hase und Fuchs.",
+          "why": "Abiotisch = unbelebte Umwelt; biotisch = Lebewesen bzw. Einflüsse durch Lebewesen."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Ist Konkurrenz um Nahrung biotisch oder abiotisch?",
-          "choices": [
-            "Biotisch",
-            "Abiotisch",
-            "Keines von beiden"
-          ],
-          "answer": 0,
-          "why": "Konkurrenz entsteht zwischen Lebewesen und ist deshalb biotisch."
+          "topic": "Ökosystem & Umweltfaktoren",
+          "type": "open",
+          "q": "Erkläre in einem Satz den Unterschied zwischen biotisch und abiotisch.",
+          "modelAnswer": "Biotische Faktoren gehen von Lebewesen aus; abiotische Faktoren gehören zur unbelebten Umwelt.",
+          "why": "Entscheidend ist: belebt bzw. durch Lebewesen verursacht versus unbelebte Umwelt."
         },
         {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Welche Veränderung ist ein abiotischer Einfluss?",
-          "choices": [
-            "Eine lange Trockenperiode",
-            "Mehr Füchse",
-            "Mehr Konkurrenz zwischen Hasen"
-          ],
-          "answer": 0,
-          "why": "Trockenheit betrifft Wasserverfügbarkeit und ist ein abiotischer Faktor."
-        },
-        {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Welche Aussage ist korrekt?",
-          "choices": [
-            "Abiotische Faktoren leben nicht",
-            "Biotische Faktoren sind immer Pflanzen",
-            "Abiotische Faktoren sind nur Wetter"
-          ],
-          "answer": 0,
-          "why": "Abiotisch bezeichnet unbelebte Einflüsse wie Licht, Wasser, Temperatur oder Boden."
-        },
-        {
-          "topic": "Biotische und abiotische Faktoren",
-          "q": "Ein Baum bekommt zu wenig Licht. Welche Art Faktor wirkt hier?",
-          "choices": [
-            "Abiotischer Faktor",
-            "Biotischer Faktor",
-            "Räuber-Beute-Faktor"
-          ],
-          "answer": 0,
-          "why": "Licht ist ein abiotischer Umweltfaktor."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
+          "topic": "Produzenten & Konsumenten",
           "q": "Was ist ein Produzent?",
           "choices": [
             "Ein Lebewesen, das durch Fotosynthese Biomasse herstellt",
             "Ein Tier, das Pflanzen frisst",
-            "Ein Lebewesen, das totes Material zersetzt"
+            "Ein Zersetzer"
           ],
           "answer": 0,
-          "why": "Grüne Pflanzen stellen durch Fotosynthese Biomasse her und sind Produzenten."
+          "why": "Grüne Pflanzen stellen durch Fotosynthese energiereiche Stoffe und Biomasse her."
         },
         {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Welches Lebewesen ist ein Produzent?",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Welches Lebewesen ist in einer Nahrungskette meist Produzent?",
           "choices": [
             "Gras",
             "Hase",
             "Fuchs"
           ],
           "answer": 0,
-          "why": "Gras stellt durch Fotosynthese selbst Biomasse her."
+          "why": "Grüne Pflanzen wie Gras sind Produzenten."
         },
         {
-          "topic": "Produzenten und Konsumenten",
+          "topic": "Produzenten & Konsumenten",
           "q": "Was ist ein Konsument 1. Ordnung?",
           "choices": [
-            "Ein Pflanzenfresser, der sich direkt von Produzenten ernährt",
-            "Ein Produzent",
+            "Ein Tier, das sich direkt von Produzenten ernährt",
+            "Ein Tier, das nur Fleisch frisst",
             "Ein Zersetzer"
           ],
           "answer": 0,
-          "why": "Konsumenten 1. Ordnung ernähren sich direkt von Produzenten."
+          "why": "Konsumenten 1. Ordnung sind meist Pflanzenfresser."
         },
         {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Gras → Hase → Fuchs. Welche Rolle hat der Hase?",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Gras → Hase → Fuchs: Welche Rolle hat der Hase?",
           "choices": [
             "Konsument 1. Ordnung",
             "Produzent",
@@ -489,675 +371,514 @@
           "why": "Der Hase ernährt sich direkt vom Produzenten Gras."
         },
         {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Gras → Hase → Fuchs. Welche Rolle hat der Fuchs?",
-          "choices": [
-            "Konsument 2. Ordnung",
-            "Konsument 1. Ordnung",
-            "Produzent"
-          ],
-          "answer": 0,
-          "why": "Der Fuchs ernährt sich vom Konsumenten 1. Ordnung."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Was ist ein Endkonsument?",
-          "choices": [
-            "Ein Konsument am Ende einer Nahrungskette, der dort nicht mehr gefressen wird",
-            "Immer ein Pflanzenfresser",
-            "Ein Zersetzer"
-          ],
-          "answer": 0,
-          "why": "Endkonsumenten stehen in der betrachteten Nahrungskette am Ende."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Welche Aussage über Konsumenten ist richtig?",
-          "choices": [
-            "Sie ernähren sich direkt oder indirekt von pflanzlicher Biomasse",
-            "Sie stellen alle ihre Nahrung durch Fotosynthese her",
-            "Sie sind immer Destruenten"
-          ],
-          "answer": 0,
-          "why": "Konsumenten sind auf Biomasse anderer Lebewesen angewiesen."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Warum stehen Produzenten am Anfang vieler Nahrungsketten?",
-          "choices": [
-            "Weil sie Biomasse herstellen, von der andere Organismen leben",
-            "Weil sie alle Tiere fressen",
-            "Weil sie keine Energie benötigen"
-          ],
-          "answer": 0,
-          "why": "Produzenten bauen mit Fotosynthese energiereiche Stoffe auf."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Eiche → Raupe → Meise → Sperber. Was ist die Raupe?",
-          "choices": [
-            "Konsument 1. Ordnung",
-            "Konsument 2. Ordnung",
-            "Endkonsument"
-          ],
-          "answer": 0,
-          "why": "Die Raupe ernährt sich direkt von der Eiche."
-        },
-        {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Eiche → Raupe → Meise → Sperber. Was ist die Meise?",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Gras → Hase → Fuchs: Welche Rolle hat der Fuchs?",
           "choices": [
             "Konsument 2. Ordnung",
             "Produzent",
             "Konsument 1. Ordnung"
           ],
           "answer": 0,
-          "why": "Die Meise frisst den Pflanzenfresser Raupe."
+          "why": "Der Fuchs ernährt sich vom Konsumenten 1. Ordnung."
         },
         {
-          "topic": "Produzenten und Konsumenten",
-          "q": "Eiche → Raupe → Meise → Sperber. Was ist der Sperber?",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Was ist ein Endkonsument?",
           "choices": [
-            "Konsument 3. Ordnung und Endkonsument",
-            "Produzent",
-            "Destruent"
+            "Ein Konsument am Ende einer Nahrungskette",
+            "Immer ein Pflanzenfresser",
+            "Immer ein Destruent"
           ],
           "answer": 0,
-          "why": "Der Sperber steht hier am Ende der Nahrungskette."
+          "why": "Ein Endkonsument steht am Ende der betrachteten Nahrungskette und wird dort nicht mehr weitergefressen."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
+          "topic": "Produzenten & Konsumenten",
+          "type": "open",
+          "q": "Erkläre: Warum ist ein Hase ein Konsument 1. Ordnung?",
+          "modelAnswer": "Der Hase ist Konsument 1. Ordnung, weil er sich direkt von Produzenten, also Pflanzen, ernährt.",
+          "why": "Die Ordnung richtet sich danach, von welcher Ernährungsebene sich ein Konsument ernährt."
+        },
+        {
+          "topic": "Produzenten & Konsumenten",
+          "type": "open",
+          "q": "Ordne mit Fachbegriffen: Gras → Maus → Eule.",
+          "modelAnswer": "Gras = Produzent, Maus = Konsument 1. Ordnung, Eule = Konsument 2. Ordnung/Endkonsument in dieser Kette.",
+          "why": "Die Maus frisst den Produzenten, die Eule frisst den Konsumenten 1. Ordnung."
+        },
+        {
+          "topic": "Nahrungsketten & Nahrungsnetze",
           "q": "Was ist eine Nahrungskette?",
           "choices": [
-            "Eine lineare Abfolge von Nahrungsbeziehungen",
-            "Mehrere unverbundene Lebensräume",
-            "Eine Liste aller Waldtiere"
+            "Eine Abfolge, die zeigt, wer sich von wem ernährt",
+            "Eine Liste aller Tiere im Wald",
+            "Eine Gruppe gleicher Tiere"
           ],
           "answer": 0,
-          "why": "Eine Nahrungskette zeigt eine einfache Reihenfolge von Nahrung zu Verbraucher."
+          "why": "Eine Nahrungskette zeigt eine lineare Ernährungsbeziehung."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
+          "topic": "Nahrungsketten & Nahrungsnetze",
           "q": "Was ist ein Nahrungsnetz?",
           "choices": [
             "Mehrere miteinander verbundene Nahrungsketten",
-            "Nur eine Nahrungskette",
-            "Eine Liste von Produzenten"
+            "Eine besonders lange Nahrungskette",
+            "Nur eine Räuber-Beute-Beziehung"
           ],
           "answer": 0,
-          "why": "Nahrungsnetze entstehen, wenn mehrere Nahrungsketten miteinander verknüpft sind."
+          "why": "Ein Nahrungsnetz entsteht, wenn mehrere Nahrungsketten miteinander verknüpft sind."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Welche Kette ist sinnvoll aufgebaut?",
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "q": "Warum ist ein Nahrungsnetz realistischer als eine einzelne Nahrungskette?",
+          "choices": [
+            "Weil viele Tiere mehrere Nahrungsquellen und Feinde haben",
+            "Weil jedes Tier nur eine Nahrung hat",
+            "Weil Pflanzen nicht dazugehören"
+          ],
+          "answer": 0,
+          "why": "In einem Ökosystem sind viele Ernährungsbeziehungen miteinander verbunden."
+        },
+        {
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "q": "Welche Reihe ist eine sinnvolle Nahrungskette?",
           "choices": [
             "Gras → Hase → Fuchs",
             "Fuchs → Gras → Hase",
-            "Hase → Fuchs → Gras"
+            "Hase → Gras → Sonne"
           ],
           "answer": 0,
-          "why": "Die Nahrungskette beginnt beim Produzenten und führt zu den Konsumenten."
+          "why": "Der Hase ernährt sich vom Gras, der Fuchs vom Hasen."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Warum ist ein Nahrungsnetz realistischer als eine einzelne Nahrungskette?",
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "q": "Welche Aussage zum Pfeil in einer Nahrungskette passt?",
           "choices": [
-            "Weil Tiere meist mehrere Nahrungsquellen und Feinde haben",
-            "Weil es nur einen Produzenten gibt",
-            "Weil jedes Tier nur eine Nahrung frisst"
+            "Er zeigt vom Nahrungsorganismus zum Verbraucher.",
+            "Er zeigt immer vom Räuber zur Beute.",
+            "Er zeigt nur die Bewegungsrichtung."
           ],
           "answer": 0,
-          "why": "In echten Ökosystemen sind viele Nahrungsketten miteinander verbunden."
+          "why": "Der Pfeil kann als Richtung des Stoff- und Energieflusses gelesen werden: von der Nahrung zum Verbraucher."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Was zeigt der Pfeil in einer Nahrungskette?",
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "q": "Gras → Maus → Fuchs und Samen → Maus → Eule bilden zusammen …",
           "choices": [
-            "In welche Richtung Nahrung und Biomasse weitergegeben werden",
-            "Wo das Tier schläft",
-            "Welches Tier schneller läuft"
+            "ein Nahrungsnetz",
+            "eine Population",
+            "eine Biomassepyramide"
           ],
           "answer": 0,
-          "why": "Der Pfeil führt vom gefressenen Organismus zum Verbraucher."
+          "why": "Die Maus verbindet mehrere Nahrungsketten miteinander."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Eiche → Raupe → Meise. In welche Richtung zeigt der Pfeil?",
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "type": "open",
+          "q": "Erkläre den Unterschied zwischen Nahrungskette und Nahrungsnetz.",
+          "modelAnswer": "Eine Nahrungskette ist eine einzelne lineare Ernährungsfolge. Ein Nahrungsnetz besteht aus mehreren verbundenen Nahrungsketten.",
+          "why": "Das Netz zeigt mehrere gleichzeitig bestehende Beziehungen."
+        },
+        {
+          "topic": "Nahrungsketten & Nahrungsnetze",
+          "type": "open",
+          "q": "Bilde eine Nahrungskette mit vier Gliedern und benenne die Ernährungsebenen.",
+          "modelAnswer": "Beispiel: Gras (Produzent) → Maus (K1) → Schlange (K2) → Bussard (K3/Endkonsument).",
+          "why": "Andere biologisch sinnvolle Beispiele sind ebenfalls möglich."
+        },
+        {
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "Was bedeutet Biomasse im Zusammenhang mit einer Ernährungsebene?",
           "choices": [
-            "Vom Nahrungslieferanten zum Verbraucher",
-            "Immer zum Produzenten",
-            "Vom Räuber zur Beute"
+            "Die Masse der lebenden organischen Stoffe",
+            "Nur die Masse der Pflanzenwurzeln",
+            "Die Menge an Wasser im Boden"
           ],
           "answer": 0,
-          "why": "Die Eiche dient der Raupe als Nahrung, die Raupe der Meise."
+          "why": "Biomasse ist die Masse der lebenden bzw. aufgebauten organischen Stoffe."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Welche Aussage beschreibt ein Nahrungsnetz?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "Wie viel Biomasse wird nach der groben Regel etwa an die nächste Ernährungsebene weitergegeben?",
           "choices": [
-            "Eine Maus kann Samen fressen und zugleich von Fuchs und Eule gefressen werden",
-            "Jedes Tier hat genau eine Nahrung",
-            "Produzenten fressen Konsumenten"
+            "10 %",
+            "90 %",
+            "100 %"
           ],
           "answer": 0,
-          "why": "Mehrere Verbindungen einer Art machen aus Nahrungsketten ein Netz."
+          "why": "Im Unterrichtsmaterial wird als grobe Regel etwa 10 % genannt."
         },
         {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Welche Nahrungskette hat vier Glieder?",
-          "choices": [
-            "Gras → Maus → Schlange → Bussard",
-            "Gras → Hase",
-            "Fuchs → Hase → Gras"
-          ],
-          "answer": 0,
-          "why": "Sie enthält Produzent plus drei Konsumentenstufen."
-        },
-        {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Was passiert mit einem Nahrungsnetz, wenn eine Art stark abnimmt?",
-          "choices": [
-            "Auch andere Arten können dadurch beeinflusst werden",
-            "Nichts verändert sich",
-            "Nur die abnehmende Art ist betroffen"
-          ],
-          "answer": 0,
-          "why": "Arten sind über Nahrungsbeziehungen voneinander abhängig."
-        },
-        {
-          "topic": "Nahrungsketten und Nahrungsnetze",
-          "q": "Welche Aussage ist falsch?",
-          "choices": [
-            "Ein Nahrungsnetz besteht immer nur aus einer Nahrungskette",
-            "Nahrungsketten können sich überschneiden",
-            "Ein Tier kann in mehreren Nahrungsketten vorkommen"
-          ],
-          "answer": 0,
-          "why": "Ein Nahrungsnetz besteht gerade aus mehreren verbundenen Nahrungsketten."
-        },
-        {
-          "topic": "Biomassepyramide",
-          "q": "Was bedeutet Biomasse in diesem Thema?",
-          "choices": [
-            "Masse der lebenden organischen Stoffe einer Ernährungsebene",
-            "Nur das Gewicht des Bodens",
-            "Nur die Masse aller Pflanzenwurzeln"
-          ],
-          "answer": 0,
-          "why": "Biomasse bezeichnet die Masse lebender organischer Substanz."
-        },
-        {
-          "topic": "Biomassepyramide",
-          "q": "Was zeigt eine Biomassepyramide?",
-          "choices": [
-            "Wie die Biomasse von einer Ernährungsebene zur nächsten abnimmt",
-            "Wie schnell Tiere laufen",
-            "Wie alt Bäume werden"
-          ],
-          "answer": 0,
-          "why": "Die Biomasse ist auf höheren Ernährungsebenen deutlich geringer."
-        },
-        {
-          "topic": "Biomassepyramide",
-          "q": "Wenn Produzenten 1000 kg Biomasse haben, wie viel erreichen nach der 10%-Regel ungefähr K1?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "1000 kg Produzenten-Biomasse: Wie viel erreichen ungefähr K1?",
           "choices": [
             "100 kg",
             "10 kg",
             "900 kg"
           ],
           "answer": 0,
-          "why": "Etwa 10 % von 1000 kg sind 100 kg."
+          "why": "10 % von 1000 kg sind 100 kg."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "K1 haben 100 kg Biomasse. Wie viel erreichen ungefähr K2?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "100 kg Biomasse bei K1: Wie viel erreichen ungefähr K2?",
           "choices": [
             "10 kg",
-            "50 kg",
-            "1000 kg"
+            "1 kg",
+            "90 kg"
           ],
           "answer": 0,
-          "why": "Etwa 10 % von 100 kg sind 10 kg."
+          "why": "10 % von 100 kg sind 10 kg."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "K2 haben 10 kg Biomasse. Wie viel erreichen ungefähr K3?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "10 kg Biomasse bei K2: Wie viel erreichen ungefähr K3?",
           "choices": [
             "1 kg",
-            "9 kg",
-            "100 kg"
+            "5 kg",
+            "9 kg"
           ],
           "answer": 0,
-          "why": "Etwa 10 % von 10 kg sind 1 kg."
+          "why": "10 % von 10 kg sind 1 kg."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "Warum nimmt die Biomasse nach oben ab?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "Warum wird die Biomasse nach oben in der Pyramide kleiner?",
           "choices": [
-            "Nur ein kleiner Teil wird als neue Körpermasse weitergegeben",
-            "Weil Tiere keine Energie brauchen",
-            "Weil Produzenten keine Biomasse besitzen"
+            "Nur ein Teil wird als neue Biomasse weitergegeben.",
+            "Jede höhere Stufe erzeugt neue Pflanzen.",
+            "Biomasse verschwindet ohne Energieumwandlung."
           ],
           "answer": 0,
-          "why": "Viel Energie wird für Lebensvorgänge genutzt; nicht alles Gefressene wird zu neuer Biomasse."
+          "why": "Viel Energie wird für Lebensvorgänge genutzt; außerdem wird nicht alles Gefressene zu neuer Körpermasse."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "Wofür wird ein großer Teil der aufgenommenen Energie verwendet?",
+          "topic": "Biomasse & 10-%-Regel",
+          "q": "Welche Aussage passt zur Biomassepyramide?",
           "choices": [
-            "Für Bewegung, Atmung, Wärme und andere Lebensvorgänge",
-            "Nur zum Wachsen",
-            "Gar nicht"
+            "Produzenten bilden die breite Basis.",
+            "Endkonsumenten bilden die größte Biomasse.",
+            "Alle Stufen haben gleich viel Biomasse."
           ],
           "answer": 0,
-          "why": "Organismen verbrauchen viel Energie für ihre Lebensvorgänge."
+          "why": "Von Stufe zu Stufe wird nur ein kleiner Teil der Biomasse weitergegeben."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "Welche Aussage passt zur 10%-Regel?",
+          "topic": "Biomasse & 10-%-Regel",
+          "type": "open",
+          "q": "Erkläre, warum nicht die gesamte gefressene Biomasse an die nächste Stufe weitergegeben wird.",
+          "modelAnswer": "Ein großer Teil der Energie wird für Lebensvorgänge wie Bewegung und Atmung genutzt; außerdem wird nicht alles Gefressene in neue Körpermasse umgewandelt.",
+          "why": "Darum gelangt nur ein kleiner Teil als neue Biomasse zur nächsten Ernährungsebene."
+        },
+        {
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Was beschreibt eine Räuber-Beute-Beziehung?",
           "choices": [
-            "Ungefähr ein Zehntel der Biomasse gelangt zur nächsten Ebene",
-            "90 % gelangen immer zur nächsten Ebene",
-            "Die Biomasse bleibt gleich"
+            "Wie sich Räuber und Beute gegenseitig in ihrer Anzahl beeinflussen",
+            "Nur wie schnell ein Räuber läuft",
+            "Nur welche Pflanzen ein Tier frisst"
           ],
           "answer": 0,
-          "why": "Als grobe Regel werden etwa 10 % weitergegeben."
+          "why": "Die Populationsgrößen von Räuber und Beute beeinflussen sich gegenseitig."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "Warum gibt es meist weniger große Räuber als Pflanzenfresser?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Es gibt mehr Hasen. Was passiert wahrscheinlich zunächst mit den Füchsen?",
           "choices": [
-            "Weil auf höheren Ebenen weniger Biomasse und Energie verfügbar ist",
-            "Weil Räuber keine Nahrung brauchen",
-            "Weil Pflanzenfresser immer größer sind"
+            "Ihre Zahl kann steigen, weil mehr Nahrung vorhanden ist.",
+            "Ihre Zahl sinkt sofort.",
+            "Es gibt keinen Zusammenhang."
           ],
           "answer": 0,
-          "why": "Mit jeder Ernährungsebene nimmt die verfügbare Biomasse stark ab."
+          "why": "Mehr Beute bedeutet für die Räuber zunächst mehr Nahrung."
         },
         {
-          "topic": "Biomassepyramide",
-          "q": "1000 kg Pflanzen → 100 kg Pflanzenfresser → 10 kg Fleischfresser. Was zeigt das?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Es gibt sehr viele Füchse. Was passiert wahrscheinlich mit den Hasen?",
           "choices": [
-            "Die Abnahme der Biomasse je Ernährungsebene",
-            "Eine Räuber-Beute-Schwingung",
-            "Den Wasserkreislauf"
-          ],
-          "answer": 0,
-          "why": "Das Zahlenbeispiel veranschaulicht die Biomassepyramide."
-        },
-        {
-          "topic": "Räuber-Beute und Population",
-          "q": "Was ist eine Population?",
-          "choices": [
-            "Alle Individuen einer Art in einem bestimmten Gebiet",
-            "Alle Arten eines Waldes",
-            "Nur die erwachsenen Tiere einer Art"
-          ],
-          "answer": 0,
-          "why": "Eine Population umfasst Individuen derselben Art in einem bestimmten Gebiet."
-        },
-        {
-          "topic": "Räuber-Beute und Population",
-          "q": "Was ist eine Räuber-Beute-Beziehung?",
-          "choices": [
-            "Eine Wechselwirkung, bei der ein Räuber die Beute als Nahrung nutzt",
-            "Eine Beziehung zwischen zwei Pflanzen",
-            "Eine Beziehung ohne Nahrung"
-          ],
-          "answer": 0,
-          "why": "Der Räuber ernährt sich von der Beute und beeinflusst dadurch ihre Population."
-        },
-        {
-          "topic": "Räuber-Beute und Population",
-          "q": "Es gibt plötzlich mehr Hasen. Was geschieht wahrscheinlich zuerst mit den Füchsen?",
-          "choices": [
-            "Ihre Zahl kann steigen, weil mehr Nahrung vorhanden ist",
-            "Ihre Zahl muss sofort sinken",
-            "Nichts kann sich ändern"
-          ],
-          "answer": 0,
-          "why": "Mehr Beute bedeutet zunächst mehr Nahrung für die Räuber."
-        },
-        {
-          "topic": "Räuber-Beute und Population",
-          "q": "Wenn die Zahl der Füchse stark steigt, was geschieht wahrscheinlich mit den Hasen?",
-          "choices": [
-            "Die Hasenpopulation nimmt ab",
-            "Die Hasenpopulation steigt sicher weiter",
-            "Die Hasen werden Produzenten"
+            "Die Hasenpopulation nimmt ab.",
+            "Die Hasenpopulation steigt immer weiter.",
+            "Die Füchse werden zu Produzenten."
           ],
           "answer": 0,
           "why": "Mehr Räuber fressen mehr Beute."
         },
         {
-          "topic": "Räuber-Beute und Population",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
           "q": "Wenn die Hasen stark abnehmen, was kann später mit den Füchsen passieren?",
           "choices": [
-            "Auch die Fuchspopulation nimmt ab, weil Nahrung fehlt",
-            "Die Fuchspopulation steigt unbegrenzt",
-            "Die Füchse werden Produzenten"
+            "Auch ihre Zahl nimmt wegen Nahrungsmangels ab.",
+            "Ihre Zahl steigt unbegrenzt.",
+            "Sie beginnen Fotosynthese."
           ],
           "answer": 0,
           "why": "Weniger Beute bedeutet weniger Nahrung für die Räuber."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Welche Reihenfolge beschreibt die typische Räuber-Beute-Dynamik?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Welche Reihenfolge beschreibt den typischen Kreislauf am besten?",
           "choices": [
             "mehr Beute → mehr Räuber → weniger Beute → weniger Räuber",
-            "mehr Räuber → mehr Beute → mehr Räuber",
+            "mehr Räuber → mehr Beute → mehr Pflanzen → keine Räuber",
             "weniger Beute → mehr Räuber → mehr Beute"
           ],
           "answer": 0,
-          "why": "Beute- und Räuberpopulation beeinflussen sich gegenseitig zeitversetzt."
+          "why": "Räuber- und Beutepopulation beeinflussen sich zeitversetzt gegenseitig."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Was bedeutet biologisches Gleichgewicht bei Räuber und Beute?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Was bedeutet biologisches Gleichgewicht hier?",
           "choices": [
-            "Die Populationsgrößen schwanken und beeinflussen sich gegenseitig, ohne dauerhaft unbegrenzt zu wachsen",
-            "Beide Populationen sind immer exakt gleich groß",
-            "Es gibt keine Veränderungen"
+            "Die Populationsgrößen schwanken, ohne dass eine Art dauerhaft unbegrenzt zunimmt.",
+            "Es gibt immer exakt gleich viele Räuber und Beutetiere.",
+            "Alle Tiere wiegen gleich viel."
           ],
           "answer": 0,
-          "why": "Biologisches Gleichgewicht bedeutet ein dynamisches, kein starres Gleichgewicht."
+          "why": "Gleichgewicht bedeutet nicht gleiche Anzahl, sondern ein dynamisches gegenseitiges Einpendeln."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Marienkäfer ernähren sich von Blattläusen. Was passiert bei sehr vielen Blattläusen wahrscheinlich?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "q": "Welches Paar wurde im Unterricht als Räuber-Beute-Beispiel verwendet?",
           "choices": [
-            "Marienkäfer finden mehr Nahrung und können häufiger werden",
-            "Alle Marienkäfer verschwinden",
-            "Blattläuse werden Produzenten"
+            "Laufkäfer und Regenwurm",
+            "Buche und Eiche",
+            "Licht und Temperatur"
           ],
           "answer": 0,
-          "why": "Mehr Beute verbessert zunächst das Nahrungsangebot für den Räuber."
+          "why": "Auf dem Arbeitsblatt wird der Laufkäfer als Räuber und der Regenwurm als Beute betrachtet."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Laufkäfer fressen Regenwürmer. Was ist der Regenwurm in dieser Beziehung?",
+          "topic": "Räuber-Beute & biologisches Gleichgewicht",
+          "type": "open",
+          "q": "Erkläre die Räuber-Beute-Beziehung von Fuchs und Hase mit 'Je mehr …, desto …'.",
+          "modelAnswer": "Je mehr Hasen es gibt, desto mehr Nahrung haben die Füchse und ihre Zahl kann steigen. Je mehr Füchse es gibt, desto mehr Hasen werden gefressen und die Hasenzahl sinkt.",
+          "why": "Danach kann wegen weniger Beute auch die Fuchspopulation wieder sinken."
+        },
+        {
+          "topic": "Populationen",
+          "q": "Was ist eine Population?",
           "choices": [
-            "Beute",
-            "Produzent",
-            "Abiotischer Faktor"
+            "Alle Individuen einer Art in einem bestimmten Gebiet",
+            "Alle Arten eines Waldes zusammen",
+            "Nur die erwachsenen Tiere einer Art"
           ],
           "answer": 0,
-          "why": "Der Regenwurm wird vom Laufkäfer gefressen und ist damit die Beute."
+          "why": "Eine Population umfasst die Individuen derselben Art in einem bestimmten Gebiet."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Warum schwanken Räuber- und Beutepopulationen häufig zeitversetzt?",
+          "topic": "Populationen",
+          "q": "Welche Gruppe ist eine Population?",
           "choices": [
-            "Weil Veränderungen der Beute erst später die Fortpflanzung und Zahl der Räuber beeinflussen",
-            "Weil beide unabhängig voneinander leben",
-            "Weil Räuber keine Nahrung brauchen"
+            "Alle Hasen in einem bestimmten Waldgebiet",
+            "Alle Tiere und Pflanzen eines Waldes",
+            "Ein Fuchs und ein Hase"
           ],
           "answer": 0,
-          "why": "Populationsänderungen wirken nicht sofort, sondern mit zeitlicher Verzögerung."
+          "why": "Zur Population gehören Individuen derselben Art in einem abgegrenzten Gebiet."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Es gibt deutlich weniger Füchse. Was passiert wahrscheinlich mit den Hasen?",
+          "topic": "Populationen",
+          "q": "Gehören Hase und Fuchs zur selben Population?",
           "choices": [
-            "Die Hasenpopulation kann steigen",
-            "Die Hasenpopulation muss sofort verschwinden",
-            "Die Hasen werden Destruenten"
+            "Nein, weil sie verschiedenen Arten angehören.",
+            "Ja, weil beide Tiere sind.",
+            "Ja, wenn sie im selben Wald leben."
           ],
           "answer": 0,
-          "why": "Weniger Füchse bedeuten weniger Fraßdruck auf die Hasen."
+          "why": "Eine Population besteht nur aus Individuen einer Art."
         },
         {
-          "topic": "Räuber-Beute und Population",
-          "q": "Mehr Hasen führen zu weniger Pflanzen. Warum?",
+          "topic": "Populationen",
+          "q": "Was bedeutet Populationsgröße?",
           "choices": [
-            "Weil mehr Hasen mehr pflanzliche Nahrung aufnehmen",
-            "Weil Hasen Pflanzen produzieren",
-            "Weil Pflanzen Füchse fressen"
+            "Die Anzahl der Individuen einer Population",
+            "Das Gewicht des größten Tieres",
+            "Die Fläche eines Waldes"
           ],
           "answer": 0,
-          "why": "Eine größere Pflanzenfresserpopulation benötigt mehr Pflanzenbiomasse."
+          "why": "Die Populationsgröße beschreibt, wie viele Individuen dazugehören."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Welche Aufgabe haben Destruenten?",
+          "topic": "Populationen",
+          "type": "open",
+          "q": "Formuliere die Definition von Population in einem vollständigen Satz.",
+          "modelAnswer": "Eine Population umfasst alle Individuen einer Art, die in einem bestimmten Gebiet leben.",
+          "why": "Wichtig sind die drei Punkte: alle Individuen, eine Art, ein bestimmtes Gebiet."
+        },
+        {
+          "topic": "Populationen",
+          "q": "Wenn viele Hasen geboren werden und wenige sterben, was passiert mit der Populationsgröße?",
           "choices": [
-            "Sie zersetzen totes organisches Material",
-            "Sie betreiben immer Fotosynthese",
-            "Sie erzeugen Sonnenlicht"
+            "Sie nimmt zu.",
+            "Sie nimmt ab.",
+            "Sie bleibt zwangsläufig gleich."
           ],
           "answer": 0,
-          "why": "Destruenten bauen tote organische Stoffe ab."
+          "why": "Mehr neue Individuen als Verluste führen zu einer größeren Population."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Welche Organismen sind besonders wichtige Destruenten?",
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Was sind Destruenten?",
+          "choices": [
+            "Zersetzer, die sich von totem organischem Material ernähren",
+            "Nur Pflanzenfresser",
+            "Produzenten"
+          ],
+          "answer": 0,
+          "why": "Destruenten bauen tote organische Stoffe schrittweise ab."
+        },
+        {
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Welche Organismen sind wichtige Destruenten?",
           "choices": [
             "Bakterien und Pilze",
-            "Rehe und Füchse",
-            "Buchen und Eichen"
+            "Reh und Fuchs",
+            "Buche und Eiche"
           ],
           "answer": 0,
-          "why": "Bakterien und Pilze bauen kleinste organische Reste weiter ab."
+          "why": "Bakterien und Pilze bauen kleinste Reste weiter ab."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Was entsteht beim Abbau organischer Stoffe unter anderem?",
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Was entsteht beim Abbau organischer Reste unter anderem?",
           "choices": [
             "Mineralstoffe, Wasser und Kohlenstoffdioxid",
-            "Nur Sauerstoff",
-            "Nur neue Tiere"
+            "Sonnenlicht",
+            "Neue Tiere ohne Nahrung"
           ],
           "answer": 0,
-          "why": "Beim Abbau werden unter anderem Mineralstoffe, Wasser und Kohlenstoffdioxid frei."
+          "why": "Im Unterrichtsmaterial werden Kohlenstoffdioxid, Wasser und Mineralstoffe als Abbauprodukte genannt."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Was machen Pflanzen mit den freigesetzten Mineralstoffen?",
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Was machen Pflanzen mit gelösten Mineralstoffen im Boden?",
           "choices": [
-            "Sie nehmen sie über die Wurzeln auf",
-            "Sie fressen sie mit Blättern",
-            "Sie wandeln sie in Tiere um"
-          ],
-          "answer": 0,
-          "why": "Gelöste Mineralstoffe werden über die Wurzeln aufgenommen."
-        },
-        {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Welche Aussage ist korrekt?",
-          "choices": [
-            "Pflanzen nehmen Mineralstoffe aus dem Boden auf",
-            "Pflanzen essen zersetzte Tiere",
-            "Pflanzen sind Destruenten"
+            "Sie nehmen sie mit den Wurzeln auf.",
+            "Sie fressen den Boden.",
+            "Sie geben sie vollständig an Räuber ab."
           ],
           "answer": 0,
           "why": "Pflanzen nehmen gelöste Mineralstoffe über ihre Wurzeln auf."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
+          "topic": "Destruenten & Stoffkreislauf",
           "q": "Warum kann man den Waldboden als biologische Recyclinganlage bezeichnen?",
           "choices": [
-            "Weil aus organischen Resten wieder pflanzenverfügbare Stoffe entstehen",
-            "Weil Müll verbrannt wird",
-            "Weil nur Plastik abgebaut wird"
+            "Aus organischen Resten werden wieder nutzbare Mineralstoffe.",
+            "Weil Plastik im Wald hergestellt wird.",
+            "Weil keine Stoffe umgewandelt werden."
           ],
           "answer": 0,
-          "why": "Stoffe aus totem Material gelangen durch Zersetzung wieder in den Kreislauf."
+          "why": "Stoffe aus abgestorbenem Material werden durch Zersetzer wieder für Pflanzen verfügbar."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Was ist Humus?",
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Was ist Humus laut Unterrichtsmaterial?",
           "choices": [
-            "Stark zersetztes organisches Material, in dem Einzelteile kaum noch erkennbar sind",
-            "Frisches grünes Blatt",
+            "Stark zersetztes organisches Material, in dem Einzelteile kaum erkennbar sind",
+            "Frisches grünes Laub",
             "Nur Sand und Steine"
           ],
           "answer": 0,
-          "why": "Humus entsteht aus stark zersetzten Pflanzen- und Tierresten."
+          "why": "Humus entsteht am Ende fortschreitender Zersetzung organischer Reste."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Welche Rolle spielen Regenwürmer im Waldboden?",
+          "topic": "Destruenten & Stoffkreislauf",
+          "q": "Welche besondere Rolle spielen Regenwürmer im Boden?",
           "choices": [
-            "Sie fressen Pflanzenreste, durchmischen den Boden und schaffen Gänge",
-            "Sie betreiben Fotosynthese",
-            "Sie sind Produzenten"
+            "Sie fressen Pflanzenreste, lockern und durchmischen den Boden.",
+            "Sie betreiben Fotosynthese.",
+            "Sie sind Produzenten."
           ],
           "answer": 0,
-          "why": "Regenwürmer unterstützen Zersetzung und verbessern die Bodenstruktur."
+          "why": "Regenwurmgänge fördern Durchmischung sowie das Eindringen von Luft und Wasser."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Warum sind Regenwurmgänge für Pflanzen günstig?",
-          "choices": [
-            "Luft, Wasser und Wurzeln können leichter tiefer in den Boden gelangen",
-            "Sie verhindern jede Wasseraufnahme",
-            "Sie ersetzen die Wurzeln"
-          ],
-          "answer": 0,
-          "why": "Die Gänge lockern und belüften den Boden."
+          "topic": "Destruenten & Stoffkreislauf",
+          "type": "open",
+          "q": "Ein totes Blatt fällt auf den Waldboden. Beschreibe, was danach mit ihm und den Nährstoffen passiert.",
+          "modelAnswer": "Zersetzer bauen das Blatt schrittweise ab. Dabei werden unter anderem Mineralstoffe frei, die in den Boden gelangen und von Pflanzen über die Wurzeln wieder aufgenommen werden.",
+          "why": "So werden Stoffe im Ökosystem wieder verfügbar."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Welche Reihenfolge ist richtig?",
+          "topic": "Prüfungstraining",
+          "q": "Ein Wald hat weniger Füchse. Welche Folge ist zunächst wahrscheinlich?",
           "choices": [
-            "tote Reste → Destruenten → Mineralstoffe im Boden → Aufnahme durch Pflanzen",
-            "Pflanzen → Mineralstoffe → Destruenten → Sonne",
-            "Mineralstoffe → Füchse → tote Reste → Pflanzen"
+            "Mehr Hasen",
+            "Weniger Hasen",
+            "Sofort weniger Gras durch Füchse"
           ],
           "answer": 0,
-          "why": "So werden Stoffe aus totem organischem Material in den Kreislauf zurückgeführt."
+          "why": "Weniger Räuber bedeutet zunächst weniger Fraßdruck auf die Hasen."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Was geschieht mit abgestorbenen Blättern im Waldboden?",
+          "topic": "Prüfungstraining",
+          "q": "Es gibt deutlich mehr Hasen. Welche indirekte Folge für Pflanzen ist wahrscheinlich?",
           "choices": [
-            "Sie werden schrittweise von verschiedenen Zersetzern abgebaut",
-            "Sie bleiben immer unverändert",
-            "Sie werden direkt zu neuen Blättern"
+            "Mehr Pflanzen werden gefressen.",
+            "Pflanzen werden zu Konsumenten.",
+            "Destruenten verschwinden sofort."
           ],
           "answer": 0,
-          "why": "Viele Bodentiere, Bakterien und Pilze bauen Laub in mehreren Schritten ab."
+          "why": "Mehr Pflanzenfresser erhöhen den Fraßdruck auf Pflanzen."
         },
         {
-          "topic": "Destruenten und Stoffkreislauf",
-          "q": "Warum sind Destruenten für Produzenten wichtig?",
+          "topic": "Prüfungstraining",
+          "q": "Welche Aussage ist fachlich am besten?",
           "choices": [
-            "Weil sie Mineralstoffe wieder verfügbar machen, die Pflanzen aufnehmen können",
-            "Weil sie Sonnenlicht herstellen",
-            "Weil sie Pflanzen bestäuben müssen"
+            "Pflanzen nehmen Mineralstoffe über ihre Wurzeln auf.",
+            "Pflanzen essen die von Destruenten zersetzten Reste.",
+            "Pflanzen ernähren sich von Füchsen."
           ],
           "answer": 0,
-          "why": "Ohne Zersetzung würden viele Nährstoffe in totem Material gebunden bleiben."
+          "why": "Die präzise Formulierung ist: Mineralstoffe werden über die Wurzeln aufgenommen."
         },
         {
-          "topic": "Modelle in der Biologie",
-          "q": "Was ist ein Modell in der Biologie?",
+          "topic": "Prüfungstraining",
+          "q": "Welche Aussage erklärt die Bedeutung der Fotosynthese für Nahrungsketten?",
           "choices": [
-            "Eine vereinfachte Darstellung eines realen Gegenstands, Systems oder Vorgangs",
-            "Immer eine exakte Kopie der Wirklichkeit",
-            "Nur eine Zeichnung ohne Zweck"
+            "Produzenten stellen Biomasse her, die Grundlage weiterer Ernährungsebenen ist.",
+            "Fotosynthese findet nur bei Räubern statt.",
+            "Fotosynthese zersetzt tote Tiere."
           ],
           "answer": 0,
-          "why": "Modelle vereinfachen die Wirklichkeit, um bestimmte Merkmale oder Zusammenhänge zu zeigen."
+          "why": "Pflanzen bauen Biomasse auf; davon ernähren sich Konsumenten direkt oder indirekt."
         },
         {
-          "topic": "Modelle in der Biologie",
-          "q": "Warum verwendet man Modelle?",
+          "topic": "Prüfungstraining",
+          "q": "Welche Antwort enthält Ursache UND Folge?",
           "choices": [
-            "Um bestimmte Strukturen oder Zusammenhänge leichter zu erkennen und zu erklären",
-            "Um die Wirklichkeit vollständig zu ersetzen",
-            "Nur zur Dekoration"
+            "Mehr Hasen bedeuten mehr Nahrung für Füchse; deshalb kann deren Population steigen.",
+            "Füchse sind Tiere.",
+            "Hasen leben in Lebensräumen."
           ],
           "answer": 0,
-          "why": "Modelle helfen beim Verstehen, weil sie Wesentliches hervorheben."
+          "why": "In Erklär- und Begründungsaufgaben sollte Joshua den Zusammenhang zwischen Ursache und Folge ausdrücken."
         },
         {
-          "topic": "Modelle in der Biologie",
-          "q": "Was zeigt ein Skelett-Modell besonders gut?",
+          "topic": "Prüfungstraining",
+          "q": "Welche Formulierung eignet sich am besten für eine Begründung?",
           "choices": [
-            "Knochen und ihre Anordnung",
-            "Hautfarbe und Kleidung",
-            "Alle inneren Organe vollständig"
+            "Dadurch … / deshalb … / weil …",
+            "Irgendwie ist das so.",
+            "Das weiß man einfach."
           ],
           "answer": 0,
-          "why": "Ein Skelettmodell konzentriert sich auf das Knochensystem."
+          "why": "Begründungen verbinden Beobachtung und Ursache sprachlich klar."
         },
         {
-          "topic": "Modelle in der Biologie",
-          "q": "Was ist eine Grenze eines Skelett-Modells?",
-          "choices": [
-            "Muskeln, Haut, Haare und viele Organe fehlen",
-            "Es zeigt zu viele Hautfarben",
-            "Es kann keine Knochen darstellen"
-          ],
-          "answer": 0,
-          "why": "Ein Modell lässt bewusst Merkmale weg und ist daher nie vollständig."
+          "topic": "Prüfungstraining",
+          "type": "open",
+          "q": "Transfer: Die Zahl der Füchse sinkt stark. Erkläre die Folgen für Hasen und Pflanzen.",
+          "modelAnswer": "Die Hasenpopulation kann zunächst steigen, weil weniger Hasen gefressen werden. Dadurch werden mehr Pflanzen gefressen, sodass deren Menge abnehmen kann.",
+          "why": "Die Aufgabe verbindet Räuber-Beute-Beziehung und Nahrungskette."
         },
         {
-          "topic": "Modelle in der Biologie",
-          "q": "Welche Aussage über Modelle ist richtig?",
-          "choices": [
-            "Jedes Modell hat Stärken und Grenzen",
-            "Ein gutes Modell zeigt immer alles",
-            "Modelle dürfen nie vereinfachen"
-          ],
-          "answer": 0,
-          "why": "Modelle sind nützlich, gerade weil sie auswählen und vereinfachen."
-        },
-        {
-          "topic": "Modelle in der Biologie",
-          "q": "Was bedeutet 'vereinfacht' bei einem Modell?",
-          "choices": [
-            "Unwichtige oder nicht benötigte Einzelheiten werden weggelassen",
-            "Das Modell ist automatisch falsch",
-            "Alle Teile werden größer"
-          ],
-          "answer": 0,
-          "why": "Vereinfachung bedeutet, dass nur für die Fragestellung wichtige Merkmale dargestellt werden."
-        },
-        {
-          "topic": "Modelle in der Biologie",
-          "q": "Warum kann ein Modell trotzdem nützlich sein, obwohl etwas fehlt?",
-          "choices": [
-            "Weil es die für die Frage wichtigen Merkmale besonders deutlich zeigen kann",
-            "Weil fehlende Informationen nie wichtig sind",
-            "Weil Modelle immer die Wirklichkeit ersetzen"
-          ],
-          "answer": 0,
-          "why": "Ein Modell wird für einen bestimmten Zweck erstellt und muss nicht alles zeigen."
-        },
-        {
-          "topic": "Modelle in der Biologie",
-          "q": "Welche Frage hilft beim Beurteilen eines Modells?",
-          "choices": [
-            "Was zeigt es gut und was lässt es weg?",
-            "Ist es möglichst bunt?",
-            "Ist es schwer genug?"
-          ],
-          "answer": 0,
-          "why": "Stärken und Grenzen gehören zur Bewertung eines Modells."
-        },
-        {
-          "topic": "Modelle in der Biologie",
-          "q": "Ist ein Mensch auf einem Foto dasselbe wie ein Skelett-Modell?",
-          "choices": [
-            "Nein, beide Darstellungen zeigen unterschiedliche Merkmale",
-            "Ja, beide zeigen genau dasselbe",
-            "Ja, Modelle und Wirklichkeit sind immer identisch"
-          ],
-          "answer": 0,
-          "why": "Ein Skelettmodell hebt Knochen hervor; ein Foto zeigt vor allem äußere Merkmale."
-        },
-        {
-          "topic": "Modelle in der Biologie",
-          "q": "Welche Aussage beschreibt eine Modellgrenze?",
-          "choices": [
-            "Das Modell zeigt nicht alle Merkmale der Wirklichkeit",
-            "Das Modell hilft beim Erklären",
-            "Das Modell hebt wichtige Strukturen hervor"
-          ],
-          "answer": 0,
-          "why": "Eine Grenze ist etwas, das ein Modell nicht oder nur vereinfacht darstellt."
+          "topic": "Prüfungstraining",
+          "type": "open",
+          "q": "Erkläre in 3–4 Sätzen den Stoffkreislauf von Pflanze über Tier und Destruent zurück zur Pflanze.",
+          "modelAnswer": "Pflanzen stellen Biomasse her. Tiere ernähren sich direkt oder indirekt davon. Tote Organismen und Reste werden von Destruenten abgebaut. Mineralstoffe gelangen in den Boden und werden von Pflanzen wieder aufgenommen.",
+          "why": "Damit sind Produzenten, Konsumenten und Destruenten in einem Stoffkreislauf verbunden."
         }
       ]
     },

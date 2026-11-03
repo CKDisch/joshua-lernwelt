@@ -1,0 +1,349 @@
+{
+  "version": 1,
+  "updated": "2026-11-03",
+  "subjects": [
+    {
+      "id": "geographie",
+      "name": "Géographie",
+      "icon": "🌍",
+      "lang": "fr",
+      "topics": [
+        "L'Afrique",
+        "La Terre et ses mouvements",
+        "Latitude et longitude"
+      ],
+      "legacy": [
+        {
+          "title": "Carte interactive de l’Afrique",
+          "url": "https://ckdisch.github.io/explorateur-afrique/"
+        }
+      ],
+      "questions": [
+        {
+          "topic": "La Terre et ses mouvements",
+          "fr": "Combien de temps dure la rotation de la Terre sur elle-même ?",
+          "de": "Wie lange dauert eine Drehung der Erde um sich selbst?",
+          "choices": [
+            "24 heures",
+            "365 jours",
+            "12 mois"
+          ],
+          "answer": 0,
+          "whyFr": "La rotation dure environ 24 heures.",
+          "whyDe": "Die Erdrotation dauert ungefähr 24 Stunden."
+        },
+        {
+          "topic": "La Terre et ses mouvements",
+          "fr": "Quelle est la principale cause des saisons ?",
+          "de": "Was ist die Hauptursache der Jahreszeiten?",
+          "choices": [
+            "L'inclinaison de l'axe terrestre et la révolution autour du Soleil",
+            "La distance variable entre la Terre et le Soleil",
+            "La rotation de la Lune"
+          ],
+          "choicesDe": [
+            "Neigung der Erdachse und Umlauf um die Sonne",
+            "Wechselnder Abstand zwischen Erde und Sonne",
+            "Drehung des Mondes"
+          ],
+          "answer": 0,
+          "whyFr": "L'inclinaison de l'axe terrestre, combinée à la révolution, modifie l'ensoleillement.",
+          "whyDe": "Die Erdachsenneigung zusammen mit dem Umlauf verändert Sonnenstand und Tageslänge."
+        },
+        {
+          "topic": "Latitude et longitude",
+          "fr": "La latitude se mesure à partir de…",
+          "de": "Von wo aus misst man die geografische Breite?",
+          "choices": [
+            "l'équateur",
+            "Greenwich",
+            "du pôle Nord uniquement"
+          ],
+          "choicesDe": [
+            "dem Äquator",
+            "Greenwich",
+            "ausschließlich dem Nordpol"
+          ],
+          "answer": 0,
+          "whyFr": "La latitude indique la position au nord ou au sud de l'équateur.",
+          "whyDe": "Die Breite beschreibt die Lage nördlich oder südlich des Äquators."
+        },
+        {
+          "topic": "Latitude et longitude",
+          "fr": "La longitude se mesure à partir de…",
+          "de": "Von wo aus misst man die geografische Länge?",
+          "choices": [
+            "l'équateur",
+            "du méridien de Greenwich",
+            "du tropique du Cancer"
+          ],
+          "choicesDe": [
+            "dem Äquator",
+            "dem Nullmeridian von Greenwich",
+            "dem nördlichen Wendekreis"
+          ],
+          "answer": 1,
+          "whyFr": "La longitude est mesurée vers l'est ou l'ouest du méridien de Greenwich.",
+          "whyDe": "Die Länge wird östlich oder westlich des Nullmeridians gemessen."
+        }
+      ]
+    },
+    {
+      "id": "deutsch",
+      "name": "Deutsch",
+      "icon": "📖",
+      "lang": "de",
+      "topics": [
+        "Sachtextanalyse",
+        "Sinnabschnitte",
+        "Formulierungen"
+      ],
+      "legacy": [
+        {
+          "title": "Sachtextanalyse-Trainer",
+          "url": "https://ckdisch.github.io/explorateur-afrique/deutsch.html"
+        }
+      ],
+      "questions": [
+        {
+          "topic": "Sachtextanalyse",
+          "q": "In welcher Zeitform verfasst man normalerweise eine Sachtextanalyse?",
+          "choices": [
+            "Präsens",
+            "Präteritum",
+            "Futur II"
+          ],
+          "answer": 0,
+          "why": "Eine Sachtextanalyse wird grundsätzlich im Präsens verfasst."
+        },
+        {
+          "topic": "Formulierungen",
+          "q": "Welche Formulierung ist für einen sachlichen Hauptteil geeignet?",
+          "choices": [
+            "Ich finde den Text super.",
+            "Im zweiten Sinnabschnitt erläutert der Autor die Ursachen.",
+            "Der Text ist irgendwie interessant."
+          ],
+          "answer": 1,
+          "why": "Beschreibe den Text präzise, sachlich und ohne persönliche Wertung."
+        },
+        {
+          "topic": "Sinnabschnitte",
+          "q": "Woran orientiert man sich bei der Einteilung in Sinnabschnitte?",
+          "choices": [
+            "An jedem neuen Satz",
+            "Am Wechsel des Hauptgedankens",
+            "An einer festen Zahl von Zeilen"
+          ],
+          "answer": 1,
+          "why": "Ein neuer Sinnabschnitt beginnt meist bei einem inhaltlich neuen Hauptgedanken."
+        }
+      ]
+    },
+    {
+      "id": "franzoesisch",
+      "name": "Français",
+      "icon": "🇫🇷",
+      "lang": "fr",
+      "topics": [
+        "Description d'une personne",
+        "Lexique",
+        "Dictée"
+      ],
+      "questions": [
+        {
+          "topic": "Description d'une personne",
+          "fr": "Quelle phrase décrit les cheveux ?",
+          "de": "Welcher Satz beschreibt die Haare?",
+          "choices": [
+            "Il a les cheveux bouclés.",
+            "Il a les yeux verts.",
+            "Il est grand."
+          ],
+          "choicesDe": [
+            "Er hat lockige Haare.",
+            "Er hat grüne Augen.",
+            "Er ist groß."
+          ],
+          "answer": 0,
+          "whyFr": "« Les cheveux bouclés » signifie « lockige Haare ».",
+          "whyDe": "« Les cheveux bouclés » bedeutet „lockige Haare“."
+        },
+        {
+          "topic": "Description d'une personne",
+          "fr": "Choisis la phrase correcte.",
+          "de": "Wähle den richtigen Satz.",
+          "choices": [
+            "Elle a les yeux bleus.",
+            "Elle est les yeux bleus.",
+            "Elle ont les yeux bleus."
+          ],
+          "answer": 0,
+          "whyFr": "Pour décrire les yeux, on emploie « avoir » : elle a les yeux bleus.",
+          "whyDe": "Für Augenfarben verwendet man im Französischen „avoir“: elle a les yeux bleus."
+        }
+      ]
+    },
+    {
+      "id": "mathematik",
+      "name": "Mathematik",
+      "icon": "➗",
+      "lang": "de",
+      "topics": [
+        "Bruchrechnung",
+        "Gemischte Zahlen"
+      ],
+      "questions": [
+        {
+          "topic": "Bruchrechnung",
+          "q": "Wie viel ist 1/4 + 1/2?",
+          "choices": [
+            "3/4",
+            "2/6",
+            "1/6"
+          ],
+          "answer": 0,
+          "why": "Auf den Nenner 4 bringen: 1/4 + 2/4 = 3/4."
+        },
+        {
+          "topic": "Gemischte Zahlen",
+          "q": "Welche gemischte Zahl entspricht 17/5?",
+          "choices": [
+            "3 2/5",
+            "2 3/5",
+            "3 1/5"
+          ],
+          "answer": 0,
+          "why": "17 : 5 = 3 Rest 2, also 3 2/5."
+        },
+        {
+          "topic": "Bruchrechnung",
+          "q": "Wie viel ist 5/6 − 1/3?",
+          "choices": [
+            "1/2",
+            "4/3",
+            "2/6"
+          ],
+          "answer": 0,
+          "why": "1/3 = 2/6; deshalb 5/6 − 2/6 = 3/6 = 1/2."
+        }
+      ]
+    },
+    {
+      "id": "biologie",
+      "name": "Biologie",
+      "icon": "🌿",
+      "lang": "de",
+      "languageNote": "Unterrichtssprache noch anhand weiterer Originalmaterialien zu prüfen",
+      "topics": [
+        "Ökosystem Wald",
+        "Produzenten und Konsumenten",
+        "Destruenten"
+      ],
+      "questions": [
+        {
+          "topic": "Ökosystem Wald",
+          "q": "Was ist ein abiotischer Faktor?",
+          "choices": [
+            "Sonnenlicht",
+            "Ein Hase",
+            "Ein Baum"
+          ],
+          "answer": 0,
+          "why": "Abiotisch bedeutet unbelebter Umweltfaktor, zum Beispiel Licht oder Temperatur."
+        },
+        {
+          "topic": "Destruenten",
+          "q": "Welche Aufgabe haben Destruenten?",
+          "choices": [
+            "Sie zersetzen totes organisches Material.",
+            "Sie betreiben immer Fotosynthese.",
+            "Sie erzeugen Sonnenlicht."
+          ],
+          "answer": 0,
+          "why": "Destruenten bauen organisches Material ab; dabei werden Nährstoffe verfügbar."
+        }
+      ]
+    },
+    {
+      "id": "englisch",
+      "name": "English",
+      "icon": "🇬🇧",
+      "lang": "en",
+      "topics": [
+        "Simple Past",
+        "Past Progressive"
+      ],
+      "questions": [
+        {
+          "topic": "Simple Past",
+          "q": "Choose the correct sentence.",
+          "choices": [
+            "Yesterday I went to school.",
+            "Yesterday I goed to school.",
+            "Yesterday I was go to school."
+          ],
+          "answer": 0,
+          "why": "The simple past of 'go' is 'went'."
+        },
+        {
+          "topic": "Past Progressive",
+          "q": "Complete: I ___ TV when the phone rang.",
+          "choices": [
+            "was watching",
+            "watched",
+            "were watching"
+          ],
+          "answer": 0,
+          "why": "Past progressive: was/were + verb-ing; the phone call interrupted the ongoing action."
+        },
+        {
+          "topic": "Simple Past",
+          "q": "Complete: She ___ tired yesterday.",
+          "choices": [
+            "was",
+            "were",
+            "is"
+          ],
+          "answer": 0,
+          "why": "With 'she' in the simple past, use 'was'."
+        }
+      ]
+    },
+    {
+      "id": "musik",
+      "name": "Musik",
+      "icon": "🎵",
+      "lang": "de",
+      "topics": [
+        "C-Dur-Tonleiter",
+        "Notenlesen",
+        "Gitarre"
+      ],
+      "questions": [
+        {
+          "topic": "C-Dur-Tonleiter",
+          "q": "Welche Töne gehören zur C-Dur-Tonleiter?",
+          "choices": [
+            "C D E F G A H C",
+            "C D Es F G As B C",
+            "C D E Fis G A H C"
+          ],
+          "answer": 0,
+          "why": "C-Dur hat keine Vorzeichen: C–D–E–F–G–A–H–C."
+        },
+        {
+          "topic": "Gitarre",
+          "q": "Wie viele Saiten hat eine klassische Gitarre normalerweise?",
+          "choices": [
+            "6",
+            "4",
+            "8"
+          ],
+          "answer": 0,
+          "why": "Die klassische Gitarre hat normalerweise sechs Saiten."
+        }
+      ]
+    }
+  ]
+}

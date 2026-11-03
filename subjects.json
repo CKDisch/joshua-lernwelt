@@ -239,6 +239,7 @@
         "Ökosystem & Umweltfaktoren",
         "Produzenten & Konsumenten",
         "Nahrungsketten & Nahrungsnetze",
+        "Nahrungsnetze lesen",
         "Biomasse & 10-%-Regel",
         "Räuber-Beute & biologisches Gleichgewicht",
         "Populationen",
@@ -361,25 +362,25 @@
         },
         {
           "topic": "Produzenten & Konsumenten",
-          "q": "Gras → Hase → Fuchs: Welche Rolle hat der Hase?",
+          "q": "Buche → Rötelmaus → Waldkauz: Welche Rolle hat die Rötelmaus?",
           "choices": [
             "Konsument 1. Ordnung",
             "Produzent",
             "Konsument 2. Ordnung"
           ],
           "answer": 0,
-          "why": "Der Hase ernährt sich direkt vom Produzenten Gras."
+          "why": "Im Unterrichts-Nahrungsnetz ernährt sich die Rötelmaus von pflanzlicher Nahrung und ist damit Konsument 1. Ordnung."
         },
         {
           "topic": "Produzenten & Konsumenten",
-          "q": "Gras → Hase → Fuchs: Welche Rolle hat der Fuchs?",
+          "q": "Eiche → Eichenwickler → Blaumeise: Welche Rolle hat die Blaumeise?",
           "choices": [
             "Konsument 2. Ordnung",
             "Produzent",
             "Konsument 1. Ordnung"
           ],
           "answer": 0,
-          "why": "Der Fuchs ernährt sich vom Konsumenten 1. Ordnung."
+          "why": "Der Eichenwickler ernährt sich von der Eiche; die Blaumeise frisst den Eichenwickler und steht damit eine Stufe höher."
         },
         {
           "topic": "Produzenten & Konsumenten",
@@ -402,9 +403,9 @@
         {
           "topic": "Produzenten & Konsumenten",
           "type": "open",
-          "q": "Ordne mit Fachbegriffen: Gras → Maus → Eule.",
-          "modelAnswer": "Gras = Produzent, Maus = Konsument 1. Ordnung, Eule = Konsument 2. Ordnung/Endkonsument in dieser Kette.",
-          "why": "Die Maus frisst den Produzenten, die Eule frisst den Konsumenten 1. Ordnung."
+          "q": "Ordne mit Fachbegriffen: Eiche → Eichenwickler → Blaumeise → Sperber.",
+          "modelAnswer": "Eiche = Produzent, Eichenwickler = Konsument 1. Ordnung, Blaumeise = Konsument 2. Ordnung, Sperber = Konsument 3. Ordnung/Endkonsument in dieser Kette.",
+          "why": "Diese Kette stammt aus dem im Unterricht verwendeten Wald-Nahrungsnetz."
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
@@ -443,12 +444,12 @@
           "topic": "Nahrungsketten & Nahrungsnetze",
           "q": "Welche Reihe ist eine sinnvolle Nahrungskette?",
           "choices": [
-            "Gras → Hase → Fuchs",
-            "Fuchs → Gras → Hase",
-            "Hase → Gras → Sonne"
+            "Eiche → Eichenwickler → Blaumeise → Sperber",
+            "Sperber → Eiche → Eichenwickler",
+            "Blaumeise → Eiche → Sperber"
           ],
           "answer": 0,
-          "why": "Der Hase ernährt sich vom Gras, der Fuchs vom Hasen."
+          "why": "Diese Abfolge ist im Unterrichts-Nahrungsnetz dargestellt."
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
@@ -463,14 +464,14 @@
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
-          "q": "Gras → Maus → Fuchs und Samen → Maus → Eule bilden zusammen …",
+          "q": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs bilden zusammen …",
           "choices": [
-            "ein Nahrungsnetz",
+            "einen Ausschnitt aus einem Nahrungsnetz",
             "eine Population",
             "eine Biomassepyramide"
           ],
           "answer": 0,
-          "why": "Die Maus verbindet mehrere Nahrungsketten miteinander."
+          "why": "Die beiden Nahrungsketten sind über Buche und Rötelmaus miteinander verknüpft."
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
@@ -483,8 +484,8 @@
           "topic": "Nahrungsketten & Nahrungsnetze",
           "type": "open",
           "q": "Bilde eine Nahrungskette mit vier Gliedern und benenne die Ernährungsebenen.",
-          "modelAnswer": "Beispiel: Gras (Produzent) → Maus (K1) → Schlange (K2) → Bussard (K3/Endkonsument).",
-          "why": "Andere biologisch sinnvolle Beispiele sind ebenfalls möglich."
+          "modelAnswer": "Eiche (Produzent) → Eichenwickler (K1) → Blaumeise (K2) → Sperber (K3/Endkonsument).",
+          "why": "Dieses Beispiel ist im Unterrichts-Nahrungsnetz dargestellt."
         },
         {
           "topic": "Biomasse & 10-%-Regel",
@@ -879,6 +880,222 @@
           "q": "Erkläre in 3–4 Sätzen den Stoffkreislauf von Pflanze über Tier und Destruent zurück zur Pflanze.",
           "modelAnswer": "Pflanzen stellen Biomasse her. Tiere ernähren sich direkt oder indirekt davon. Tote Organismen und Reste werden von Destruenten abgebaut. Mineralstoffe gelangen in den Boden und werden von Pflanzen wieder aufgenommen.",
           "why": "Damit sind Produzenten, Konsumenten und Destruenten in einem Stoffkreislauf verbunden."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer ist Konsument 1. Ordnung?",
+          "choices": [
+            "Eichenwickler",
+            "Blaumeise",
+            "Sperber"
+          ],
+          "answer": 0,
+          "why": "Der Eichenwickler ernährt sich direkt vom Produzenten Eiche."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer ist Konsument 2. Ordnung?",
+          "choices": [
+            "Blaumeise",
+            "Eichenwickler",
+            "Eiche"
+          ],
+          "answer": 0,
+          "why": "Die Blaumeise frisst den Eichenwickler, also einen Konsumenten 1. Ordnung."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer steht in dieser Kette am Ende?",
+          "choices": [
+            "Sperber",
+            "Eiche",
+            "Eichenwickler"
+          ],
+          "answer": 0,
+          "why": "Der Sperber ist in dieser dargestellten Kette der Endkonsument."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Waldkauz. Welche Rolle hat die Buche?",
+          "choices": [
+            "Produzent",
+            "Konsument 1. Ordnung",
+            "Destruent"
+          ],
+          "answer": 0,
+          "why": "Die Buche ist eine grüne Pflanze und damit Produzent."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Fuchs. Was ist die Rötelmaus hier?",
+          "choices": [
+            "Konsument 1. Ordnung",
+            "Endkonsument",
+            "Produzent"
+          ],
+          "answer": 0,
+          "why": "Sie ernährt sich in dieser Kette von pflanzlicher Biomasse."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs: Was zeigt dieser Ausschnitt?",
+          "choices": [
+            "Eine Beute kann mehreren Räubern als Nahrung dienen.",
+            "Jedes Tier hat genau einen Feind.",
+            "Ein Nahrungsnetz enthält keine Produzenten."
+          ],
+          "answer": 0,
+          "why": "Die Rötelmaus ist hier mit mehreren Räubern verbunden; dadurch werden Nahrungsketten vernetzt."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Buche → Kaninchen und Buche → Rötelmaus: Was haben Kaninchen und Rötelmaus in diesem Ausschnitt gemeinsam?",
+          "choices": [
+            "Beide sind Konsumenten 1. Ordnung.",
+            "Beide sind Produzenten.",
+            "Beide sind Endkonsumenten."
+          ],
+          "answer": 0,
+          "why": "Beide ernähren sich hier direkt von pflanzlicher Biomasse der Buche."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Eiche → Schnecke und Eiche → Eichenwickler: Was zeigt dieser Ausschnitt?",
+          "choices": [
+            "Ein Produzent kann mehreren Konsumenten als Nahrung dienen.",
+            "Eine Eiche ist ein Konsument.",
+            "Schnecke und Eichenwickler sind Räuber."
+          ],
+          "answer": 0,
+          "why": "Die Eiche ist mit mehreren Pflanzenfressern verbunden."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Eiche → Eichenwickler → Blaumeise → Sperber: Wenn es deutlich weniger Eichenwickler gibt, was ist für die Blaumeise zunächst wahrscheinlich?",
+          "choices": [
+            "Eine Nahrungsquelle wird knapper.",
+            "Sie wird zum Produzenten.",
+            "Sie erhält mehr Nahrung aus dieser Beziehung."
+          ],
+          "answer": 0,
+          "why": "Weniger Eichenwickler bedeuten in dieser dargestellten Beziehung weniger verfügbare Beute für die Blaumeise."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Buche → Rötelmaus → Waldkauz: Wenn die Rötelmaus stark abnimmt, welche Folge ist für den Waldkauz in dieser Beziehung plausibel?",
+          "choices": [
+            "Eine Nahrungsquelle wird knapper.",
+            "Er bekommt automatisch mehr Nahrung.",
+            "Die Buche wird zum Räuber."
+          ],
+          "answer": 0,
+          "why": "Die Rötelmaus ist in diesem Ausschnitt Beute des Waldkauzes."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Welche der folgenden Ketten stammt aus dem Unterrichts-Nahrungsnetz?",
+          "choices": [
+            "Eiche → Eichenwickler → Blaumeise → Sperber",
+            "Gras → Zebra → Löwe",
+            "Alge → Hering → Hai"
+          ],
+          "answer": 0,
+          "why": "Die erste Kette ist im Wald-Nahrungsnetz des Unterrichtsmaterials enthalten."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "q": "Welche weitere Kette stammt aus dem Unterrichts-Nahrungsnetz?",
+          "choices": [
+            "Buche → Rötelmaus → Waldkauz",
+            "Mais → Huhn → Mensch",
+            "Gras → Antilope → Gepard"
+          ],
+          "answer": 0,
+          "why": "Buche, Rötelmaus und Waldkauz sind im Unterrichts-Nahrungsnetz entsprechend verbunden."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "type": "open",
+          "q": "Erkläre an Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs, warum daraus ein Nahrungsnetz-Ausschnitt wird.",
+          "modelAnswer": "Die beiden Nahrungsketten sind miteinander verbunden, weil sie Buche und Rötelmaus gemeinsam haben. Die Rötelmaus dient dabei mehreren Räubern als Nahrung.",
+          "why": "Ein Nahrungsnetz entsteht durch miteinander verknüpfte Nahrungsketten."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "type": "open",
+          "q": "Bestimme die Ernährungsebenen in Eiche → Eichenwickler → Blaumeise → Sperber.",
+          "modelAnswer": "Eiche: Produzent; Eichenwickler: Konsument 1. Ordnung; Blaumeise: Konsument 2. Ordnung; Sperber: Konsument 3. Ordnung/Endkonsument.",
+          "why": "Die Ernährungsebene ergibt sich daraus, wovon sich das jeweilige Lebewesen ernährt."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "type": "open",
+          "q": "Nenne zwei verschiedene Nahrungsketten aus diesem Unterrichtsausschnitt: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
+          "modelAnswer": "1. Buche → Rötelmaus → Waldkauz. 2. Buche → Rötelmaus → Fuchs.",
+          "why": "Beide Ketten sind über dieselben ersten beiden Glieder verknüpft."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Nahrungsnetze lesen",
+          "type": "open",
+          "q": "Vergleiche diese beiden Ketten: Eiche → Eichenwickler → Blaumeise → Sperber und Buche → Rötelmaus → Waldkauz. Was ist gleich, was ist verschieden?",
+          "modelAnswer": "Beide beginnen mit einem Produzenten und enthalten Konsumenten verschiedener Ordnung. Die erste Kette hat vier Glieder, die zweite drei, und es kommen unterschiedliche Arten vor.",
+          "why": "So wird das Prinzip der Ernährungsebenen unabhängig von einem einzigen Standardbeispiel geübt."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Eiche → Eichenwickler → Blaumeise → Sperber: Welches Lebewesen ist Produzent?",
+          "choices": [
+            "Eiche",
+            "Blaumeise",
+            "Sperber"
+          ],
+          "answer": 0,
+          "why": "Die Eiche ist eine grüne Pflanze und stellt durch Fotosynthese Biomasse her."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Produzenten & Konsumenten",
+          "q": "Buche → Rötelmaus → Fuchs: Welches Tier ist Konsument 2. Ordnung?",
+          "choices": [
+            "Fuchs",
+            "Rötelmaus",
+            "Buche"
+          ],
+          "answer": 0,
+          "why": "Der Fuchs ernährt sich in dieser Kette vom Konsumenten 1. Ordnung."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Prüfungstraining",
+          "type": "open",
+          "q": "Transfer aus dem Unterrichts-Nahrungsnetz: Die Rötelmaus nimmt stark ab. Erkläre eine mögliche Folge für Waldkauz und Fuchs.",
+          "modelAnswer": "Für Waldkauz und Fuchs wird die Rötelmaus als Nahrungsquelle knapper. Dadurch kann sich der Nahrungsmangel auf beide Räuber auswirken.",
+          "why": "Hier sollst du aus einem Nahrungsnetz mehrere Beziehungen gleichzeitig berücksichtigen."
+        },
+        {
+          "_source": "waldnetz_unterricht",
+          "topic": "Prüfungstraining",
+          "type": "open",
+          "q": "Eiche → Eichenwickler → Blaumeise → Sperber: Erkläre, was mit der Blaumeise passieren könnte, wenn es deutlich weniger Eichenwickler gibt.",
+          "modelAnswer": "Für die Blaumeise wird eine Nahrungsquelle knapper. Dadurch kann ihre Population unter sonst gleichen Bedingungen abnehmen oder sie muss auf andere Nahrung ausweichen.",
+          "why": "Das ist eine Transferfrage aus einer im Unterricht dargestellten Nahrungskette."
         }
       ]
     },

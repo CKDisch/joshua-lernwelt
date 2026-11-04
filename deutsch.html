@@ -390,6 +390,17 @@ Object.assign(Q.errors[47],{"q":"Ausgangstext: „Besondere Strukturen an den Eu
 Object.assign(Q.errors[59],{"q":"Ausgangstext: „Helle Dächer reflektieren einen Teil des Sonnenlichts und können dadurch die Erwärmung von Gebäuden verringern.“ Überarbeite den fehlerhaften Analyseentwurf: „Die Dächer reflektieren Licht wodurch die Häuser können kühler bleiben und der Autor hat das beschrieben.“","model":"Der Autor beschreibt, dass helle Dächer einen Teil des Sonnenlichts reflektieren, wodurch die Erwärmung von Gebäuden verringert werden kann."});
 Object.assign(Q.phrases[50],{"q":"Die Autorin beschreibt im ersten Sinnabschnitt ihres Sachtextes, dass manche Insekten von künstlichem Licht angezogen werden. Schreibe einen vollständigen Analysesatz über diesen Textanfang."});
 Object.assign(Q.sections[31],{"q":"Die folgenden Sätze stammen aus einem Abschnitt über das Stadtklima. Ordne sie so, dass zuerst der Hauptgedanke genannt wird und danach zunächst Schatten und schließlich Verdunstung als zwei Beispiele folgen. Andere Reihenfolgen könnten bei einer anderen Gliederungsabsicht ebenfalls sinnvoll sein."});
+// Abschließende inhaltliche Korrekturen: Wirkungen, Einschränkungen, Quellenbezug.
+Q.phrases[15].q="Der Sachtext erläutert, dass Dachbegrünung durch Schatten und Verdunstung zur geringeren Erwärmung eines Gebäudes beitragen kann. Anschließend wird ein einzelner Dachgarten als Beispiel dafür genannt. Welche Aussage beschreibt die Funktion dieses Beispiels sachlich, ohne zu verallgemeinern?";
+Q.phrases[13].q="Die Autorin erläutert im ersten Sinnabschnitt Ursachen nächtlicher Lichtverschmutzung. Im zweiten Abschnitt beschreibt sie mögliche Auswirkungen auf Tiere. Welche Formulierung passt zur Einleitung des zweiten Sinnabschnitts?";
+Q.phrases[22].q="Der Autor beginnt mit einer Beobachtung zu Pflanzenteilen, die an Stoff haften bleiben. Danach erklärt er, wie kleine Haken diese Haftwirkung ermöglichen. Welche Beschreibung des Textaufbaus trifft zu?";
+Q.errors[35].q="Mini-Text: „Bäume spenden Schatten und über ihre Blätter verdunstet Wasser. Beide Vorgänge können die Umgebung abkühlen.“ Welche Zusammenfassungen geben beide Vorgänge und ihre Wirkung richtig wieder?";
+Q.errors[35].opts=["Bäume können durch Schatten und Verdunstung die Umgebung abkühlen.","Bäume spenden ausschließlich Schatten.","Der Abschnitt erläutert zwei Möglichkeiten der Kühlung durch Bäume.","Bäume erhöhen immer die Temperatur."];
+Q.errors[35].correct=[0,2];
+Q.errors[35].why="Eine treffende Zusammenfassung nennt die beiden Vorgänge und ihre mögliche Kühlwirkung. Übertreibungen und ausgelassene Informationen sind ungeeignet.";
+Q.connectors[2].q="Übe „weil“: In diesem Beispiel meiden manche Insekten einen hell beleuchteten Bereich. Verbinde Ursache und Wirkung: Manche Insekten meiden diesen Bereich, ___ dort nachts sehr helle Lampen leuchten.";
+Q.connectors[28].opts[2]="Die Beleuchtung wird verringert, wodurch manche Tiere weniger gestört werden können.";
+Q.connectors[28].why="„Wodurch“ leitet einen Nebensatz ein. Eine mögliche Wirkung darf nicht als sichere Folge für alle Tiere dargestellt werden.";
 const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden",analysis:"Sachtextanalyse üben"};
 const STORE="joshua-deutsch-focus-v2";
 let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}

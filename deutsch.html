@@ -204,7 +204,7 @@ function recordSharedDeutsch(m,index,correct){
 }
 migrateOldDeutschProgress();
 saveSkillIndex();
-let mode="phrases",pos=0,choice=null,checked=false,typed="",placed=[],pairs={},session={};
+let mode="phrases",pos=0,choice=null,checked=false,typed="",placed=[],pairs={},session={},selfAssessed=false;
 const p=document.getElementById("practice");
 function readLast(m){try{return JSON.parse(sessionStorage.getItem("joshua-deutsch-last-"+m)||"[]")}catch(e){return []}}
 function shuffle(xs){let a=xs.slice();for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
@@ -224,7 +224,7 @@ function newRound(m){
    selected.push(...pick);
   }
   session[m]=shuffle(selected);
-  pos=0;choice=null;checked=false;typed="";placed=[];pairs={};
+  pos=0;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false;
   try{sessionStorage.setItem("joshua-deutsch-last-"+m,JSON.stringify(selected))}catch(e){}
   return;
  }
@@ -254,6 +254,7 @@ function escapeHTML(x){return String(x).replace(/[&<>"']/g,c=>({"&":"&amp;","<":
 function norm(x){return String(x).trim().toLocaleLowerCase("de").replace(/[.!?]+$/g,"").replace(/\s+/g," ")}
 function ready(x){
  let k=x.kind||"choice";
+ if(k==="rewrite")return typed.trim().length>=12;
  if(k==="gap")return typed.trim().length>0;
  if(k==="order")return placed.length>0;
  if(k==="pair")return Object.keys(pairs).length===x.left.length;
@@ -262,6 +263,7 @@ function ready(x){
 }
 function isCorrect(x){
  let k=x.kind||"choice";
+ if(k==="rewrite")return false;
  if(k==="gap")return x.answers.some(a=>norm(a)===norm(typed));
  if(k==="order")return JSON.stringify(placed)===JSON.stringify(x.solution);
  if(k==="pair")return x.solution.every((v,i)=>pairs[i]===v);
@@ -270,13 +272,14 @@ function isCorrect(x){
 }
 function expected(x){
  let k=x.kind||"choice";
+ if(k==="rewrite")return x.model;
  if(k==="gap")return x.answers.join(" / ");
  if(k==="order")return x.solution.map(i=>x.parts[i]).join(" ");
  if(k==="pair")return x.left.map((l,i)=>l+" → "+x.right[x.solution[i]]).join("; ");
  if(k==="multi")return x.correct.map(i=>x.opts[i]).join("; ");
  return x.opts[x.a];
 }
-function format(x){return ({gap:"Selbst einsetzen",order:"Satzteile ordnen",pair:"Zuordnen",multi:"Mehrfachauswahl",choice:"Entscheiden"})[x.kind||"choice"]}
+function format(x){return ({rewrite:"Selbst formulieren",gap:"Selbst einsetzen",order:"Satzteile ordnen",pair:"Zuordnen",multi:"Mehrfachauswahl",choice:"Entscheiden"})[x.kind||"choice"]}
 function render(){
  document.querySelectorAll("[data-mode]").forEach(b=>b.classList.toggle("active",b.dataset.mode===mode));
  if(!session[mode])newRound(mode);
@@ -284,6 +287,8 @@ function render(){
  let field="";
  if(kind==="choice"||kind==="multi"){
   field='<p class="small muted">'+(kind==="multi"?"Mehrere Antworten können richtig sein.":"Wähle eine Antwort.")+'</p>'+x.opts.map((o,i)=>'<button data-opt="'+i+'" class="answer '+(kind==="multi"?(Array.isArray(choice)&&choice.includes(i)?"selected":""):(choice===i?"selected":""))+'" '+(checked?"disabled":"")+'>'+escapeHTML(o)+'</button>').join("");
+ }else if(kind==="rewrite"){
+  field='<label for="rewrite-input" class="small muted">Schreibe einen eigenen Satz. Danach kannst du ihn mit der Musterlösung vergleichen.</label><textarea id="rewrite-input" class="inputbox" rows="3" '+(checked?'disabled':'')+' placeholder="Dein Satz …">'+escapeHTML(typed)+'</textarea>';
  }else if(kind==="gap"){
   field='<label for="typed" class="small muted">Schreibe das fehlende Wort selbst:</label><input id="typed" class="inputbox" autocomplete="off" '+(checked?"disabled":"")+' value="'+escapeHTML(typed)+'" placeholder="Deine Antwort …">';
  }else if(kind==="order"){
@@ -291,20 +296,25 @@ function render(){
  }else if(kind==="pair"){
   field='<p class="small muted">Wähle in jeder Zeile die passende Ergänzung.</p>'+x.left.map((l,i)=>'<div class="pairrow"><div>'+escapeHTML(l)+'</div><select data-pair="'+i+'" '+(checked?"disabled":"")+'><option value="">Zuordnen …</option>'+x.right.map((v,j)=>'<option value="'+j+'" '+(pairs[i]===j?"selected":"")+'>'+escapeHTML(v)+'</option>').join("")+'</select></div>').join("");
  }
- let result=checked?'<div class="feedback '+(isCorrect(x)?"":"bad")+'"><strong>'+(isCorrect(x)?"Richtig!":"Noch nicht richtig.")+'</strong><div class="small">Muster: '+escapeHTML(expected(x))+'</div><p>'+escapeHTML(x.why)+'</p></div>':"";
+ let result=checked?(kind==="rewrite"?
+ '<div class="feedback"><strong>Musterlösung zur Orientierung</strong><p>'+escapeHTML(x.model)+'</p><p>'+escapeHTML(x.why)+'</p><strong>Prüfe deinen Satz:</strong><ul>'+x.criteria.map(z=>'<li>'+escapeHTML(z)+'</li>').join("")+'</ul><p class="small muted">Andere korrekte Formulierungen sind möglich. Bewerte deine Antwort nach dem Vergleich.</p>'+(selfAssessed?'':'<div class="row"><button class="secondary" id="self-no">↻ Noch üben</button><button class="primary" id="self-yes">✓ Das konnte ich</button></div>')+'</div>':
+ '<div class="feedback '+(isCorrect(x)?"":"bad")+'"><strong>'+(isCorrect(x)?"Richtig!":"Noch nicht richtig.")+'</strong><div class="small">Muster: '+escapeHTML(expected(x))+'</div><p>'+escapeHTML(x.why)+'</p></div>'):"";
  p.innerHTML='<div class="row"><h2>'+KEYS[mode]+'</h2><span class="small muted">Aufgabe '+(pos+1)+' von '+ids.length+'</span></div><span class="tag">'+escapeHTML(x.skill)+'</span> <span class="tag">'+format(x)+'</span><div class="progress"><div style="width:'+((pos+1)/ids.length*100)+'%"></div></div>'+
  (mode==="sections"?'<p class="small muted">Wichtig ist der Hauptgedanke; bei längeren Texten können mehrere gut begründete Gliederungen möglich sein.</p>':"")+
  '<div class="question">'+escapeHTML(x.q).replace("___",'<b style="color:var(--accent)">______</b>')+'</div>'+field+result+
- '<div class="row" style="margin-top:18px"><button id="back" class="secondary">← Zurück</button><div style="display:flex;gap:9px;flex-wrap:wrap"><button id="newround" class="secondary">Neue Runde ↻</button><button id="forward" class="primary" '+(!checked&&!ready(x)?"disabled":"")+'>'+(checked?(pos===ids.length-1?"Neue Runde →":"Nächste Aufgabe →"):"Prüfen ✓")+'</button></div></div>';
+ '<div class="row" style="margin-top:18px"><button id="back" class="secondary">← Zurück</button><div style="display:flex;gap:9px;flex-wrap:wrap"><button id="newround" class="secondary">Neue Runde ↻</button><button id="forward" class="primary" '+((!checked&&!ready(x))||(checked&&kind==="rewrite"&&!selfAssessed)?"disabled":"")+'>'+(checked?(pos===ids.length-1?"Neue Runde →":"Nächste Aufgabe →"):"Prüfen ✓")+'</button></div></div>';
  p.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>{let i=+b.dataset.opt;if(kind==="multi"){let a=Array.isArray(choice)?choice.slice():[];choice=a.includes(i)?a.filter(v=>v!==i):a.concat(i)}else choice=i;render()});
- let inp=p.querySelector("#typed");if(inp)inp.oninput=()=>{typed=inp.value;p.querySelector("#forward").disabled=!ready(x)};
+ let inp=p.querySelector("#typed")||p.querySelector("#rewrite-input");if(inp)inp.oninput=()=>{typed=inp.value;p.querySelector("#forward").disabled=!ready(x)};
+ p.querySelector("#self-yes")?.addEventListener("click",()=>scoreRewrite(true));
+ p.querySelector("#self-no")?.addEventListener("click",()=>scoreRewrite(false));
  p.querySelectorAll("[data-part]").forEach(b=>b.onclick=()=>{placed.push(+b.dataset.part);render()});
  p.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{placed=placed.filter(i=>i!==+b.dataset.remove);render()});
  p.querySelectorAll("[data-pair]").forEach(b=>b.onchange=()=>{if(b.value==="")delete pairs[+b.dataset.pair];else pairs[+b.dataset.pair]=+b.value;p.querySelector("#forward").disabled=!ready(x)});
- p.querySelector("#back").onclick=()=>{pos=Math.max(0,pos-1);choice=null;checked=false;typed="";placed=[];pairs={};render()};
+ p.querySelector("#back").onclick=()=>{pos=Math.max(0,pos-1);choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false;render()};
  p.querySelector("#newround").onclick=()=>{newRound(mode);render()};
+ function scoreRewrite(ok){if(selfAssessed)return;selfAssessed=true;const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);render()}
  p.querySelector("#forward").onclick=()=>{
-  if(!checked){checked=true;const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];const ok=isCorrect(x);history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);render()}
+  if(!checked){checked=true;if(kind!=="rewrite"){const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];const ok=isCorrect(x);history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok)}render()}
   else{if(pos===ids.length-1)newRound(mode);else{pos++;choice=null;checked=false;typed="";placed=[];pairs={}}render()}
  };
  renderProfile();

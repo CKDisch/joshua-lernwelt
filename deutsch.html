@@ -209,6 +209,24 @@ function readLast(m){try{return JSON.parse(sessionStorage.getItem("joshua-deutsc
 function shuffle(xs){let a=xs.slice();for(let i=a.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function newRound(m){
  const old=readLast(m),all=Q[m].map((x,i)=>i);
+ if(m==="connectors"){
+  const selected=[];
+  for(const word of ["weil","sodass","wodurch","und"]){
+   const options=all.filter(i=>Q[m][i].skill===word);
+   const first=shuffle(options.filter(i=>!old.includes(i)));
+   const repeat=shuffle(options.filter(i=>old.includes(i)));
+   const pool=first.concat(repeat);
+   const nonChoice=pool.filter(i=>(Q[m][i].kind||"choice")!=="choice");
+   const choicePool=pool.filter(i=>(Q[m][i].kind||"choice")==="choice");
+   const pick=nonChoice.slice(0,2).concat(choicePool.slice(0,1));
+   if(pick.length<3)pick.push(...pool.filter(i=>!pick.includes(i)).slice(0,3-pick.length));
+   selected.push(...pick);
+  }
+  session[m]=shuffle(selected);
+  pos=0;choice=null;checked=false;typed="";placed=[];pairs={};
+  try{sessionStorage.setItem("joshua-deutsch-last-"+m,JSON.stringify(selected))}catch(e){}
+  return;
+ }
  const fresh=shuffle(all.filter(i=>!old.includes(i))),recent=shuffle(all.filter(i=>old.includes(i)));
  const diverse=a=>a.filter(i=>(Q[m][i].kind||"choice")!=="choice");
  const classic=a=>a.filter(i=>(Q[m][i].kind||"choice")==="choice");

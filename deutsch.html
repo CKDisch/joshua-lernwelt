@@ -239,7 +239,7 @@ function newRound(m){
    if(idx>=source.length){source=takeNew?mc:nov;idx=takeNew?c++:n++}
    if(idx<source.length&&!seen.has(source[idx])){picked.push(source[idx]);seen.add(source[idx])}
  }
- session[m]=picked;pos=0;choice=null;checked=false;typed="";placed=[];pairs={};
+ session[m]=picked;pos=0;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false;
  try{sessionStorage.setItem("joshua-deutsch-last-"+m,JSON.stringify(picked))}catch(e){}
 }
 function save(){try{localStorage.setItem(STORE,JSON.stringify(history))}catch(e){}}
@@ -315,7 +315,7 @@ function render(){
  function scoreRewrite(ok){if(selfAssessed)return;selfAssessed=true;const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);render()}
  p.querySelector("#forward").onclick=()=>{
   if(!checked){checked=true;if(kind!=="rewrite"){const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];const ok=isCorrect(x);history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok)}render()}
-  else{if(pos===ids.length-1)newRound(mode);else{pos++;choice=null;checked=false;typed="";placed=[];pairs={}}render()}
+  else{if(pos===ids.length-1)newRound(mode);else{pos++;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false}render()}
  };
  renderProfile();
 }

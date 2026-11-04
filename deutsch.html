@@ -253,6 +253,10 @@ Object.assign(Q.phrases[18],{"q":"Welche Formulierung trennt eine sachliche Kern
 Object.assign(Q.errors[2],{"q":"Korrigiere die Wortstellung und erhalte die Begründung: „Die Eule fliegt leise, weil dämpfen ihre Federn Geräusche.“"});
 Object.assign(Q.sections[31],{"q":"Ordne die Sätze wie vorgegeben: erst der allgemeine Hauptgedanke, dann Schatten und zuletzt Verdunstung.","why":"Die Reihenfolge wurde ausdrücklich vorgegeben. Ohne diese Vorgabe wären die beiden erläuternden Beispiele auch in umgekehrter Reihenfolge sinnvoll."});
 Object.assign(Q.errors[29],{"q":"Verwende „sodass“ und ergänze das Wort: Die Bäume spenden Schatten, ___ die Straße kühler bleibt."});
+// Fachliche Präzisierung und neutrale Attribuierung.
+Object.assign(Q.sections[1],{"q":"Spechte klopfen mit ihrem Schnabel gegen Baumstämme. Forschende untersuchen dieses Verhalten, um mehr über die dabei wirkenden Kräfte zu erfahren.","why":"Der Schwerpunkt wechselt von der Beschreibung eines Tierverhaltens zur wissenschaftlichen Untersuchung."});
+Object.assign(Q.sections[19],{"q":"Einige Termitenhügel besitzen verzweigte Gänge, durch die Luft strömen kann. Architekten prüfen, ob sich ähnliche Luftwege für die Belüftung von Gebäuden nutzen lassen.","why":"Der Schwerpunkt wechselt von einer natürlichen Struktur zur möglichen technischen Anwendung. Nicht alle Termitenarten bauen solche Hügel."});
+Object.assign(Q.phrases[41],{"q":"Die Autorin vertritt die Auffassung, jede Stadt solle alle Straßenlampen abschalten. Gib diese Position wieder, ohne sie als gesicherte Tatsache darzustellen.","why":"„Stellt die Behauptung auf, dass …“ kennzeichnet eine Aussage der Autorin. Das bedeutet nicht, dass sie durch den Text bewiesen ist."});
 const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden"};
 const STORE="joshua-deutsch-focus-v2";
 let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}

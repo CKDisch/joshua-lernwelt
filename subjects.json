@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "subjects": [
     {
       "id": "geographie",
@@ -4536,7 +4536,7 @@
         {
           "topic": "Ökosystem & Umweltfaktoren",
           "type": "open",
-          "q": "Erkläre in einem Satz den Unterschied zwischen biotisch und abiotisch.",
+          "q": "Erkläre in einem Satz den Unterschied zwischen biotischen und abiotischen Umweltfaktoren.",
           "modelAnswer": "Biotische Faktoren gehen von Lebewesen aus; abiotische Faktoren gehören zur unbelebten Umwelt.",
           "why": "Entscheidend ist: belebt bzw. durch Lebewesen verursacht versus unbelebte Umwelt."
         },
@@ -4553,7 +4553,7 @@
         },
         {
           "topic": "Produzenten & Konsumenten",
-          "q": "Welches Lebewesen ist in einer Nahrungskette meist Produzent?",
+          "q": "Welches Lebewesen ist in einer Nahrungskette typischerweise ein Produzent?",
           "choices": [
             "Gras",
             "Hase",
@@ -4604,7 +4604,7 @@
             "Immer ein Destruent"
           ],
           "answer": 0,
-          "why": "Ein Endkonsument steht am Ende der betrachteten Nahrungskette und wird dort nicht mehr weitergefressen."
+          "why": "Ein Endkonsument steht am Ende der jeweils betrachteten Nahrungskette."
         },
         {
           "topic": "Produzenten & Konsumenten",
@@ -4616,7 +4616,7 @@
         {
           "topic": "Produzenten & Konsumenten",
           "type": "open",
-          "q": "Ordne mit Fachbegriffen: Eiche → Eichenwickler → Blaumeise → Sperber.",
+          "q": "Ordne den Lebewesen in dieser Nahrungskette die passenden Fachbegriffe zu: Eiche → Eichenwickler → Blaumeise → Sperber.",
           "modelAnswer": "Eiche = Produzent, Eichenwickler = Konsument 1. Ordnung, Blaumeise = Konsument 2. Ordnung, Sperber = Konsument 3. Ordnung/Endkonsument in dieser Kette.",
           "why": "Diese Kette stammt aus dem im Unterricht verwendeten Wald-Nahrungsnetz."
         },
@@ -4666,22 +4666,22 @@
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
-          "q": "Welche Aussage zum Pfeil in einer Nahrungskette passt?",
+          "q": "Welche Aussage zur Bedeutung der Pfeile in einer Nahrungskette ist richtig?",
           "choices": [
-            "Er zeigt vom Nahrungsorganismus zum Verbraucher.",
-            "Er zeigt immer vom Räuber zur Beute.",
-            "Er zeigt nur die Bewegungsrichtung."
+            "Der Pfeil zeigt vom Nahrungsorganismus zum Verbraucher und damit die Richtung des Stoff- und Energieflusses.",
+            "Der Pfeil zeigt immer vom Räuber zur Beute.",
+            "Der Pfeil zeigt nur die Bewegungsrichtung eines Tieres."
           ],
           "answer": 0,
           "why": "Der Pfeil kann als Richtung des Stoff- und Energieflusses gelesen werden: von der Nahrung zum Verbraucher."
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
-          "q": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs bilden zusammen …",
+          "q": "Welche Struktur entsteht, wenn die Nahrungsketten Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs miteinander verknüpft werden?",
           "choices": [
-            "einen Ausschnitt aus einem Nahrungsnetz",
-            "eine Population",
-            "eine Biomassepyramide"
+            "Ein Ausschnitt aus einem Nahrungsnetz",
+            "Eine Population",
+            "Eine Biomassepyramide"
           ],
           "answer": 0,
           "why": "Die beiden Nahrungsketten sind über Buche und Rötelmaus miteinander verknüpft."
@@ -4702,14 +4702,14 @@
         },
         {
           "topic": "Biomasse & 10-%-Regel",
-          "q": "Was bedeutet Biomasse im Zusammenhang mit einer Ernährungsebene?",
+          "q": "Was bedeutet der Begriff Biomasse im Zusammenhang mit einer Ernährungsebene?",
           "choices": [
-            "Die Masse der lebenden organischen Stoffe",
+            "Die Gesamtmasse der lebenden organischen Substanz auf dieser Ernährungsebene",
             "Nur die Masse der Pflanzenwurzeln",
             "Die Menge an Wasser im Boden"
           ],
           "answer": 0,
-          "why": "Biomasse ist die Masse der lebenden bzw. aufgebauten organischen Stoffe."
+          "why": "Biomasse bezeichnet die Masse der lebenden organischen Substanz einer betrachteten Gruppe oder Ernährungsebene."
         },
         {
           "topic": "Biomasse & 10-%-Regel",
@@ -4724,7 +4724,7 @@
         },
         {
           "topic": "Biomasse & 10-%-Regel",
-          "q": "1000 kg Produzenten-Biomasse: Wie viel erreichen ungefähr K1?",
+          "q": "Die Produzenten besitzen 1000 kg Biomasse. Wie viel Biomasse steht nach der 10-%-Regel ungefähr den Konsumenten 1. Ordnung zur Verfügung?",
           "choices": [
             "100 kg",
             "10 kg",
@@ -4735,7 +4735,7 @@
         },
         {
           "topic": "Biomasse & 10-%-Regel",
-          "q": "100 kg Biomasse bei K1: Wie viel erreichen ungefähr K2?",
+          "q": "Die Konsumenten 1. Ordnung besitzen 100 kg Biomasse. Wie viel Biomasse steht ungefähr den Konsumenten 2. Ordnung zur Verfügung?",
           "choices": [
             "10 kg",
             "1 kg",
@@ -4746,7 +4746,7 @@
         },
         {
           "topic": "Biomasse & 10-%-Regel",
-          "q": "10 kg Biomasse bei K2: Wie viel erreichen ungefähr K3?",
+          "q": "Die Konsumenten 2. Ordnung besitzen 10 kg Biomasse. Wie viel Biomasse steht ungefähr den Konsumenten 3. Ordnung zur Verfügung?",
           "choices": [
             "1 kg",
             "5 kg",
@@ -4841,14 +4841,14 @@
         },
         {
           "topic": "Räuber-Beute & biologisches Gleichgewicht",
-          "q": "Was bedeutet biologisches Gleichgewicht hier?",
+          "q": "Was bedeutet biologisches Gleichgewicht bei einer Räuber-Beute-Beziehung?",
           "choices": [
-            "Die Populationsgrößen schwanken, ohne dass eine Art dauerhaft unbegrenzt zunimmt.",
-            "Es gibt immer exakt gleich viele Räuber und Beutetiere.",
-            "Alle Tiere wiegen gleich viel."
+            "Die Populationsgrößen schwanken wechselseitig und bleiben langfristig in einem dynamischen Gleichgewicht.",
+            "Es gibt immer genau gleich viele Räuber und Beutetiere.",
+            "Die Anzahl beider Populationen verändert sich nie."
           ],
           "answer": 0,
-          "why": "Gleichgewicht bedeutet nicht gleiche Anzahl, sondern ein dynamisches gegenseitiges Einpendeln."
+          "why": "Biologisches Gleichgewicht bedeutet hier kein starres Gleichsein, sondern ein dynamisches Schwanken der Populationsgrößen."
         },
         {
           "topic": "Räuber-Beute & biologisches Gleichgewicht",
@@ -4903,7 +4903,7 @@
         },
         {
           "topic": "Populationen",
-          "q": "Was bedeutet Populationsgröße?",
+          "q": "Was bedeutet der Begriff Populationsgröße?",
           "choices": [
             "Die Anzahl der Individuen einer Population",
             "Das Gewicht des größten Tieres",
@@ -4965,11 +4965,11 @@
         },
         {
           "topic": "Destruenten & Stoffkreislauf",
-          "q": "Was machen Pflanzen mit gelösten Mineralstoffen im Boden?",
+          "q": "Wie gelangen gelöste Mineralstoffe aus dem Boden in die Pflanze?",
           "choices": [
-            "Sie nehmen sie mit den Wurzeln auf.",
-            "Sie fressen den Boden.",
-            "Sie geben sie vollständig an Räuber ab."
+            "Sie werden über die Wurzeln aufgenommen.",
+            "Sie werden vom Blatt gefressen.",
+            "Sie gelangen nur durch Räuber in die Pflanze."
           ],
           "answer": 0,
           "why": "Pflanzen nehmen gelöste Mineralstoffe über ihre Wurzeln auf."
@@ -5016,7 +5016,7 @@
         },
         {
           "topic": "Prüfungstraining",
-          "q": "Ein Wald hat weniger Füchse. Welche Folge ist zunächst wahrscheinlich?",
+          "q": "In einem Wald nimmt die Zahl der Füchse ab. Welche Folge ist zunächst wahrscheinlich?",
           "choices": [
             "Mehr Hasen",
             "Weniger Hasen",
@@ -5060,7 +5060,7 @@
         },
         {
           "topic": "Prüfungstraining",
-          "q": "Welche Antwort enthält Ursache UND Folge?",
+          "q": "Welche Antwort beschreibt sowohl eine Ursache als auch eine Folge?",
           "choices": [
             "Mehr Hasen bedeuten mehr Nahrung für Füchse; deshalb kann deren Population steigen.",
             "Füchse sind Tiere.",
@@ -5097,7 +5097,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer ist Konsument 1. Ordnung?",
+          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist Konsument 1. Ordnung?",
           "choices": [
             "Eichenwickler",
             "Blaumeise",
@@ -5109,7 +5109,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer ist Konsument 2. Ordnung?",
+          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist Konsument 2. Ordnung?",
           "choices": [
             "Blaumeise",
             "Eichenwickler",
@@ -5121,7 +5121,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Wer steht in dieser Kette am Ende?",
+          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist hier der Endkonsument?",
           "choices": [
             "Sperber",
             "Eiche",
@@ -5133,7 +5133,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Waldkauz. Welche Rolle hat die Buche?",
+          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Waldkauz. Welche Rolle hat die Buche?",
           "choices": [
             "Produzent",
             "Konsument 1. Ordnung",
@@ -5145,7 +5145,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Fuchs. Was ist die Rötelmaus hier?",
+          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Fuchs. Welche Rolle hat die Rötelmaus?",
           "choices": [
             "Konsument 1. Ordnung",
             "Endkonsument",
@@ -5157,7 +5157,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs: Was zeigt dieser Ausschnitt?",
+          "q": "Was zeigt der folgende Ausschnitt aus dem Nahrungsnetz? Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs",
           "choices": [
             "Eine Beute kann mehreren Räubern als Nahrung dienen.",
             "Jedes Tier hat genau einen Feind.",
@@ -5169,7 +5169,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Buche → Kaninchen und Buche → Rötelmaus: Was haben Kaninchen und Rötelmaus in diesem Ausschnitt gemeinsam?",
+          "q": "Was haben Kaninchen und Rötelmaus in diesem Ausschnitt gemeinsam? Buche → Kaninchen und Buche → Rötelmaus",
           "choices": [
             "Beide sind Konsumenten 1. Ordnung.",
             "Beide sind Produzenten.",
@@ -5181,7 +5181,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Eiche → Schnecke und Eiche → Eichenwickler: Was zeigt dieser Ausschnitt?",
+          "q": "Was zeigt der folgende Ausschnitt aus dem Nahrungsnetz? Eiche → Schnecke und Eiche → Eichenwickler",
           "choices": [
             "Ein Produzent kann mehreren Konsumenten als Nahrung dienen.",
             "Eine Eiche ist ein Konsument.",
@@ -5193,7 +5193,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Eiche → Eichenwickler → Blaumeise → Sperber: Wenn es deutlich weniger Eichenwickler gibt, was ist für die Blaumeise zunächst wahrscheinlich?",
+          "q": "In der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber nimmt die Zahl der Eichenwickler deutlich ab. Welche Folge ist für die Blaumeise zunächst wahrscheinlich?",
           "choices": [
             "Eine Nahrungsquelle wird knapper.",
             "Sie wird zum Produzenten.",
@@ -5205,7 +5205,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Buche → Rötelmaus → Waldkauz: Wenn die Rötelmaus stark abnimmt, welche Folge ist für den Waldkauz in dieser Beziehung plausibel?",
+          "q": "In der Nahrungskette Buche → Rötelmaus → Waldkauz nimmt die Zahl der Rötelmäuse stark ab. Welche Folge ist für den Waldkauz wahrscheinlich?",
           "choices": [
             "Eine Nahrungsquelle wird knapper.",
             "Er bekommt automatisch mehr Nahrung.",
@@ -5242,7 +5242,7 @@
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Erkläre an Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs, warum daraus ein Nahrungsnetz-Ausschnitt wird.",
+          "q": "Erkläre anhand der Nahrungsketten Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs, warum sie zusammen einen Ausschnitt aus einem Nahrungsnetz bilden.",
           "modelAnswer": "Die beiden Nahrungsketten sind miteinander verbunden, weil sie Buche und Rötelmaus gemeinsam haben. Die Rötelmaus dient dabei mehreren Räubern als Nahrung.",
           "why": "Ein Nahrungsnetz entsteht durch miteinander verknüpfte Nahrungsketten."
         },
@@ -5250,7 +5250,7 @@
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Bestimme die Ernährungsebenen in Eiche → Eichenwickler → Blaumeise → Sperber.",
+          "q": "Bestimme die Ernährungsebenen der Lebewesen in der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber.",
           "modelAnswer": "Eiche: Produzent; Eichenwickler: Konsument 1. Ordnung; Blaumeise: Konsument 2. Ordnung; Sperber: Konsument 3. Ordnung/Endkonsument.",
           "why": "Die Ernährungsebene ergibt sich daraus, wovon sich das jeweilige Lebewesen ernährt."
         },
@@ -5258,16 +5258,16 @@
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Nenne zwei verschiedene Nahrungsketten aus diesem Unterrichtsausschnitt: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
-          "modelAnswer": "1. Buche → Rötelmaus → Waldkauz. 2. Buche → Rötelmaus → Fuchs.",
+          "q": "Nenne die beiden Nahrungsketten, die in diesem Ausschnitt des Unterrichts-Nahrungsnetzes dargestellt sind: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
+          "modelAnswer": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
           "why": "Beide Ketten sind über dieselben ersten beiden Glieder verknüpft."
         },
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Vergleiche diese beiden Ketten: Eiche → Eichenwickler → Blaumeise → Sperber und Buche → Rötelmaus → Waldkauz. Was ist gleich, was ist verschieden?",
-          "modelAnswer": "Beide beginnen mit einem Produzenten und enthalten Konsumenten verschiedener Ordnung. Die erste Kette hat vier Glieder, die zweite drei, und es kommen unterschiedliche Arten vor.",
+          "q": "Vergleiche die beiden Nahrungsketten Eiche → Eichenwickler → Blaumeise → Sperber und Buche → Rötelmaus → Waldkauz. Nenne eine Gemeinsamkeit und einen Unterschied.",
+          "modelAnswer": "Gemeinsamkeit: Beide beginnen mit einem Produzenten und enthalten danach Konsumenten. Unterschied: Die erste Nahrungskette hat vier Glieder, die zweite drei.",
           "why": "So wird das Prinzip der Ernährungsebenen unabhängig von einem einzigen Standardbeispiel geübt."
         },
         {
@@ -5298,7 +5298,7 @@
           "_source": "waldnetz_unterricht",
           "topic": "Prüfungstraining",
           "type": "open",
-          "q": "Transfer aus dem Unterrichts-Nahrungsnetz: Die Rötelmaus nimmt stark ab. Erkläre eine mögliche Folge für Waldkauz und Fuchs.",
+          "q": "Transferaufgabe: Im Unterrichts-Nahrungsnetz nimmt die Zahl der Rötelmäuse stark ab. Erkläre eine mögliche Folge für Waldkauz und Fuchs.",
           "modelAnswer": "Für Waldkauz und Fuchs wird die Rötelmaus als Nahrungsquelle knapper. Dadurch kann sich der Nahrungsmangel auf beide Räuber auswirken.",
           "why": "Hier sollst du aus einem Nahrungsnetz mehrere Beziehungen gleichzeitig berücksichtigen."
         },
@@ -5306,8 +5306,8 @@
           "_source": "waldnetz_unterricht",
           "topic": "Prüfungstraining",
           "type": "open",
-          "q": "Eiche → Eichenwickler → Blaumeise → Sperber: Erkläre, was mit der Blaumeise passieren könnte, wenn es deutlich weniger Eichenwickler gibt.",
-          "modelAnswer": "Für die Blaumeise wird eine Nahrungsquelle knapper. Dadurch kann ihre Population unter sonst gleichen Bedingungen abnehmen oder sie muss auf andere Nahrung ausweichen.",
+          "q": "In der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber gibt es deutlich weniger Eichenwickler. Erkläre eine mögliche Folge für die Blaumeisenpopulation.",
+          "modelAnswer": "Für die Blaumeise wird eine Nahrungsquelle knapper. Dadurch kann die Blaumeisenpopulation unter sonst gleichen Bedingungen abnehmen oder die Tiere müssen stärker auf andere Nahrung ausweichen.",
           "why": "Das ist eine Transferfrage aus einer im Unterricht dargestellten Nahrungskette."
         }
       ]

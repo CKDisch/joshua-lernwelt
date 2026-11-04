@@ -247,6 +247,12 @@ Q.connectors[17]={"kind":"rewrite","skill":"sodass","q":"Ausgangstext: „Die Bl
 Q.connectors[27]={"kind":"rewrite","skill":"wodurch","q":"Verbinde die Aussagen mit „wodurch“ und achte auf den richtigen Bezug: „Die Stadt entsiegelt einen Platz. Regenwasser kann dort leichter versickern.“","model":"Die Stadt entsiegelt einen Platz, wodurch Regenwasser dort leichter versickern kann.","criteria":["Wodurch bezieht sich auf die Entsiegelung","Folge richtig dargestellt","Finites Verb am Ende"],"why":"Wichtig sind Zusammenhang und Satzbau, nicht nur die Wortstellung."};
 Q.connectors[37]={"kind":"rewrite","skill":"und","q":"Verbinde beide gleichrangigen Aussagen möglichst knapp: „Der Autor nennt verschiedene Ursachen. Der Autor erläutert mögliche Lösungen.“","model":"Der Autor nennt verschiedene Ursachen und erläutert mögliche Lösungen.","criteria":["Keine zusätzliche Ursache-Folge-Beziehung","Gemeinsames Subjekt nur einmal","Kein unnötiges Komma"],"why":"Hier werden gleichrangige Tätigkeiten verbunden."};
 Q.connectors[53]={"kind":"rewrite","skill":"Gemischte Anwendung","track":"mixed","q":"Überarbeite den vollständigen Satz und erhalte den Zusammenhang: „Die Stadt entsiegelt den Platz, wodurch kann Regenwasser besser versickern.“","model":"Die Stadt entsiegelt den Platz, wodurch Regenwasser besser versickern kann.","criteria":["Maßnahme und Folge bleiben erhalten","„wodurch“ richtig bezogen","Finites Verb am Ende"],"why":"Der gesamte Vorgang „entsiegeln“ ermöglicht die bessere Versickerung."};
+// Korrekturen für eindeutige Aufgabenstellungen und eindeutige Reihenfolgen.
+Object.assign(Q.phrases[0],{"q":"Du schreibst die Einleitung einer Sachtextanalyse. Ergänze die Textsorte: Der ___ „Von der Klette zum Klettverschluss“ informiert über die Entstehung einer Erfindung.","why":"Bei einer Sachtextanalyse bezeichnet man die untersuchte Textart korrekt als Sachtext. Ohne diesen Kontext wäre die Textsorte allein am Titel nicht sicher zu erkennen."});
+Object.assign(Q.phrases[18],{"q":"Welche Formulierung trennt eine sachliche Kernaussage von einer begründeten eigenen Meinung, falls die Aufgabenstellung eine Stellungnahme verlangt?","why":"Nur wenn die Aufgabe eine Stellungnahme verlangt, kann nach der sachlichen Kernaussage eine begründete persönliche Meinung stehen."});
+Object.assign(Q.errors[2],{"q":"Korrigiere die Wortstellung und erhalte die Begründung: „Die Eule fliegt leise, weil dämpfen ihre Federn Geräusche.“"});
+Object.assign(Q.sections[31],{"q":"Ordne die Sätze wie vorgegeben: erst der allgemeine Hauptgedanke, dann Schatten und zuletzt Verdunstung.","why":"Die Reihenfolge wurde ausdrücklich vorgegeben. Ohne diese Vorgabe wären die beiden erläuternden Beispiele auch in umgekehrter Reihenfolge sinnvoll."});
+Object.assign(Q.errors[29],{"q":"Verwende „sodass“ und ergänze das Wort: Die Bäume spenden Schatten, ___ die Straße kühler bleibt."});
 const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden"};
 const STORE="joshua-deutsch-focus-v2";
 let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}
@@ -289,6 +295,8 @@ migrateOldDeutschProgress();
 saveSkillIndex();
 let mode="phrases",pos=0,choice=null,checked=false,typed="",placed=[],pairs={},session={},selfAssessed=false;
 let connectorTrack="basics";
+const partDisplayCache={};
+function displayPartIndices(x,idx){const key=mode+":"+idx;if(!partDisplayCache[key]){const source=x.parts.map((_,i)=>i);let mixed=shuffle(source);if(mixed.every((v,i)=>v===source[i]))mixed=source.slice().reverse();partDisplayCache[key]=mixed}return partDisplayCache[key]}
 let errorStage="tenses";
 const p=document.getElementById("practice");
 function readLast(m){try{return JSON.parse(sessionStorage.getItem("joshua-deutsch-last-"+m)||"[]")}catch(e){return []}}
@@ -410,7 +418,7 @@ function render(){
  }else if(kind==="gap"){
   field='<label for="typed" class="small muted">Schreibe das fehlende Wort selbst:</label><input id="typed" class="inputbox" autocomplete="off" '+(checked?"disabled":"")+' value="'+escapeHTML(typed)+'" placeholder="Deine Antwort …">';
  }else if(kind==="order"){
-  field='<p class="small muted">Tippe die Satzteile in der richtigen Reihenfolge an. Ein Teil kann überflüssig sein.</p><div class="chosenparts">'+(placed.length?placed.map(i=>'<button class="chip" data-remove="'+i+'" '+(checked?"disabled":"")+'>'+escapeHTML(x.parts[i])+' ×</button>').join(""):'<span class="small muted">Dein Satz erscheint hier …</span>')+'</div><div>'+x.parts.map((part,i)=>'<button class="chip" data-part="'+i+'" '+(placed.includes(i)||checked?"disabled":"")+'>'+escapeHTML(part)+'</button>').join("")+'</div><p class="small muted">Tippe oben auf ein Teil, um es wieder zu entfernen.</p>';
+  field='<p class="small muted">Tippe die Satzteile in der richtigen Reihenfolge an. Ein Teil kann überflüssig sein.</p><div class="chosenparts">'+(placed.length?placed.map(i=>'<button class="chip" data-remove="'+i+'" '+(checked?"disabled":"")+'>'+escapeHTML(x.parts[i])+' ×</button>').join(""):'<span class="small muted">Dein Satz erscheint hier …</span>')+'</div><div>'+displayPartIndices(x,idx).map(i=>'<button class="chip" data-part="'+i+'" '+(placed.includes(i)||checked?"disabled":"")+'>'+escapeHTML(x.parts[i])+'</button>').join("")+'</div><p class="small muted">Tippe oben auf ein Teil, um es wieder zu entfernen.</p>';
  }else if(kind==="pair"){
   field='<p class="small muted">Wähle in jeder Zeile die passende Ergänzung.</p>'+x.left.map((l,i)=>'<div class="pairrow"><div>'+escapeHTML(l)+'</div><select data-pair="'+i+'" '+(checked?"disabled":"")+'><option value="">Zuordnen …</option>'+x.right.map((v,j)=>'<option value="'+j+'" '+(pairs[i]===j?"selected":"")+'>'+escapeHTML(v)+'</option>').join("")+'</select></div>').join("");
  }

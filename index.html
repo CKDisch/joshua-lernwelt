@@ -44,9 +44,9 @@ function migrateDeutschFromLegacy(){
 }
 function renderDashboard(){migrateDeutschFromLegacy();const root=$('dashboardContent');root.replaceChildren();const data=getProgress();let any=false;for(const s of subjects){const section=document.createElement("section");section.style.cssText="border-top:1px solid var(--line);padding:16px 0";const heading=document.createElement("h3");heading.textContent=s.icon+" "+s.name;section.append(heading);let totalRight=0,totalWrong=0;const topics=new Map();for(const [i,q] of s.questions.entries()){const p=data[s.id+":"+i]||{right:0,wrong:0};const a=p.right||0,b=p.wrong||0;totalRight+=a;totalWrong+=b;const t=topics.get(q.topic)||{right:0,wrong:0};t.right+=a;t.wrong+=b;topics.set(q.topic,t)}if(s.id==='deutsch'){
   let skills={};try{skills=JSON.parse(localStorage.getItem('jl-deutsch-skills-v1')||'{}')}catch(e){}
-  const modeNames={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Konjunktionen"};
+  const modeNames={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden"};
   for(const [k,v] of Object.entries(data)){
-   const m=k.match(/^deutsch:trainer:(phrases|sections|errors):([0-9]+)$/);
+   const m=k.match(/^deutsch:trainer:(phrases|sections|errors|connectors):([0-9]+)$/);
    if(!m)continue;
    const right=v.right||0,wrong=v.wrong||0;
    if(right+wrong===0)continue;

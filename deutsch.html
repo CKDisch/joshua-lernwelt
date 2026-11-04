@@ -4,28 +4,104 @@
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top left,#1b3d53,#081420 65%);color:var(--text);font:16px/1.5 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:#9bf5dd}.wrap{max-width:850px;padding:20px;margin:auto}.nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}.nav a{padding:9px 13px;border:1px solid var(--line);border-radius:10px;text-decoration:none;font-size:14px}.nav .here{background:#285969}.eyebrow{font-size:12px;letter-spacing:1.5px;color:var(--accent);font-weight:800}h1{font-size:clamp(27px,4vw,38px);line-height:1.2;margin:6px 0}h2{font-size:20px;margin:0 0 12px}p{margin:8px 0 14px}.muted{color:var(--muted)}.small{font-size:13px}.card{background:linear-gradient(145deg,#182e41,#112434);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.tile{padding:14px;border:1px solid var(--line);border-radius:12px;background:#0b2232;text-align:left;color:inherit;cursor:pointer;font:inherit}.tile.active{border-color:var(--accent);background:#22505a}.tile strong{display:block;margin-bottom:4px}.tile span{font-size:12px;color:var(--muted)}button{font:inherit;cursor:pointer}.answer{display:block;width:100%;text-align:left;color:inherit;background:#10293a;border:1px solid #48677b;border-radius:11px;padding:12px;margin:8px 0}.answer.chosen{border:2px solid var(--accent);background:#1f4753}.answer:disabled{cursor:default}.primary{border:0;background:var(--accent);color:#052d2b;font-weight:750;border-radius:10px;padding:11px 17px}.secondary{border:1px solid var(--line);background:#223c4f;color:inherit;border-radius:10px;padding:11px 15px}.primary:disabled{opacity:.45}.row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}.progress{height:7px;border-radius:20px;background:#2a4353;overflow:hidden;margin:14px 0}.progress>div{height:100%;background:var(--accent)}.feedback{margin:16px 0;padding:13px;background:#203d4a;border-left:4px solid var(--accent);border-radius:9px}.feedback.bad{border-color:#ed7f85}.phrase{border-left:3px solid var(--accent);background:#183649;border-radius:8px;padding:11px 13px;margin:10px 0}.tag{display:inline-block;border:1px solid #567284;border-radius:20px;padding:3px 9px;font-size:12px;margin:3px 0}.status{font-size:14px}.weak{color:#ffcf8a}.good{color:#72ebba}.question{font-size:19px;line-height:1.6;margin:19px 0}.hidden{display:none}@media(max-width:620px){.grid{grid-template-columns:1fr}.wrap{padding:13px}.card{padding:16px}}
 .inputbox{width:100%;border:1px solid #688398;background:#0b2434;color:var(--text);border-radius:10px;padding:13px;font:inherit}.chip{display:inline-block;margin:5px;padding:10px 12px;border:1px solid #5a7b91;border-radius:10px;background:#14364a;color:var(--text);font-size:15px}.chip:disabled{opacity:.45}.chosenparts{min-height:47px;padding:9px;border:1px dashed #638397;border-radius:12px;margin:12px 0}.pairrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center;margin:8px 0}.pairrow select{width:100%;background:#0a2433;color:var(--text);padding:9px;border:1px solid #688398;border-radius:9px}.answer.selected{border:2px solid var(--accent);background:#1f4753}.tip{padding:12px;border-radius:9px;background:#123348;color:#cee7f3;margin-top:11px}@media(max-width:620px){.pairrow{grid-template-columns:1fr}}
 .connector-switch{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}.connector-switch .active{border-color:var(--accent);background:#245361;color:#fff}.connector-switch button{flex:1;min-width:145px}.example-details{border:1px solid var(--line);border-radius:12px;margin:12px 0;padding:12px;background:#0c2535}.example-details summary{cursor:pointer;font-weight:750;color:#9bf5dd}.example-details p,.example-details li{line-height:1.65}.example-details ol{padding-left:23px}#example-content[hidden],#conjunction-guide-content[hidden]{display:none}
+
+
+/* Ruhiges, aufgabenorientiertes Layout */
+:root{--accent:#85bac6;--correct:#71d4a3;--danger:#e7a0a1}
+.wrap{max-width:920px;padding:24px 22px 40px}
+h1{font-size:clamp(27px,3.8vw,34px);margin:6px 0 6px}
+.intro{margin:0 0 20px;font-size:14px}
+.nav{margin-bottom:22px}
+.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{min-height:77px;padding:13px 16px;background:#102334}
+.tile.active{background:#1c3444;border-color:#86b6c0;box-shadow:inset 3px 0 0 #86b6c0}
+.tile strong{font-size:15px}.tile span{display:block;margin-top:4px}
+#practice{margin-top:18px;padding:24px 25px;background:#14283a;border-color:#4a5d70}
+#practice h2{font-size:18px;margin:0}
+#practice .question{font-size:clamp(18px,2.4vw,21px);margin:20px 0;line-height:1.55}
+#practice .tag{border-color:#405366;color:#c0d1dc;font-size:11px}
+.progress>div{background:#89b4c0}
+.answer{background:#142a3b;border:1px solid #4a6174;transition:background .12s,border-color .12s}
+.answer:hover:not(:disabled){background:#1c394b}
+.answer.selected,.answer.chosen{border:2px solid #8ab6c5;background:#23404d}
+.answer.correct-answer{border-color:var(--correct);background:#1b3e36}
+.answer.wrong-answer{border-color:var(--danger);background:#472f3b}
+.feedback{background:#223544;border-left:3px solid #667a89}
+.feedback.correct{background:#19372f;border-left-color:var(--correct)}
+.feedback.bad{background:#402d35;border-left-color:var(--danger)}
+.primary{background:#8bb8c3;color:#0a2430}.secondary{background:#233748}
+#practice .connector-switch{margin:0 0 12px}
+#practice .connector-switch button{font-size:14px;min-width:130px}
+#practice .connector-switch .active{background:#314d5b;border-color:#8cb8c2}
+.help-wrap{margin:10px 0 20px;border:1px solid #344b60;border-radius:13px;background:#102535}
+.help-trigger{background:transparent;border:0;color:#ccdde7;width:100%;padding:15px 19px;display:flex;justify-content:space-between;align-items:center;text-align:left;gap:12px}
+.help-trigger strong{font-size:14px}
+#help-open-label{font-size:13px;color:#aac4d3;white-space:nowrap}
+#conjunction-guide-content{padding:0 18px 16px}
+.help-area[hidden],#profile-content[hidden]{display:none}
+.help-area .phrase{border-left:2px solid #6f94a4;background:#193244}
+.help-area .phrase p{margin:4px 0 0}
+.subpanel{background:#132737;border-color:#324c5d;padding:17px 20px}
+.subpanel h2{font-size:17px;margin:0}
+.subpanel .row .small{margin:3px 0 0}
+.subpanel .secondary{font-size:14px}
+#example-content,#profile-content{margin-top:16px}
+.eyebrow{color:#a5d7d8}
+@media(max-width:620px){.wrap{padding:15px 13px 30px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tile{min-height:82px;padding:12px 10px}.tile strong{font-size:14px}.tile span{font-size:11px}#practice{padding:17px 15px}.connector-switch button{min-width:100px!important;font-size:12px!important}.subpanel{padding:15px}}
 </style></head><body><main class="wrap">
 <nav class="nav" aria-label="Lernapps"><a href="./index.html">🎓 Joshua Lernwelt · Alle Fächer</a><a class="here" href="./deutsch.html">📖 Deutsch-Trainer</a></nav>
-<div class="eyebrow">JOSHUA · DEUTSCH · 7. KLASSE</div><h1>Sachtextanalyse – sicher formulieren</h1>
-<p class="muted">Abwechselnd entscheiden, Lücken selbst ausfüllen, Satzteile ordnen und Aussagen zuordnen – ohne lange Aufsätze.</p>
+<div class="eyebrow">JOSHUA · DEUTSCH · 7. KLASSE</div><h1>Sachtextanalyse</h1>
+<p class="muted intro">Kurze, abwechslungsreiche Übungen zur Vorbereitung auf die Klassenarbeit.</p>
 <div class="grid" id="tiles">
 <button class="tile active" data-mode="phrases"><strong>✏️ Formulierungen</strong><span>Einleitung · Hauptteil · Schluss</span></button>
 <button class="tile" data-mode="sections"><strong>✂️ Sinnabschnitte</strong><span>Zusammen oder trennen?</span></button>
-<button class="tile" data-mode="errors"><strong>🔎 Fehler finden</strong><span>Sachlichkeit · Satzbau · Präsens</span></button>
-<button class="tile" data-mode="connectors"><strong>🔗 Konjunktionen</strong><span>weil · sodass · wodurch · und</span></button>
+<button class="tile" data-mode="errors"><strong>🔎 Fehler verbessern</strong><span>Zeitformen · Fachsprache · Textkorrektur</span></button>
+<button class="tile" data-mode="connectors"><strong>🔗 Sätze verbinden</strong><span>Gründe · Folgen · Ergänzungen</span></button>
 </div>
-<section class="card" id="conjunction-guide">
-<div class="row"><div><h2 style="margin-bottom:4px">📚 Merkhilfe: Konjunktionen und Satzverbindungen</h2><p class="small muted">Jederzeit nachschlagen – auch während der Aufgaben.</p></div><button type="button" class="secondary" id="toggle-conjunction-guide" aria-expanded="false" aria-controls="conjunction-guide-content">Merkhilfe öffnen</button></div>
-<div id="conjunction-guide-content" hidden>
-<div class="phrase"><b>weil – nennt einen Grund (Warum?).</b><p>Der Boden bleibt kühl, <b>weil</b> der Baum Schatten spendet.</p><p class="small muted">Nach „weil“ steht das finite Verb am Ende: … weil der Baum Schatten <b>spendet</b>.</p></div>
-<div class="phrase"><b>sodass – nennt eine Folge (Was passiert dadurch?).</b><p>Der Baum spendet Schatten, <b>sodass</b> der Boden kühler bleibt.</p><p class="small muted">Die Folge steht im Nebensatz; das finite Verb steht am Ende: … kühler <b>bleibt</b>.</p></div>
-<div class="phrase"><b>wodurch – bezieht eine Wirkung auf das zuvor Beschriebene.</b><p>Die Blätter verdunsten Wasser, <b>wodurch</b> die Luft abgekühlt wird.</p><p class="small muted">„Wodurch“ bezieht sich hier auf den gesamten vorherigen Vorgang. Auch hier steht das finite Verb am Ende: … abgekühlt <b>wird</b>.</p></div>
-<div class="phrase"><b>und – verbindet gleichrangige Informationen.</b><p>Der Baum spendet Schatten <b>und</b> verdunstet Wasser.</p><p class="small muted">Bei zwei gleichrangigen Satzteilen steht normalerweise kein Komma. Bei zwei vollständigen Hauptsätzen kann vor „und“ ein Komma stehen, muss aber nicht.</p></div>
-<p class="small muted">Merke: „weil“ erklärt den Grund; „sodass“ und „wodurch“ beschreiben Folgen; „und“ verbindet Ergänzungen. „Wodurch“ ist grammatisch ein Pronominaladverb, nicht dieselbe Art Konjunktion wie „weil“ oder „sodass“.</p>
-</div></section>
 <section class="card" id="practice" aria-live="polite"></section>
-<section class="card" id="example-section">
-<div class="row"><div><h2 style="margin-bottom:4px">📘 Beispieltext &amp; Musterlösungen</h2><p class="small muted">Ein vollständiges Beispiel zum Nachlesen, ohne Schreibpflicht.</p></div><button id="toggle-example" type="button" class="primary" aria-expanded="false" aria-controls="example-content">Beispiel öffnen</button></div>
+<section class="help-wrap" id="topic-help">
+<button class="help-trigger" id="toggle-conjunction-guide" type="button" aria-expanded="false" aria-controls="conjunction-guide-content"><span>💡 <strong id="help-title">Merkhilfe zum Thema</strong></span><span id="help-open-label">Anzeigen ▾</span></button>
+<div id="conjunction-guide-content" hidden>
+<div class="help-area" data-help="connectors">
+<div class="phrase"><b>weil – nennt einen Grund (Warum?).</b><p>Der Boden bleibt kühl, <b>weil</b> der Baum Schatten spendet.</p><p class="small muted">Im weil-Nebensatz steht das finite Verb am Ende.</p></div>
+<div class="phrase"><b>sodass – beschreibt eine Folge.</b><p>Der Baum spendet Schatten, <b>sodass</b> der Boden kühler bleibt.</p><p class="small muted">Der Nebensatz erklärt eine Folge; das Verb steht am Ende.</p></div>
+<div class="phrase"><b>wodurch – beschreibt eine Wirkung des zuvor genannten Vorgangs.</b><p>Die Blätter verdunsten Wasser, <b>wodurch</b> die Umgebung abkühlt.</p><p class="small muted">„Wodurch“ bezieht sich auf den vorausgehenden Vorgang. Grammatisch ist es ein Pronominaladverb.</p></div>
+<div class="phrase"><b>und – verbindet gleichrangige Informationen.</b><p>Der Baum spendet Schatten <b>und</b> verdunstet Wasser.</p><p class="small muted">Bei gleichem Subjekt und zwei Prädikaten steht normalerweise kein Komma vor „und“.</p></div>
+</div>
+<div class="help-area" data-help="phrases">
+<div class="phrase"><b>Einleitung:</b> Der Sachtext „…“ von … aus dem Jahr … informiert über … .</div>
+<div class="phrase"><b>Anfang:</b> Zu Beginn beschreibt der Autor / die Autorin, dass …</div>
+<div class="phrase"><b>Übergang:</b> Anschließend erläutert der Autor / die Autorin, wie …</div>
+<div class="phrase"><b>Letzter Abschnitt:</b> Im letzten Abschnitt wird erklärt, dass …</div>
+<div class="phrase"><b>Schluss:</b> Zusammenfassend zeigt der Text, dass …</div>
+<p class="small muted">Autor, Titel und Jahr nur nennen, soweit sie im Ausgangstext angegeben sind. Im Hauptteil keine eigene Meinung ergänzen.</p>
+</div>
+<div class="help-area" data-help="sections">
+<div class="phrase"><b>Sinnabschnitt:</b> Ein Abschnitt bündelt Aussagen, die denselben Hauptgedanken behandeln.</div>
+<div class="phrase"><b>Schreibplan:</b> Notiere für jeden Abschnitt eine kurze Kernaussage, keine vollständige Nacherzählung.</div>
+<div class="phrase"><b>Übergang:</b> Ein neuer Sinnabschnitt beginnt, wenn sich der Hauptgedanke deutlich ändert.</div>
+<p class="small muted">Bei einigen Sachtexten sind mehrere gut begründete Gliederungen möglich.</p>
+</div>
+<div class="help-area" data-help="tenses">
+<div class="phrase"><b>Präsens:</b> Der Autor <b>erklärt</b>, wie die Erfindung funktioniert.</div>
+<div class="phrase"><b>Perfekt bei Vorzeitigkeit:</b> Der Text beschreibt, was die Forschenden zuvor <b>untersucht haben</b>.</div>
+<p class="small muted">Das Perfekt ist nicht in jedem Nebensatz nötig. Entscheidend ist, ob ein Vorgang bereits abgeschlossen war.</p>
+</div>
+<div class="help-area" data-help="terms">
+<div class="phrase"><b>Präzision:</b> „Der Autor erläutert die Ursachen“ statt „Der Autor sagt etwas dazu“.</div>
+<div class="phrase"><b>Fachbegriffe:</b> Verwende nur Begriffe, die zum Ausgangstext passen.</div>
+<div class="phrase"><b>Sachlichkeit:</b> Keine Übertreibungen oder erfundenen Behauptungen.</div>
+</div>
+<div class="help-area" data-help="editing">
+<div class="phrase"><b>1. Inhalt:</b> Stimmt die Aussage mit dem Ausgangstext überein?</div>
+<div class="phrase"><b>2. Ausdruck:</b> Sind die Fachbegriffe genau und die Sätze sachlich?</div>
+<div class="phrase"><b>3. Grammatik:</b> Stimmen Zeitformen, Nebensatzstellung und Zeichensetzung?</div>
+<div class="phrase"><b>4. Kontrolle:</b> Lies die überarbeitete Passage noch einmal vollständig.</div>
+</div>
+</div>
+</section>
+<section class="card subpanel" id="example-section">
+<div class="row"><div><h2 style="margin-bottom:4px">📘 Beispielanalyse &amp; Musterlösungen</h2><p class="small muted">Schreibplan und vollständige Analyse zum Nachlesen.</p></div><button id="toggle-example" type="button" class="secondary" aria-expanded="false" aria-controls="example-content">Beispiel öffnen</button></div>
 <div id="example-content" hidden>
 <hr style="border:0;border-top:1px solid var(--line);margin:18px 0">
 <span class="tag">Eigener Übungstext · ChatGPT · 2026</span>
@@ -52,14 +128,7 @@
 </details>
 <p class="small muted" style="margin-top:14px">Hinweis: Der Text und die Musterlösungen wurden ausschließlich als Lernbeispiel erstellt. Sie sind keine Originalmaterialien der Schule.</p>
 </div></section>
-<section class="card" id="profile"><h2>📊 Mein Lernstand</h2><div id="profiles"></div><p class="small muted">Die Einschätzung beruht nur auf Antworten in dieser App, nicht auf einer Lehrernote. Anfangs sind noch keine Schwächen feststellbar.</p><button class="secondary" id="reset">Lernstand zurücksetzen</button></section>
-<section class="card"><h2>📌 Fünf Satzbausteine zum Merken</h2>
-<div class="phrase"><b>Einleitung:</b> Der Sachtext „…“ von … aus dem Jahr … informiert über … .</div>
-<div class="phrase"><b>Anfang:</b> Zu Beginn beschreibt der Autor / die Autorin, dass …</div>
-<div class="phrase"><b>Übergang:</b> Anschließend erläutert der Autor / die Autorin, wie …</div>
-<div class="phrase"><b>Letzter Abschnitt:</b> Im letzten Abschnitt wird erklärt, dass …</div>
-<div class="phrase"><b>Schluss:</b> Zusammenfassend zeigt der Text, dass …</div>
-<p class="small muted"><b>Vor dem Schreiben:</b> Unbekannte Wörter klären → Sinnabschnitte erkennen → Schlüsselwörter markieren → Kernaussagen notieren.</p><p class="small muted">Autor und Erscheinungsjahr nur nennen, wenn sie im Original stehen. Im Hauptteil sachlich und grundsätzlich im Präsens schreiben; für Vorzeitigkeit kann das Perfekt nötig sein. Eine eigene Meinung nur ergänzen, wenn sie verlangt wird.</p></section>
+<section class="card subpanel" id="profile"><div class="row"><div><h2>📊 Mein Lernstand</h2><p class="small muted">Ergebnisse und Übungsschwerpunkte</p></div><button class="secondary" type="button" id="toggle-profile" aria-controls="profile-content" aria-expanded="false">Lernstand öffnen</button></div><div id="profile-content" hidden><div id="profiles"></div><p class="small muted">Die Einschätzung beruht nur auf Antworten in dieser App, nicht auf einer Lehrernote. Anfangs sind noch keine Schwächen feststellbar.</p><button class="secondary" id="reset">Lernstand zurücksetzen</button></div></section>
 <p class="small muted">Eigenständige Übungsbeispiele zur Sachtextanalyse; keine Originalaufgaben der Lehrkraft. Antworten werden nur in diesem Browser gespeichert.</p>
 </main><script>
 const Q={
@@ -178,7 +247,7 @@ Q.connectors[17]={"kind":"rewrite","skill":"sodass","q":"Ausgangstext: „Die Bl
 Q.connectors[27]={"kind":"rewrite","skill":"wodurch","q":"Verbinde die Aussagen mit „wodurch“ und achte auf den richtigen Bezug: „Die Stadt entsiegelt einen Platz. Regenwasser kann dort leichter versickern.“","model":"Die Stadt entsiegelt einen Platz, wodurch Regenwasser dort leichter versickern kann.","criteria":["Wodurch bezieht sich auf die Entsiegelung","Folge richtig dargestellt","Finites Verb am Ende"],"why":"Wichtig sind Zusammenhang und Satzbau, nicht nur die Wortstellung."};
 Q.connectors[37]={"kind":"rewrite","skill":"und","q":"Verbinde beide gleichrangigen Aussagen möglichst knapp: „Der Autor nennt verschiedene Ursachen. Der Autor erläutert mögliche Lösungen.“","model":"Der Autor nennt verschiedene Ursachen und erläutert mögliche Lösungen.","criteria":["Keine zusätzliche Ursache-Folge-Beziehung","Gemeinsames Subjekt nur einmal","Kein unnötiges Komma"],"why":"Hier werden gleichrangige Tätigkeiten verbunden."};
 Q.connectors[53]={"kind":"rewrite","skill":"Gemischte Anwendung","track":"mixed","q":"Überarbeite den vollständigen Satz und erhalte den Zusammenhang: „Die Stadt entsiegelt den Platz, wodurch kann Regenwasser besser versickern.“","model":"Die Stadt entsiegelt den Platz, wodurch Regenwasser besser versickern kann.","criteria":["Maßnahme und Folge bleiben erhalten","„wodurch“ richtig bezogen","Finites Verb am Ende"],"why":"Der gesamte Vorgang „entsiegeln“ ermöglicht die bessere Versickerung."};
-const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Typische Fehler",connectors:"Konjunktionen"};
+const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden"};
 const STORE="joshua-deutsch-focus-v2";
 let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}
 
@@ -371,11 +440,20 @@ function render(){
   else{if(pos===ids.length-1)newRound(mode);else{pos++;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false}render()}
  };
  renderProfile();
+ renderHelp();
 }
 document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;newRound(mode);render()});
 document.getElementById("reset").onclick=()=>{if(confirm("Lernstand für den Deutsch-Trainer wirklich zurücksetzen?")){history={};save();try{const shared=getSharedProgress();for(const k of Object.keys(shared)){if(k.startsWith("deutsch:trainer:"))delete shared[k]}localStorage.setItem(SHARED_STORE,JSON.stringify(shared))}catch(e){}renderProfile()}};
+function renderHelp(){
+ const topic=mode==="errors"?errorStage:mode;
+ document.querySelectorAll("[data-help]").forEach(node=>{node.hidden=node.dataset.help!==topic});
+ const names={phrases:"Formulierungen",sections:"Sinnabschnitte",connectors:"Sätze verbinden",tenses:"Zeitformen",terms:"Fachbegriffe",editing:"Textüberarbeitung"};
+ document.getElementById("help-title").textContent="Merkhilfe: "+names[topic];
+}
+const profileToggle=document.getElementById("toggle-profile");
+profileToggle.addEventListener("click",()=>{const panel=document.getElementById("profile-content");const open=panel.hidden;panel.hidden=!open;profileToggle.setAttribute("aria-expanded",String(open));profileToggle.textContent=open?"Lernstand schließen":"Lernstand öffnen";});
 const conjunctionToggle=document.getElementById('toggle-conjunction-guide');
-conjunctionToggle.addEventListener('click',()=>{const content=document.getElementById('conjunction-guide-content');const isOpening=content.hidden;content.hidden=!isOpening;conjunctionToggle.setAttribute('aria-expanded',String(isOpening));conjunctionToggle.textContent=isOpening?'Merkhilfe schließen':'Merkhilfe öffnen';});
+conjunctionToggle.addEventListener('click',()=>{const content=document.getElementById('conjunction-guide-content');const isOpening=content.hidden;content.hidden=!isOpening;conjunctionToggle.setAttribute('aria-expanded',String(isOpening));document.getElementById('help-open-label').textContent=isOpening?'Schließen ▴':'Anzeigen ▾';});
 const exampleToggle=document.getElementById('toggle-example');
 exampleToggle.addEventListener('click',()=>{const content=document.getElementById('example-content');const opening=content.hidden;content.hidden=!opening;exampleToggle.setAttribute('aria-expanded',String(opening));exampleToggle.textContent=opening?'Beispiel schließen':'Beispiel öffnen';});
 render();

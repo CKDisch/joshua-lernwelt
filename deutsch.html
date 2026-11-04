@@ -279,7 +279,7 @@ function render(){
  renderProfile();
 }
 document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;newRound(mode);render()});
-document.getElementById("reset").onclick=()=>{if(confirm("Lernstand wirklich zurücksetzen?")){history={};save();renderProfile()}};
+document.getElementById("reset").onclick=()=>{if(confirm("Lernstand für den Deutsch-Trainer wirklich zurücksetzen?")){history={};save();try{const shared=getSharedProgress();for(const k of Object.keys(shared)){if(k.startsWith("deutsch:trainer:"))delete shared[k]}localStorage.setItem(SHARED_STORE,JSON.stringify(shared))}catch(e){}renderProfile()}};
 const exampleToggle=document.getElementById('toggle-example');
 exampleToggle.addEventListener('click',()=>{const content=document.getElementById('example-content');const opening=content.hidden;content.hidden=!opening;exampleToggle.setAttribute('aria-expanded',String(opening));exampleToggle.textContent=opening?'Beispiel schließen':'Beispiel öffnen';});
 render();

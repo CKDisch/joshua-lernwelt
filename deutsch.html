@@ -333,6 +333,12 @@ Object.assign(Q.phrases[38],{"q":"Der Autor beginnt seinen Sachtext mit der Beob
 Object.assign(Q.phrases[39],{"q":"Die Autorin erklärt im Sachtext, wie Begrünung Gebäude kühlen kann. Zur Veranschaulichung verwendet sie einen Dachgarten als Beispiel. Schreibe einen vollständigen Analysesatz, der erklärt, welche Funktion dieses Beispiel hat. Formuliere selbstständig."});
 Object.assign(Q.phrases[40],{"q":"Die Autorin beschreibt im nächsten Sinnabschnitt ihres Sachtextes, dass künstliches Licht Insekten bei der Orientierung stören kann. Schreibe einen vollständigen Analysesatz, der diesen Abschnitt sachlich einleitet. Wähle den Satzanfang selbst."});
 Object.assign(Q.phrases[43],{"q":"Die Autorin erklärt in einem Sachtext, wie die Haftwirkung einer Klette als Vorbild für den Klettverschluss genutzt wurde. Im fehlerhaften Analyseentwurf steht: „Dann macht die Autorin noch etwas mit einem Beispiel vom Klettverschluss.“ Formuliere stattdessen einen vollständigen, sachlichen Analysesatz, der die Funktion des Beispiels erklärt."});
+// Präzise Bewertungsmaßstäbe, keine nicht vorgegebenen Pflichtelemente.
+Q.phrases[5].criteria=["Eine mögliche Folge sachlich wiedergegeben","Passender Übergang mit selbst gewähltem Analyseverb","Keine stärkere Wirkung als im Ausgangstext behauptet","Grammatisch vollständiger Satz"];
+Q.errors[24].why="Eine gute Zusammenfassung nennt die wesentlichen Aussagen und lässt unwichtige Einzelheiten weg, ohne den Sinn zu verändern.";
+Q.errors[6].why="„Weil“ leitet einen Nebensatz ein. „Denn“ verbindet Hauptsätze; „und“ kann gleichrangige Satzteile oder Hauptsätze verbinden.";
+Q.phrases[24].model="Im dritten Abschnitt erklärt die Autorin, wie Wasser über die Blattoberflächen verdunstet.";
+Q.phrases[43].model="Anhand des Klettverschlusses veranschaulicht die Autorin, wie die Haftwirkung der Klette als Vorbild für eine technische Erfindung genutzt wird.";
 const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden",analysis:"Sachtextanalyse üben"};
 const STORE="joshua-deutsch-focus-v2";
 let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}

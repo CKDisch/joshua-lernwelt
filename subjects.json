@@ -4677,7 +4677,7 @@
         },
         {
           "topic": "Nahrungsketten & Nahrungsnetze",
-          "q": "Welche Struktur entsteht, wenn die Nahrungsketten Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs miteinander verknüpft werden?",
+          "q": "Die Nahrungsketten Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs haben zwei gemeinsame Glieder. Wie nennt man die daraus entstehende Verknüpfung?",
           "choices": [
             "Ein Ausschnitt aus einem Nahrungsnetz",
             "Eine Population",
@@ -5097,7 +5097,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist Konsument 1. Ordnung?",
+          "q": "In der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber ernährt sich der Eichenwickler direkt von der Eiche. Welches Lebewesen ist Konsument 1. Ordnung?",
           "choices": [
             "Eichenwickler",
             "Blaumeise",
@@ -5109,7 +5109,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist Konsument 2. Ordnung?",
+          "q": "In der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber frisst die Blaumeise den Eichenwickler. Welches Lebewesen ist Konsument 2. Ordnung?",
           "choices": [
             "Blaumeise",
             "Eichenwickler",
@@ -5121,7 +5121,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Eiche → Eichenwickler → Blaumeise → Sperber. Welches Lebewesen ist hier der Endkonsument?",
+          "q": "In der Nahrungskette Eiche → Eichenwickler → Blaumeise → Sperber steht der Sperber am Ende. Welches Lebewesen ist hier der Endkonsument?",
           "choices": [
             "Sperber",
             "Eiche",
@@ -5133,7 +5133,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Waldkauz. Welche Rolle hat die Buche?",
+          "q": "In der Nahrungskette Buche → Rötelmaus → Waldkauz steht die Buche am Anfang und stellt durch Fotosynthese Biomasse her. Welche Rolle hat die Buche?",
           "choices": [
             "Produzent",
             "Konsument 1. Ordnung",
@@ -5145,7 +5145,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Betrachte die Nahrungskette aus dem Unterrichts-Nahrungsnetz: Buche → Rötelmaus → Fuchs. Welche Rolle hat die Rötelmaus?",
+          "q": "In der Nahrungskette Buche → Rötelmaus → Fuchs ernährt sich die Rötelmaus von pflanzlicher Nahrung. Welche Rolle hat sie?",
           "choices": [
             "Konsument 1. Ordnung",
             "Endkonsument",
@@ -5157,7 +5157,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Was zeigt der folgende Ausschnitt aus dem Nahrungsnetz? Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs",
+          "q": "Im Unterrichts-Nahrungsnetz dient die Rötelmaus sowohl dem Waldkauz als auch dem Fuchs als Nahrung. Was zeigt dieses Beispiel?",
           "choices": [
             "Eine Beute kann mehreren Räubern als Nahrung dienen.",
             "Jedes Tier hat genau einen Feind.",
@@ -5169,7 +5169,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Was haben Kaninchen und Rötelmaus in diesem Ausschnitt gemeinsam? Buche → Kaninchen und Buche → Rötelmaus",
+          "q": "Im Unterrichts-Nahrungsnetz ernähren sich sowohl das Kaninchen als auch die Rötelmaus von der Buche. Was haben beide Tiere in diesem Beispiel gemeinsam?",
           "choices": [
             "Beide sind Konsumenten 1. Ordnung.",
             "Beide sind Produzenten.",
@@ -5181,7 +5181,7 @@
         {
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
-          "q": "Was zeigt der folgende Ausschnitt aus dem Nahrungsnetz? Eiche → Schnecke und Eiche → Eichenwickler",
+          "q": "Im Unterrichts-Nahrungsnetz ernähren sich sowohl die Schnecke als auch der Eichenwickler von der Eiche. Was zeigt dieses Beispiel?",
           "choices": [
             "Ein Produzent kann mehreren Konsumenten als Nahrung dienen.",
             "Eine Eiche ist ein Konsument.",
@@ -5242,7 +5242,7 @@
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Erkläre anhand der Nahrungsketten Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs, warum sie zusammen einen Ausschnitt aus einem Nahrungsnetz bilden.",
+          "q": "Die Rötelmaus kommt in zwei Nahrungsketten vor: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs. Erkläre, warum diese beiden Ketten zusammen einen Ausschnitt aus einem Nahrungsnetz bilden.",
           "modelAnswer": "Die beiden Nahrungsketten sind miteinander verbunden, weil sie Buche und Rötelmaus gemeinsam haben. Die Rötelmaus dient dabei mehreren Räubern als Nahrung.",
           "why": "Ein Nahrungsnetz entsteht durch miteinander verknüpfte Nahrungsketten."
         },
@@ -5258,7 +5258,7 @@
           "_source": "waldnetz_unterricht",
           "topic": "Nahrungsnetze lesen",
           "type": "open",
-          "q": "Nenne die beiden Nahrungsketten, die in diesem Ausschnitt des Unterrichts-Nahrungsnetzes dargestellt sind: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
+          "q": "Aus einem Nahrungsnetz lassen sich einzelne Nahrungsketten herauslesen. Nenne die beiden Nahrungsketten in diesem Beispiel: Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
           "modelAnswer": "Buche → Rötelmaus → Waldkauz und Buche → Rötelmaus → Fuchs.",
           "why": "Beide Ketten sind über dieselben ersten beiden Glieder verknüpft."
         },

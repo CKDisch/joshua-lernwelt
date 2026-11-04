@@ -11,7 +11,7 @@
 .analysis-source h3{margin:0 0 6px;font-size:18px}
 .analysis-source p{white-space:pre-line;line-height:1.65;margin:12px 0}
 .analysis-source details{padding:11px;margin-top:10px;border:1px solid #536777;border-radius:8px}
-.analysis-source summary{cursor:pointer;font-weight:650}
+.analysis-source summary{cursor:pointer;font-weight:650}.model-analysis{white-space:pre-line}
 @media(min-width:720px){#tiles .tile:last-child{grid-column:span 2}}
 /* Ruhiges, aufgabenorientiertes Layout */
 .question.data-question{white-space:pre-line;font-size:17px!important;line-height:1.65!important;background:#1b3446;padding:16px 18px;border-radius:12px;border:1px solid #40566a}
@@ -460,7 +460,7 @@ function escapeHTML(x){return String(x).replace(/[&<>"']/g,c=>({"&":"&amp;","<":
 function norm(x){return String(x).trim().toLocaleLowerCase("de").replace(/[.!?]+$/g,"").replace(/\s+/g," ")}
 function ready(x){
  let k=x.kind||"choice";
- if(k==="rewrite")return typed.trim().length>=12;
+ if(k==="rewrite")return x.stage===3?typed.trim().split(/\s+/).length>=40:x.stage===2?typed.trim().length>=90:typed.trim().length>=12;
  if(k==="gap")return typed.trim().length>0;
  if(k==="order")return placed.length>0;
  if(k==="pair")return Object.keys(pairs).length===x.left.length;
@@ -494,7 +494,7 @@ function render(){
  if(kind==="choice"||kind==="multi"){
   field='<p class="small muted">'+(kind==="multi"?"Mehrere Antworten können richtig sein.":"Wähle eine Antwort.")+'</p>'+x.opts.map((o,i)=>'<button data-opt="'+i+'" class="answer '+(checked?((kind==="multi"?x.correct.includes(i):x.a===i)?"correct-answer":((kind==="multi"?Array.isArray(choice)&&choice.includes(i):choice===i)?"wrong-answer":"")):(kind==="multi"?(Array.isArray(choice)&&choice.includes(i)?"selected":""):(choice===i?"selected":"")))+'" '+(checked?"disabled":"")+'>'+escapeHTML(o)+'</button>').join("");
  }else if(kind==="rewrite"){
-  field='<label for="rewrite-input" class="small muted">Schreibe einen eigenen Satz. Danach kannst du ihn mit der Musterlösung vergleichen.</label><textarea id="rewrite-input" class="inputbox" rows="'+(mode==="analysis"?12:3)+'" '+(checked?'disabled':'')+' placeholder="Dein Satz …">'+escapeHTML(typed)+'</textarea>';
+  field='<label for="rewrite-input" class="small muted">'+(mode==="analysis"?(x.stage===1?"Notiere einen Schreibplan in Stichpunkten.":x.stage===2?"Schreibe eine überarbeitete Fassung.":"Schreibe deine vollständige Analyse (mindestens 40 Wörter)."):"Schreibe einen eigenen Satz. Danach kannst du ihn mit der Musterlösung vergleichen.")+'</label><textarea id="rewrite-input" class="inputbox" rows="'+(mode==="analysis"?12:3)+'" '+(checked?'disabled':'')+' placeholder="Deine Antwort …">'+escapeHTML(typed)+'</textarea>';
  }else if(kind==="gap"){
   field='<label for="typed" class="small muted">Schreibe das fehlende Wort selbst:</label><input id="typed" class="inputbox" autocomplete="off" '+(checked?"disabled":"")+' value="'+escapeHTML(typed)+'" placeholder="Deine Antwort …">';
  }else if(kind==="order"){
@@ -502,9 +502,9 @@ function render(){
  }else if(kind==="pair"){
   field='<p class="small muted">Wähle in jeder Zeile die passende Ergänzung.</p>'+x.left.map((l,i)=>'<div class="pairrow"><div>'+escapeHTML(l)+'</div><select data-pair="'+i+'" '+(checked?"disabled":"")+'><option value="">Zuordnen …</option>'+x.right.map((v,j)=>'<option value="'+j+'" '+(pairs[i]===j?"selected":"")+'>'+escapeHTML(v)+'</option>').join("")+'</select></div>').join("");
  }
- const analysisSource=mode==="analysis"?'<div class="analysis-source"><h3>'+escapeHTML(ANALYSIS_CASES[x.caseId].title)+'</h3><div class="small muted">Eigener Übungstext · kein Original der Schule</div><p>'+escapeHTML(ANALYSIS_CASES[x.caseId].source).replace(/\\n/g,"<br>")+'</p>'+(x.stage===2?'<details><summary>Fehlerhaften Entwurf anzeigen</summary><p>'+escapeHTML(ANALYSIS_CASES[x.caseId].draft)+'</p></details>':'')+'</div>':'';
+ const analysisSource=mode==="analysis"?'<div class="analysis-source"><h3>'+escapeHTML(ANALYSIS_CASES[x.caseId].title)+'</h3><div class="small muted">Eigener Übungstext · kein Original der Schule</div><p>'+escapeHTML(ANALYSIS_CASES[x.caseId].source)+'</p>'+(x.stage===2?'<details open><summary>Fehlerhafter Entwurf – diesen Text überarbeiten</summary><p>'+escapeHTML(ANALYSIS_CASES[x.caseId].draft)+'</p></details>':'')+'</div>':'';
  let result=checked?(kind==="rewrite"?
- '<div class="feedback"><strong>Musterlösung zur Orientierung</strong><p>'+escapeHTML(x.model)+'</p><p>'+escapeHTML(x.why)+'</p><strong>Prüfe deinen Satz:</strong><ul>'+x.criteria.map(z=>'<li>'+escapeHTML(z)+'</li>').join("")+'</ul><p class="small muted">Andere korrekte Formulierungen sind möglich. Bewerte deine Antwort nach dem Vergleich.</p>'+(selfAssessed?'':'<div class="row"><button class="secondary" id="self-no">↻ Noch üben</button><button class="primary" id="self-yes">✓ Das konnte ich</button></div>')+'</div>':
+ '<div class="feedback"><strong>Musterlösung zur Orientierung</strong><p class="'+(mode==="analysis"?'model-analysis':'')+'">'+escapeHTML(x.model)+'</p><p>'+escapeHTML(x.why)+'</p><strong>Prüfe deinen Satz:</strong><ul>'+x.criteria.map(z=>'<li>'+escapeHTML(z)+'</li>').join("")+'</ul><p class="small muted">Andere korrekte Formulierungen sind möglich. Bewerte deine Antwort nach dem Vergleich.</p>'+(selfAssessed?'':'<div class="row"><button class="secondary" id="self-no">↻ Noch üben</button><button class="primary" id="self-yes">✓ Das konnte ich</button></div>')+'</div>':
  '<div class="feedback '+(isCorrect(x)?"correct":"bad")+'"><strong>'+(isCorrect(x)?"Richtig!":"Noch nicht richtig.")+'</strong><div class="small">Muster: '+escapeHTML(expected(x))+'</div><p>'+escapeHTML(x.why)+'</p></div>'):"";
  const errorNav=mode==="errors"?'<div class="connector-switch" role="group" aria-label="Fehlertraining"><button type="button" class="secondary '+(errorStage==="tenses"?"active":"")+'" data-error-stage="tenses">1 · Zeitformen</button><button type="button" class="secondary '+(errorStage==="terms"?"active":"")+'" data-error-stage="terms">2 · Fachbegriffe</button><button type="button" class="secondary '+(errorStage==="editing"?"active":"")+'" data-error-stage="editing">3 · Textüberarbeitung</button></div><p class="small muted">'+({tenses:"Präsens für die Textwiedergabe und Perfekt für vorher abgeschlossene Vorgänge.",terms:"Sachliche Sprache, präzise Fachbegriffe und keine erfundenen Informationen.",editing:"Fehler in kurzen Sachtextpassagen selbst verbessern und die Lösung vergleichen."}[errorStage])+'</p>':'';
  const subnav=mode==="connectors"?'<div class="connector-switch" role="group" aria-label="Konjunktionen lernen"><button type="button" class="secondary '+(connectorTrack==="basics"?"active":"")+'" data-connector-track="basics">1 · Einzelne Wörter</button><button type="button" class="secondary '+(connectorTrack==="mixed"?"active":"")+'" data-connector-track="mixed">2 · Gemischt anwenden</button></div><p class="small muted">'+(connectorTrack==="basics"?"Übe die vier Verbindungen einzeln: je drei Aufgaben pro Wort und Runde.":"Ohne vorgegebenes Verbindungswort: Entscheide selbst, ob Grund, Folge oder Ergänzung passt. Vergleiche deine Sätze mit den Musterlösungen.")+'</p>':'';

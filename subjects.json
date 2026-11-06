@@ -5391,6 +5391,626 @@
           "why": "Die klassische Gitarre hat normalerweise sechs Saiten."
         }
       ]
+    },
+    {
+      "id": "kunst",
+      "name": "Kunst",
+      "icon": "🎨",
+      "lang": "de",
+      "languageNote": "Vorbereitung auf die Klassenarbeit am 9. November 2026. Grundlage: handschriftliche Lernnotizen zu vier Farbkontrasten. Aufgaben und Erklärungen sind eigenständig erstellt, keine Original-Lehrerfragen.",
+      "topics": [
+        "Warm-Kalt-Kontrast",
+        "Hell-Dunkel-Kontrast",
+        "Qualitätskontrast",
+        "Quantitätskontrast",
+        "Gemischte Prüfungsvorbereitung"
+      ],
+      "legacy": [],
+      "questions": [
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Welche Farbkombination zeigt besonders deutlich einen Warm-Kalt-Kontrast?",
+          "choices": [
+            "Rotorange und Blaugrün",
+            "Hellgrau und Dunkelgrau",
+            "Reines Rot und getrübtes Rot"
+          ],
+          "answer": 0,
+          "whyFr": "Rotorange wirkt warm, Blaugrün kalt. Es geht um die Farbtemperatur, nicht um Helligkeit oder Reinheit."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Welche der folgenden Farben gilt normalerweise als warm?",
+          "choices": [
+            "Orange",
+            "Blaugrün",
+            "Cyan"
+          ],
+          "answer": 0,
+          "whyFr": "Orange gehört zu den warm wirkenden Farben."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Welche der folgenden Farben wirkt gewöhnlich kühl?",
+          "choices": [
+            "Blau",
+            "Rot-Orange",
+            "Gelborange"
+          ],
+          "answer": 0,
+          "whyFr": "Blau wird meist als kühle Farbe wahrgenommen."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Woran erkennt man einen Warm-Kalt-Kontrast?",
+          "choices": [
+            "An der unterschiedlichen Farbtemperatur",
+            "Nur an unterschiedlich großen Flächen",
+            "Nur an schwarzer und weißer Farbe"
+          ],
+          "answer": 0,
+          "whyFr": "Entscheidend ist die Gegenüberstellung warm und kalt wirkender Farben."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Welche Aussage über Gelb ist am treffendsten?",
+          "choices": [
+            "Gelb wirkt häufig warm, die genaue Wirkung hängt aber vom Farbton und Umfeld ab",
+            "Gelb ist immer die kälteste Farbe",
+            "Gelb ist automatisch eine getrübte Farbe"
+          ],
+          "answer": 0,
+          "whyFr": "Farbwirkung ist auch von Nuance und Nachbarfarben abhängig."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Ein Bild zeigt eine orange Sonne vor einem tiefblauen Himmel. Welcher Kontrast fällt besonders auf?",
+          "choices": [
+            "Warm-Kalt-Kontrast",
+            "Quantitätskontrast, weil beide gleich groß sind",
+            "Nur Qualitätskontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Das Orange wirkt warm, das Blau eher kalt."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Was ist KEIN typisches Paar für einen starken Warm-Kalt-Kontrast?",
+          "choices": [
+            "Hellblau und Dunkelblau",
+            "Rotorange und Türkis",
+            "Orange und Blau"
+          ],
+          "answer": 0,
+          "whyFr": "Hell- und Dunkelblau unterscheiden sich besonders in der Helligkeit; beide wirken meist kühl."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Welche Farbe eignet sich als kühler Gegenpol zu einem kräftigen Orange?",
+          "choices": [
+            "Blau",
+            "Rotorange",
+            "Rot"
+          ],
+          "answer": 0,
+          "whyFr": "Blau ist ein typischer kühler Gegenpol zu Orange."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "In einem Winterbild liegen blaue Schatten neben rötlich beleuchteten Häusern. Was entsteht?",
+          "choices": [
+            "Warm-Kalt-Kontrast",
+            "Ausschließlich Hell-Dunkel-Kontrast",
+            "Kein Farbkontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Blaue Schatten wirken kühl, rötlich beleuchtete Häuser warm."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Erkläre den Warm-Kalt-Kontrast in einem vollständigen Satz und gib ein Beispiel.",
+          "type": "open",
+          "modelAnswer": "Der Warm-Kalt-Kontrast entsteht, wenn warm und kalt wirkende Farben nebeneinanderstehen, zum Beispiel Rotorange und Blaugrün.",
+          "why": "Nenne das Gegensatzpaar und ein konkretes Farbbeispiel."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Du möchtest einen heißen Sommertag und einen kühlen See darstellen. Welche Farbtöne setzt du gezielt ein und warum?",
+          "type": "open",
+          "modelAnswer": "Für die Sonne und warme Flächen verwende ich Gelborange oder Rotorange, für den See Blau oder Blaugrün. Dadurch entsteht ein Warm-Kalt-Kontrast.",
+          "why": "Eine begründete Farbwahl ist wichtiger als das Auswendiglernen einer festen Liste."
+        },
+        {
+          "topic": "Warm-Kalt-Kontrast",
+          "fr": "Erkläre, warum der Gegensatz von Hellblau und Dunkelblau nicht automatisch ein Warm-Kalt-Kontrast ist.",
+          "type": "open",
+          "modelAnswer": "Beide Farben wirken eher kühl. Sie unterscheiden sich vor allem in ihrer Helligkeit; deshalb ist hier der Hell-Dunkel-Kontrast auffälliger.",
+          "why": "Mehrere Kontraste können zugleich vorkommen. Entscheidend ist, welcher Unterschied gemeint ist."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Welches Paar bildet den stärksten Hell-Dunkel-Kontrast?",
+          "choices": [
+            "Schwarz und Weiß",
+            "Gelb und Orange",
+            "Hellrot und Rosa"
+          ],
+          "answer": 0,
+          "whyFr": "Schwarz und Weiß liegen an den beiden Enden der Helligkeitsskala."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Was unterscheidet Farben beim Hell-Dunkel-Kontrast?",
+          "choices": [
+            "Ihre Helligkeit",
+            "Die Größe der Farbflächen",
+            "Nur ihre Temperatur"
+          ],
+          "answer": 0,
+          "whyFr": "Der Hell-Dunkel-Kontrast entsteht durch unterschiedlich helle Farbwerte."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Welche Fläche wirkt vor einem schwarzen Hintergrund meist besonders hell?",
+          "choices": [
+            "Eine weiße Fläche",
+            "Eine dunkelgraue Fläche",
+            "Eine schwarze Fläche"
+          ],
+          "answer": 0,
+          "whyFr": "Weiß hebt sich sehr stark von Schwarz ab."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Ein Gemälde hat sehr dunkle Schatten und sehr helle Lichtstellen. Welcher Kontrast wird betont?",
+          "choices": [
+            "Hell-Dunkel-Kontrast",
+            "Nur Warm-Kalt-Kontrast",
+            "Nur Quantitätskontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Licht und Schatten erzeugen einen Helligkeitsgegensatz."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Welche Aussage ist richtig?",
+          "choices": [
+            "Auch unterschiedliche Grautöne können Hell-Dunkel-Kontraste bilden",
+            "Nur bunte Farben können kontrastieren",
+            "Ein Hell-Dunkel-Kontrast erfordert gleich große Flächen"
+          ],
+          "answer": 0,
+          "whyFr": "Grautöne unterscheiden sich in der Helligkeit."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Was passiert, wenn du eine hellgelbe Fläche direkt neben eine dunkelviolette setzt?",
+          "choices": [
+            "Es kann ein starker Hell-Dunkel-Kontrast entstehen",
+            "Die Farben sind automatisch gleich hell",
+            "Es gibt niemals einen Kontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Hellgelb wirkt häufig sehr hell, Dunkelviolett deutlich dunkler."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Welcher Gegensatz ist im Paar Hellgrau und Dunkelgrau entscheidend?",
+          "choices": [
+            "Helligkeit",
+            "Farbtemperatur",
+            "Farbreinheit"
+          ],
+          "answer": 0,
+          "whyFr": "Die beiden Grautöne unterscheiden sich besonders in ihrer Helligkeit."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Wozu kann man Hell-Dunkel-Kontraste im Bild nutzen?",
+          "choices": [
+            "Um Licht, Tiefe und Schwerpunkte hervorzuheben",
+            "Um jede Fläche gleich stark wirken zu lassen",
+            "Nur um Farben zu mischen"
+          ],
+          "answer": 0,
+          "whyFr": "Helle Flächen können sich von dunklen abheben und die Blickführung verändern."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Welche Bildbeschreibung passt zum Hell-Dunkel-Kontrast?",
+          "choices": [
+            "Eine weiße Kerze leuchtet in einem dunklen Raum",
+            "Zwei gleich helle rote Flächen liegen nebeneinander",
+            "Eine große gelbe Fläche liegt neben einer kleinen gelben Fläche"
+          ],
+          "answer": 0,
+          "whyFr": "Die leuchtende Kerze hebt sich durch ihre Helligkeit von der dunklen Umgebung ab."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Erkläre den Hell-Dunkel-Kontrast und nenne das stärkste Beispiel.",
+          "type": "open",
+          "modelAnswer": "Der Hell-Dunkel-Kontrast entsteht, wenn helle und dunkle Farben oder Tonwerte nebeneinanderstehen. Am stärksten ist er zwischen Schwarz und Weiß.",
+          "why": "Eine gute Antwort benennt den Gegensatz der Helligkeit."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Wie würdest du eine helle Mondscheibe in einer Nachtlandschaft deutlich hervorheben? Begründe.",
+          "type": "open",
+          "modelAnswer": "Ich male den Mond sehr hell und den Himmel deutlich dunkler. So hebt sich der Mond durch einen starken Hell-Dunkel-Kontrast ab.",
+          "why": "Du kannst zusätzlich andere Kontraste nennen, aber Helligkeit muss die Hauptbegründung sein."
+        },
+        {
+          "topic": "Hell-Dunkel-Kontrast",
+          "fr": "Warum können Graustufenbilder trotzdem starke Farbkontraste zeigen?",
+          "type": "open",
+          "modelAnswer": "Auch ohne bunte Farben können Hellgrau, Dunkelgrau, Schwarz und Weiß starke Unterschiede in der Helligkeit bilden.",
+          "why": "Schwarz, Weiß und Grau reichen für Hell-Dunkel-Unterschiede aus."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Worum geht es beim Qualitätskontrast?",
+          "choices": [
+            "Um den Unterschied zwischen reinen und getrübten Farben",
+            "Nur um kleine und große Farbflächen",
+            "Nur um warme und kalte Farben"
+          ],
+          "answer": 0,
+          "whyFr": "Qualität bezeichnet hier die Reinheit bzw. Intensität einer Farbe."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Welche Farbe besitzt im Vergleich meist die höhere Farbintensität?",
+          "choices": [
+            "Reines kräftiges Rot",
+            "Graugemischtes, stumpfes Rot",
+            "Stark getrübtes Rot"
+          ],
+          "answer": 0,
+          "whyFr": "Ein reines kräftiges Rot wirkt meist leuchtender als ein getrübtes Rot."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Welche Kombination zeigt besonders klar einen Qualitätskontrast?",
+          "choices": [
+            "Kräftiges Rot neben graustichigem Rot",
+            "Schwarz neben Weiß",
+            "Große blaue Fläche neben kleiner blauer Fläche"
+          ],
+          "answer": 0,
+          "whyFr": "Hier unterscheiden sich Reinheit und Farbintensität innerhalb eines ähnlichen Farbtons."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Wie kann man eine bunte Farbe trüben?",
+          "choices": [
+            "Zum Beispiel durch Beimischung von Grau oder einer geeigneten Gegenfarbe",
+            "Indem man die Fläche größer malt",
+            "Indem man sie auf Papier statt Leinwand malt"
+          ],
+          "answer": 0,
+          "whyFr": "Durch Mischung mit Grau oder einer Komplementärfarbe lässt sich die Farbintensität oft verringern."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Welche Aussage ist falsch?",
+          "choices": [
+            "Jede Mischung mit Weiß ist automatisch ein Qualitätskontrast",
+            "Reine Farben können neben getrübten Farben stehen",
+            "Getrübte Farben wirken häufig weniger intensiv"
+          ],
+          "answer": 0,
+          "whyFr": "Das Aufhellen mit Weiß verändert zunächst die Helligkeit. Farbqualität und Helligkeit müssen getrennt betrachtet werden."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Ein kräftiger roter Kreis steht vor einem graubraun getrübten Hintergrund. Was fällt besonders auf?",
+          "choices": [
+            "Der Unterschied in Leuchtkraft und Farbreinheit",
+            "Nur die Form des Kreises",
+            "Dass beide Flächen unbedingt gleich hell sind"
+          ],
+          "answer": 0,
+          "whyFr": "Der reine Farbton kann neben der getrübten Umgebung intensiver erscheinen."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Welche Bezeichnung passt zu einem wenig leuchtenden, graustichigen Blau?",
+          "choices": [
+            "Getrübtes Blau",
+            "Reines strahlendes Blau",
+            "Automatisch warmes Blau"
+          ],
+          "answer": 0,
+          "whyFr": "Graustichige Farben gelten häufig als getrübt."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Warum spricht man beim Qualitätskontrast von 'Qualität'?",
+          "choices": [
+            "Weil die Reinheit und Intensität einer Farbe gemeint sind",
+            "Weil ein Bild besser gemalt ist",
+            "Weil teure Farben verwendet wurden"
+          ],
+          "answer": 0,
+          "whyFr": "Mit Farbqualität ist keine Bewertung der künstlerischen Arbeit gemeint."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Welche beiden roten Farbtöne eignen sich für ein Beispiel zum Qualitätskontrast?",
+          "choices": [
+            "Reines Rot und stumpfes Rot",
+            "Zwei gleich reine, gleich helle Rottöne",
+            "Zwei identische Rottöne"
+          ],
+          "answer": 0,
+          "whyFr": "Der Vergleich macht den Unterschied zwischen rein und getrübt sichtbar."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Erkläre den Qualitätskontrast mit einem Beispiel in zwei Sätzen.",
+          "type": "open",
+          "modelAnswer": "Beim Qualitätskontrast stehen reine, leuchtende Farben neben getrübten, weniger intensiven Farben. Ein Beispiel ist kräftiges Rot neben graustichigem Rot.",
+          "why": "Farbintensität nicht mit Flächengröße verwechseln."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Wie würdest du eine leuchtende rote Blume durch Qualitätskontrast hervorheben?",
+          "type": "open",
+          "modelAnswer": "Ich male die Blume in reinem kräftigem Rot und die Umgebung in getrübten, graustichigen Farben. Dadurch wirkt die Blume besonders intensiv.",
+          "why": "Eine farblich ruhige, getrübte Umgebung steigert den Eindruck der leuchtenden Blume."
+        },
+        {
+          "topic": "Qualitätskontrast",
+          "fr": "Erkläre den Unterschied zwischen 'hell' und 'rein' bei Farben.",
+          "type": "open",
+          "modelAnswer": "Hell beschreibt die Helligkeit einer Farbe, rein ihre Sättigung bzw. Farbintensität. Eine helle Farbe muss nicht besonders rein oder leuchtend sein.",
+          "why": "Qualitätskontrast und Hell-Dunkel-Kontrast sind unterschiedliche Begriffe."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Was ist der Quantitätskontrast?",
+          "choices": [
+            "Der Gegensatz zwischen unterschiedlich großen Farbflächen oder Farbmengen",
+            "Der Unterschied zwischen Rot und Blau als Farbton",
+            "Der Unterschied zwischen reinem und getrübtem Rot"
+          ],
+          "answer": 0,
+          "whyFr": "Die Menge bzw. Flächengröße der beteiligten Farben steht im Mittelpunkt."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Welche Anordnung veranschaulicht einen Quantitätskontrast?",
+          "choices": [
+            "Ein kleiner roter Fleck in einer großen blauen Fläche",
+            "Zwei gleich große, identisch rote Flächen",
+            "Eine schwarze Fläche direkt neben einer weißen gleicher Größe"
+          ],
+          "answer": 0,
+          "whyFr": "Die kleine rote und große blaue Fläche unterscheiden sich in ihrem Flächenanteil."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Welche Rolle spielt die Flächengröße beim Quantitätskontrast?",
+          "choices": [
+            "Sie ist ein zentraler Bestandteil",
+            "Sie spielt gar keine Rolle",
+            "Sie muss bei beiden Farben gleich sein"
+          ],
+          "answer": 0,
+          "whyFr": "Der Kontrast betrachtet, wie viel Fläche jede Farbe einnimmt."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Kann ein kleiner, sehr leuchtender Farbfleck neben einer großen weniger leuchtenden Fläche deutlich wirken?",
+          "choices": [
+            "Ja, die Leuchtkraft beeinflusst die Wirkung der Farbmenge",
+            "Nein, kleinere Flächen sind immer unsichtbar",
+            "Nur bei Schwarz und Weiß"
+          ],
+          "answer": 0,
+          "whyFr": "Neben dem Flächenverhältnis spielt auch die Leuchtkraft eine Rolle."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Eine Bildfläche besteht aus 90 % Blau und 10 % Orange. Was ist auffällig?",
+          "choices": [
+            "Die unterschiedlichen Flächenanteile",
+            "Dass beide Farben gleich viel Platz einnehmen",
+            "Dass Orange immer dunkler ist"
+          ],
+          "answer": 0,
+          "whyFr": "Die Größenverhältnisse der Farbflächen sind sehr unterschiedlich."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Was ist bei einem Quantitätskontrast besonders wichtig?",
+          "choices": [
+            "Wie viel Raum jede Farbe im Bild einnimmt",
+            "Ob eine Farbe mit Grau vermischt wurde",
+            "Ob eine Farbe warm wirkt"
+          ],
+          "answer": 0,
+          "whyFr": "Die Farbmenge ist entscheidend, nicht allein der Farbton."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Welche Aussage ist falsch?",
+          "choices": [
+            "Eine größere Fläche muss immer stärker wirken als eine kleine, leuchtende Fläche",
+            "Unterschiedliche Farbanteile können Quantitätskontraste zeigen",
+            "Leuchtkraft beeinflusst die Flächenwirkung"
+          ],
+          "answer": 0,
+          "whyFr": "Eine kleine sehr leuchtende Fläche kann stark auffallen."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Welche Gestaltung betont eine einzelne gelbe Blüte in einer großen violetten Wiese?",
+          "choices": [
+            "Kleine gelbe Fläche gegen große violette Fläche",
+            "Zwei gleich große gelbe Blüten",
+            "Nur Schwarz-Weiß-Flächen"
+          ],
+          "answer": 0,
+          "whyFr": "Die ungleichen Farbanteile machen die einzelne Blüte auffällig."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Wenn die gelbe Fläche im Bild von 5 % auf 50 % wächst, was ändert sich direkt?",
+          "choices": [
+            "Der Mengenanteil von Gelb",
+            "Die Farbreinheit von Gelb automatisch",
+            "Die Temperatur von Gelb automatisch"
+          ],
+          "answer": 0,
+          "whyFr": "Mehr Fläche bedeutet eine andere Farbquantität, nicht automatisch andere Farbqualität."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Erkläre den Quantitätskontrast und gib ein einfaches Beispiel.",
+          "type": "open",
+          "modelAnswer": "Beim Quantitätskontrast stehen unterschiedlich große Farbflächen bzw. Farbmengen gegenüber, etwa eine kleine gelbe Fläche und eine große violette Fläche.",
+          "why": "Die Wirkung hängt außerdem von der Leuchtkraft der beteiligten Farben ab."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Entwirf gedanklich ein Plakat mit starkem Quantitätskontrast. Beschreibe die Aufteilung.",
+          "type": "open",
+          "modelAnswer": "Ich gestalte fast das ganze Plakat dunkelblau und setze nur einen kleinen leuchtend gelben Kreis darauf. Die sehr unterschiedlichen Flächenanteile erzeugen einen Quantitätskontrast.",
+          "why": "Es gibt mehrere sinnvolle Gestaltungen; wichtig ist eine nachvollziehbare Größenbeschreibung."
+        },
+        {
+          "topic": "Quantitätskontrast",
+          "fr": "Warum ist eine kleine gelbe Fläche nicht unbedingt weniger auffällig als eine große violette Fläche?",
+          "type": "open",
+          "modelAnswer": "Gelb kann deutlich leuchtkräftiger als Violett wirken. Deshalb kann eine kleine gelbe Fläche viel Aufmerksamkeit erhalten.",
+          "why": "Quantität und Leuchtkraft bestimmen gemeinsam den Eindruck."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Ein reines rotes Quadrat liegt neben einem stumpfen, grau gemischten roten Quadrat. Welcher Kontrast?",
+          "choices": [
+            "Qualitätskontrast",
+            "Quantitätskontrast",
+            "Warm-Kalt-Kontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Beide Rotflächen unterscheiden sich vor allem in ihrer Reinheit und Intensität."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Ein Bild enthält einen kleinen leuchtenden Fleck auf einem riesigen farbigen Hintergrund. Welche Kontraste können zusammenwirken?",
+          "choices": [
+            "Quantitätskontrast und möglicherweise Qualitätskontrast",
+            "Grundsätzlich kein Kontrast",
+            "Nur Hell-Dunkel-Kontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Der Flächenunterschied ist quantitativ; verschiedene Farbintensitäten können zusätzlich einen Qualitätskontrast bilden."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Was ist die passendste Bezeichnung für Schwarz direkt neben Weiß?",
+          "choices": [
+            "Hell-Dunkel-Kontrast",
+            "Warm-Kalt-Kontrast",
+            "Qualitätskontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Schwarz und Weiß zeigen die stärkste Helligkeitsdifferenz."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Welche Zuordnung stimmt?",
+          "choices": [
+            "Warm-Kalt: Orange–Blau; Qualität: reines–getrübtes Rot",
+            "Quantität: Schwarz–Weiß; Hell-Dunkel: kleine–große Fläche",
+            "Qualität: warme–kalte Farbe; Quantität: rein–getrübt"
+          ],
+          "answer": 0,
+          "whyFr": "Die Fachbegriffe bezeichnen Farbtemperatur, Reinheit, Helligkeit und Menge."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Ein Kind schreibt: 'Qualitätskontrast bedeutet, dass eine Fläche größer ist.' Was ist daran falsch?",
+          "choices": [
+            "Es beschreibt Quantität statt Qualität",
+            "Es beschreibt bereits korrekt Qualität",
+            "Eigentlich meint es Warm-Kalt"
+          ],
+          "answer": 0,
+          "whyFr": "Qualität betrifft Reinheit/Intensität; Quantität betrifft Flächengröße/Farbmenge."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Welche Aussage ist richtig?",
+          "choices": [
+            "In einem Bild können mehrere Farbkontraste gleichzeitig auftreten",
+            "Jedes Bild darf nur einen Kontrast enthalten",
+            "Ein Farbkontrast entsteht nur durch Schwarz und Weiß"
+          ],
+          "answer": 0,
+          "whyFr": "Zum Beispiel können Orange und Blau gleichzeitig warm-kalt und hell-dunkel unterschiedlich wirken."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Bei welchem Paar ist die Größe der Farbflächen entscheidend?",
+          "choices": [
+            "Große rote Fläche und kleiner blauer Fleck",
+            "Schwarz und Weiß mit gleicher Fläche",
+            "Kräftiges Rot und stumpfes Rot mit gleicher Fläche"
+          ],
+          "answer": 0,
+          "whyFr": "Das erste Beispiel betont den Unterschied der Farbanteile."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Welche Frage hilft am besten beim Erkennen eines Qualitätskontrasts?",
+          "choices": [
+            "Welche Farbe wirkt reiner oder getrübter?",
+            "Welche Fläche nimmt mehr Platz ein?",
+            "Welche Farbe ist wärmer?"
+          ],
+          "answer": 0,
+          "whyFr": "Die Farbreinheit ist das Hauptmerkmal."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Vergleiche die vier Kontraste in jeweils einem kurzen Satz.",
+          "type": "open",
+          "modelAnswer": "Warm-Kalt: warme und kalte Farbwirkung. Hell-Dunkel: Helligkeitsunterschied. Qualität: reine und getrübte Farbwirkung. Quantität: unterschiedliche Farbflächen und Mengen.",
+          "why": "Achte besonders auf die Unterschiede zwischen Qualität und Quantität."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Beschreibe ein Bild mit blauem Hintergrund, einer kleinen kräftig orangefarbenen Sonne und dunklen Bergen. Nenne mindestens zwei mögliche Kontraste.",
+          "type": "open",
+          "modelAnswer": "Die orange Sonne wirkt warm, der blaue Hintergrund kalt: Warm-Kalt-Kontrast. Die Sonne ist klein im Vergleich zum blauen Hintergrund: Quantitätskontrast. Dunkle Berge gegenüber der helleren Sonne können außerdem einen Hell-Dunkel-Kontrast bilden.",
+          "why": "Es kommt darauf an, dass die Zuordnung zum beschriebenen Merkmal passt."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Ein Schüler behauptet: 'Alles mit zwei Farben ist automatisch ein Qualitätskontrast.' Widerlege das anhand eines Gegenbeispiels.",
+          "type": "open",
+          "modelAnswer": "Das stimmt nicht. Schwarz neben Weiß bildet vor allem einen Hell-Dunkel-Kontrast. Ein Qualitätskontrast erfordert einen Unterschied in Farbreinheit oder Intensität.",
+          "why": "Gutes Begründen heißt: Begriff korrekt definieren und ein passendes Gegenbeispiel nennen."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Prüfungsfrage: Welche zwei Unterschiede gibt es zwischen Qualitäts- und Quantitätskontrast?",
+          "type": "open",
+          "modelAnswer": "Beim Qualitätskontrast vergleicht man die Reinheit oder Intensität von Farben, beim Quantitätskontrast ihre Flächengrößen bzw. Mengen. Eine kleine Fläche kann trotzdem sehr intensiv und auffällig wirken.",
+          "why": "Hier werden die beiden häufig verwechselten Fachbegriffe gezielt geübt."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Zeichne gedanklich eine Szene, in der Warm-Kalt- und Hell-Dunkel-Kontrast gemeinsam wirken. Beschreibe sie.",
+          "type": "open",
+          "modelAnswer": "Eine helle orangefarbene Laterne leuchtet vor einem dunklen blauen Nachthimmel. Orange und Blau bilden einen Warm-Kalt-Kontrast; die helle Laterne und der dunkle Himmel bilden einen Hell-Dunkel-Kontrast.",
+          "why": "Andere richtige Beispiele sind möglich, solange beide Gegensätze nachvollziehbar erklärt sind."
+        }
+      ]
     }
   ]
 }

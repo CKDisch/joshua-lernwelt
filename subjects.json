@@ -5403,6 +5403,7 @@
         "Hell-Dunkel-Kontrast",
         "Qualitätskontrast",
         "Quantitätskontrast",
+        "Komplementärkontrast",
         "Gemischte Prüfungsvorbereitung"
       ],
       "legacy": [],
@@ -6009,6 +6010,155 @@
           "type": "open",
           "modelAnswer": "Eine helle orangefarbene Laterne leuchtet vor einem dunklen blauen Nachthimmel. Orange und Blau bilden einen Warm-Kalt-Kontrast; die helle Laterne und der dunkle Himmel bilden einen Hell-Dunkel-Kontrast.",
           "why": "Andere richtige Beispiele sind möglich, solange beide Gegensätze nachvollziehbar erklärt sind."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Was bedeutet Komplementärkontrast?",
+          "choices": [
+            "Zwei Farben stehen sich im Farbkreis gegenüber",
+            "Eine Farbe ist größer als die andere",
+            "Zwei Farben sind gleich hell"
+          ],
+          "answer": 0,
+          "whyFr": "Komplementärfarben liegen sich im traditionellen Farbkreis gegenüber."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welche Farben sind im Farbkreis nach Itten komplementär?",
+          "choices": [
+            "Rot und Grün",
+            "Rot und Orange",
+            "Blau und Grün"
+          ],
+          "answer": 0,
+          "whyFr": "Rot und Grün liegen im zwölfteiligen Farbkreis nach Itten gegenüber."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welche Farbe ist komplementär zu Blau?",
+          "choices": [
+            "Orange",
+            "Grün",
+            "Violett"
+          ],
+          "answer": 0,
+          "whyFr": "Blau und Orange sind ein Komplementärpaar."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welche Farbe ist komplementär zu Gelb?",
+          "choices": [
+            "Violett",
+            "Orange",
+            "Grün"
+          ],
+          "answer": 0,
+          "whyFr": "Gelb und Violett liegen einander im Farbkreis gegenüber."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welche Paarung ist KEIN Komplementärpaar nach Itten?",
+          "choices": [
+            "Rot und Gelb",
+            "Blau und Orange",
+            "Gelb und Violett"
+          ],
+          "answer": 0,
+          "whyFr": "Rot und Gelb sind keine gegenüberliegenden Farben."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Wie wirken Komplementärfarben, wenn sie nebeneinander liegen?",
+          "choices": [
+            "Sie können sich gegenseitig besonders kräftig erscheinen lassen",
+            "Sie werden automatisch grau",
+            "Sie verlieren immer ihre Wirkung"
+          ],
+          "answer": 0,
+          "whyFr": "Benachbarte Komplementärfarben können sich in ihrer Wirkung steigern."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Ein orangefarbener Fisch schwimmt vor blauem Wasser. Welcher Farbkontrast ist deutlich?",
+          "choices": [
+            "Komplementärkontrast",
+            "Nur Quantitätskontrast",
+            "Nur Qualitätskontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Orange und Blau bilden ein Komplementärpaar."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welche Aussage trifft auf Komplementärfarben zu?",
+          "choices": [
+            "Sie liegen sich im Farbkreis gegenüber",
+            "Sie müssen gleich hell sein",
+            "Sie sind immer gleich warm"
+          ],
+          "answer": 0,
+          "whyFr": "Die Lage im Farbkreis ist entscheidend, nicht die Helligkeit."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Was passiert häufig, wenn man Komplementärfarben als Malfarben miteinander mischt?",
+          "choices": [
+            "Die Mischung wird meist getrübt",
+            "Es entsteht immer reines Weiß",
+            "Die Farben bleiben unverändert"
+          ],
+          "answer": 0,
+          "whyFr": "Bei der Mischung von Pigmentfarben entsteht häufig ein gedämpfter oder bräunlich-grauer Ton; das Ergebnis hängt von den Pigmenten ab."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Welches Farbkreiswissen hilft beim Finden der Komplementärfarbe?",
+          "choices": [
+            "Die gegenüberliegende Position suchen",
+            "Nur die hellste Farbe suchen",
+            "Die größte Farbfläche suchen"
+          ],
+          "answer": 0,
+          "whyFr": "Man schaut auf die gegenüberliegende Position im Farbkreis."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Erkläre den Komplementärkontrast in einem Satz mit Beispiel.",
+          "type": "open",
+          "modelAnswer": "Der Komplementärkontrast entsteht zwischen Farben, die sich im Farbkreis gegenüberliegen, zum Beispiel Blau und Orange.",
+          "why": "Eine vollständige Antwort nennt die Lage im Farbkreis und ein korrektes Paar."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Nenne die drei wichtigen Komplementärpaare im Farbkreis nach Itten.",
+          "type": "open",
+          "modelAnswer": "Rot–Grün, Blau–Orange und Gelb–Violett.",
+          "why": "Diese drei Paare sollte Joshua sicher zuordnen können."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Warum eignet sich Orange für eine auffällige Figur vor blauem Hintergrund?",
+          "type": "open",
+          "modelAnswer": "Orange und Blau sind Komplementärfarben. Sie liegen sich im Farbkreis gegenüber und können nebeneinander besonders kräftig wirken.",
+          "why": "Zusätzliche Hell-Dunkel- oder Mengenunterschiede sind möglich."
+        },
+        {
+          "topic": "Komplementärkontrast",
+          "fr": "Ein Mitschüler sagt: 'Rot und Grün sind Komplementärfarben, weil Rot heller ist.' Verbessere die Erklärung.",
+          "type": "open",
+          "modelAnswer": "Rot und Grün sind Komplementärfarben, weil sie sich im Farbkreis nach Itten gegenüberliegen, nicht wegen ihrer Helligkeit.",
+          "why": "Hell-Dunkel-Kontrast und Komplementärkontrast unterscheiden sich."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Welche beiden Farben bilden ein Komplementärpaar nach Itten?",
+          "choices": [
+            "Gelb und Violett",
+            "Gelb und Orange",
+            "Rot und Orange"
+          ],
+          "answer": 0,
+          "whyFr": "Gelb und Violett liegen sich im Farbkreis gegenüber."
         }
       ]
     }

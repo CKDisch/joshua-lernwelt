@@ -5397,8 +5397,9 @@
       "name": "Kunst",
       "icon": "🎨",
       "lang": "de",
-      "languageNote": "Vorbereitung auf die Klassenarbeit am 9. November 2026. Grundlage: handschriftliche Lernnotizen zu vier Farbkontrasten. Aufgaben und Erklärungen sind eigenständig erstellt, keine Original-Lehrerfragen.",
+      "languageNote": "LEK 9. November 2026. Unterrichtsgrundlagen: Farbkontraste.pdf, Farbkreis nach Johannes Itten und Unterscheidungsmerkmale einer Farbe, itslearning-Mitschrift zum Farbkreis sowie Joshuas handschriftliche Notizen. Übungsfragen sind eigenständig formuliert.",
       "topics": [
+        "Farbkreis nach Itten & Fachbegriffe",
         "Warm-Kalt-Kontrast",
         "Hell-Dunkel-Kontrast",
         "Qualitätskontrast",
@@ -5933,6 +5934,238 @@
           "type": "open",
           "modelAnswer": "Beispiel: Ein reines Rot steht neben getrübtem Rot (Qualität). Daneben befindet sich Grün als Gegenfarbe zu Rot (Komplementär). Die Unterschiede werden getrennt begründet.",
           "why": "Begründe deine Antwort mit dem richtigen Fachbegriff und dem sichtbaren Merkmal."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Aus welchen drei Primärfarben ist der Farbkreis nach Itten aufgebaut?",
+          "choices": [
+            "Gelb, Rot und Blau",
+            "Orange, Grün und Violett",
+            "Rot, Grün und Blau als Lichtfarben"
+          ],
+          "answer": 0,
+          "whyFr": "Ittens traditioneller Farbkreis verwendet Gelb, Rot und Blau als Farben erster Ordnung."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche drei Farben zweiter Ordnung entstehen durch Mischen zweier Primärfarben?",
+          "choices": [
+            "Orange, Grün und Violett",
+            "Gelborange, Blaugrün und Rotorange",
+            "Gelb, Rot und Blau"
+          ],
+          "answer": 0,
+          "whyFr": "Rot + Gelb = Orange; Gelb + Blau = Grün; Rot + Blau = Violett."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Mischung führt im Itten-Modell zu einer Farbe zweiter Ordnung?",
+          "choices": [
+            "Gelb und Blau zu Grün",
+            "Blau und Grün zu Gelb",
+            "Rot und Grün zu Blau"
+          ],
+          "answer": 0,
+          "whyFr": "Gelb und Blau ergeben im traditionellen Modell Grün."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Wie viele Farbtöne hat der vollständige Farbkreis nach Itten?",
+          "choices": [
+            "12",
+            "7",
+            "6"
+          ],
+          "answer": 0,
+          "whyFr": "Der Itten-Farbkreis umfasst 12 gleichmäßig angeordnete Farbtöne."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Was unterscheidet Sekundär- von Tertiärfarben im Itten-Farbkreis?",
+          "choices": [
+            "Sekundärfarben entstehen aus zwei Primärfarben; Tertiärfarben aus einer Primär- und einer benachbarten Sekundärfarbe.",
+            "Sekundärfarben sind immer dunkler als Primärfarben.",
+            "Tertiärfarben entstehen nur durch Schwarz und Weiß."
+          ],
+          "answer": 0,
+          "whyFr": "Die sechs Tertiärfarben liegen jeweils zwischen einer Primär- und einer Sekundärfarbe."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Farbe entsteht nach Itten aus Gelb und Orange?",
+          "choices": [
+            "Gelborange",
+            "Blauviolett",
+            "Grün"
+          ],
+          "answer": 0,
+          "whyFr": "Gelborange ist eine Tertiärfarbe zwischen Gelb und Orange."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Mischung ergibt Blaugrün?",
+          "choices": [
+            "Blau und Grün",
+            "Rot und Blau",
+            "Gelb und Rot"
+          ],
+          "answer": 0,
+          "whyFr": "Blaugrün liegt im Kreis zwischen Blau und Grün."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Farbreihe enthält ausschließlich die sechs Tertiärfarben nach Itten?",
+          "choices": [
+            "Gelborange, Rotorange, Rotviolett, Blauviolett, Blaugrün, Gelbgrün",
+            "Gelb, Rot, Blau, Orange, Grün, Violett",
+            "Gelb, Schwarz, Weiß, Grau, Braun, Blau"
+          ],
+          "answer": 0,
+          "whyFr": "Die sechs Tertiärfarben stehen jeweils zwischen den drei Primär- und drei Sekundärfarben."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Aussage über den Farbton ist richtig?",
+          "choices": [
+            "Er bezeichnet die Farbrichtung, etwa rötlich, gelblich oder bläulich.",
+            "Er bezeichnet ausschließlich die Größe einer Fläche.",
+            "Er bezeichnet nur den Grad der Helligkeit."
+          ],
+          "answer": 0,
+          "whyFr": "Farbton oder Farbrichtung unterscheidet beispielsweise Rot, Gelb und Blau."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche drei Dimensionen werden im Unterrichtsmaterial zur Unterscheidung von Farben genannt?",
+          "choices": [
+            "Farbton, Helligkeit und Intensität",
+            "Form, Größe und Material",
+            "Temperatur, Gewicht und Länge"
+          ],
+          "answer": 0,
+          "whyFr": "Das Material nennt Farbton, Helligkeit und Intensität (Reinheit/Sättigung)."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Was bedeutet 'Tonwert' im Unterrichtsmaterial?",
+          "choices": [
+            "Helligkeit einer Farbe",
+            "Flächengröße einer Farbe",
+            "Komplementärfarbe"
+          ],
+          "answer": 0,
+          "whyFr": "Helligkeit wird auch Eigenhelle oder Tonwert genannt."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Was ist mit Sättigung gemeint?",
+          "choices": [
+            "Die Reinheit bzw. Intensität eines Farbtons",
+            "Die Fläche, die eine Farbe einnimmt",
+            "Die Anzahl der Farbtöne im Kreis"
+          ],
+          "answer": 0,
+          "whyFr": "Das Material verwendet Intensität, Reinheit und Sättigung als zusammengehörige Begriffe."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche Aussage zu Gelb und Violett stimmt nach dem Arbeitsblatt?",
+          "choices": [
+            "Gelb ist sehr hell und Violett sehr dunkel; zugleich sind sie Komplementärfarben.",
+            "Beide sind immer gleich hell.",
+            "Beide sind Primärfarben."
+          ],
+          "answer": 0,
+          "whyFr": "Das Material nennt Gelb als hellste und Violett als dunkelste Buntfarbe des Farbkreises."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche sechs Komplementärpaare werden auf dem Unterrichtsblatt genannt?",
+          "choices": [
+            "Gelb–Violett, Gelborange–Blauviolett, Orange–Blau, Rotorange–Blaugrün, Rot–Grün, Rotviolett–Gelbgrün",
+            "Gelb–Orange, Rot–Rotorange, Blau–Blaugrün, Grün–Gelbgrün, Violett–Rotviolett, Weiß–Schwarz",
+            "Rot–Blau, Gelb–Grün, Orange–Violett, Blaugrün–Rotviolett, Gelborange–Rotorange, Gelbgrün–Blauviolett"
+          ],
+          "answer": 0,
+          "whyFr": "Auf dem Farbkontrastblatt stehen alle sechs Gegenfarbenpaare des zwölfteiligen Farbkreises."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Welche historische Zuordnung stimmt mit der Mitschrift aus itslearning überein?",
+          "choices": [
+            "Isaac Newton: Spektralfarben durch Prisma; Johannes Itten: zwölfteiliger Farbkreis",
+            "Johannes Itten: Entdeckung des Prismas 1666; Newton: zwölfteiliger Farbkreis",
+            "Beide entwickelten nur Schwarz-Weiß-Abstufungen"
+          ],
+          "answer": 0,
+          "whyFr": "Die Mitschrift erwähnt Newtons Prismaexperiment 1666 und Ittens zwölfteiligen Farbkreis."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Erkläre, wie aus den drei Primärfarben nach Itten insgesamt zwölf Farbtöne entstehen.",
+          "type": "open",
+          "modelAnswer": "Drei Primärfarben (Gelb, Rot, Blau) werden zu drei Sekundärfarben (Orange, Grün, Violett) gemischt. Aus benachbarten Primär- und Sekundärfarben entstehen sechs Tertiärfarben. Zusammen sind das zwölf Farbtöne.",
+          "why": "Zeige die drei Stufen der Farbordnung."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Nenne die drei Dimensionen einer Farbe und erkläre sie jeweils an einem Beispiel.",
+          "type": "open",
+          "modelAnswer": "Farbton: z. B. Blau statt Rot. Helligkeit/Tonwert: helles statt dunkles Blau. Intensität/Sättigung: reines kräftiges statt graustichiges Blau.",
+          "why": "Diese Fachbegriffe stammen aus dem hochgeladenen Unterrichtsmaterial."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Warum ist eine hellere Farbe nicht automatisch auch intensiver?",
+          "type": "open",
+          "modelAnswer": "Helligkeit und Sättigung sind verschiedene Eigenschaften. Ein helles graustichiges Blau kann weniger gesättigt sein als ein dunkleres kräftiges Blau.",
+          "why": "Die Begriffe Helligkeit und Intensität auseinanderhalten."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Erkläre den Unterschied zwischen einem Primär-, Sekundär- und Tertiärfarbton mit je einem Beispiel.",
+          "type": "open",
+          "modelAnswer": "Primär: Gelb, Rot oder Blau. Sekundär: Orange aus Gelb und Rot. Tertiär: Gelborange aus Gelb und Orange.",
+          "why": "Nenne nicht nur Beispiele, sondern auch die Mischungsregel."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Ein Farbton wird mit Grau gemischt. Was ändert sich an seiner Intensität und welcher Farbkontrast kann dadurch entstehen?",
+          "type": "open",
+          "modelAnswer": "Die Farbe wird getrübt und verliert Sättigung. Neben der ursprünglichen reinen Farbe kann dadurch ein Qualitätskontrast entstehen.",
+          "why": "Die Antwort verbindet das Farbkreis-Material mit den Farbkontrasten."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Ein Bild verwendet Gelb und Violett. Begründe zwei mögliche Kontraste anhand des Arbeitsblatts.",
+          "type": "open",
+          "modelAnswer": "Gelb und Violett sind Komplementärfarben und liegen sich im Itten-Farbkreis gegenüber. Gelb ist außerdem sehr hell und Violett sehr dunkel, sodass ein Hell-Dunkel-Kontrast entstehen kann.",
+          "why": "Mehrere Kontraste können gleichzeitig auftreten."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Nenne die sechs Tertiärfarben in der Reihenfolge des Farbkreises, beginnend bei Gelborange.",
+          "type": "open",
+          "modelAnswer": "Gelborange, Rotorange, Rotviolett, Blauviolett, Blaugrün und Gelbgrün.",
+          "why": "Achte auf die Farbnamen mit zusammengesetzten Primär- und Sekundärfarben."
+        },
+        {
+          "topic": "Farbkreis nach Itten & Fachbegriffe",
+          "fr": "Ein Mitschüler sagt: 'Blaugrün ist eine Sekundärfarbe, denn Blau und Grün kann man mischen.' Korrigiere die Aussage.",
+          "type": "open",
+          "modelAnswer": "Blaugrün ist im Farbkreis nach Itten eine Tertiärfarbe. Es entsteht aus Blau (Primärfarbe) und Grün (Sekundärfarbe).",
+          "why": "Nicht jede Mischung aus zwei Farben führt zu einer Sekundärfarbe."
+        },
+        {
+          "topic": "Gemischte Prüfungsvorbereitung",
+          "fr": "Eine getrübte blaugrüne Fläche steht neben einer kleinen kräftig rotorangen Fläche. Welche drei Kontraste können begründet werden?",
+          "choices": [
+            "Komplementär-, Qualitäts- und Quantitätskontrast",
+            "Nur Hell-Dunkel-Kontrast",
+            "Nur Warm-Kalt-Kontrast"
+          ],
+          "answer": 0,
+          "whyFr": "Rotorange und Blaugrün sind Komplementärfarben, ihre Sättigung und ihre Flächenanteile unterscheiden sich."
         }
       ]
     }

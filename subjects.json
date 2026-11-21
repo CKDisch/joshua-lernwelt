@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated": "2026-11-04",
+  "version": 5,
+  "updated": "2026-11-21",
   "subjects": [
     {
       "id": "geographie",
@@ -6408,6 +6408,28 @@
           "why": "Eine Tertiärfarbe wäre beispielsweise Gelborange aus Gelb und Orange."
         }
       ]
+    },
+    {
+      "id": "politik",
+      "name": "Politique",
+      "icon": "🏛️",
+      "lang": "fr",
+      "topics": [
+        "Le trajet d'un smartphone",
+        "Les problèmes sociaux",
+        "Les problèmes environnementaux",
+        "Les ressources limitées",
+        "Les acteurs et les inégalités",
+        "Analyser un document"
+      ],
+      "questions": [],
+      "legacy": [
+        {
+          "title": "Préparation à la LEK",
+          "url": "./politik.html"
+        }
+      ],
+      "languageNote": "Cours, consignes, réponses et corrigés exclusivement en français."
     }
   ]
 }

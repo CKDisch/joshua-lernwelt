@@ -56,7 +56,7 @@ h1{font-size:clamp(27px,3.8vw,34px);margin:6px 0 6px}
 #example-content,#profile-content{margin-top:16px}
 .eyebrow{color:#a5d7d8}
 @media(max-width:620px){.wrap{padding:15px 13px 30px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.tile{min-height:82px;padding:12px 10px}.tile strong{font-size:14px}.tile span{font-size:11px}#practice{padding:17px 15px}.connector-switch button{min-width:100px!important;font-size:12px!important}.subpanel{padding:15px}}
-</style></head><body><main class="wrap">
+.lern-account{margin:0 0 18px;padding:12px;border:1px solid #557085;border-radius:10px}.lern-account summary{cursor:pointer;font-weight:bold}.lern-account form:not([hidden]){display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}.lern-account input{max-width:100%;font:inherit;padding:8px}.lern-account [hidden]{display:none}.lern-account p{margin:8px 0 0}.lern-attempt{margin:8px 0}.lern-attempt p{white-space:pre-wrap;overflow-wrap:anywhere}</style></head><body><main class="wrap">
 <nav class="nav" aria-label="Lernapps"><a href="./index.html">🎓 Joshua Lernwelt · Alle Fächer</a><a class="here" href="./deutsch.html">📖 Deutsch-Trainer</a></nav>
 <div class="eyebrow">JOSHUA · DEUTSCH · 7. KLASSE</div><h1>Sachtextanalyse</h1>
 <p class="muted intro">Kurze, abwechslungsreiche Übungen zur Vorbereitung auf die Klassenarbeit.</p>
@@ -140,7 +140,8 @@ h1{font-size:clamp(27px,3.8vw,34px);margin:6px 0 6px}
 </div></section>
 <section class="card subpanel" id="profile"><div class="row"><div><h2>📊 Mein Lernstand</h2><p class="small muted">Ergebnisse und Übungsschwerpunkte</p></div><button class="secondary" type="button" id="toggle-profile" aria-controls="profile-content" aria-expanded="false">Lernstand öffnen</button></div><div id="profile-content" hidden><div id="profiles"></div><p class="small muted">Die Einschätzung beruht nur auf Antworten in dieser App, nicht auf einer Lehrernote. Anfangs sind noch keine Schwächen feststellbar.</p><button class="secondary" id="reset">Lernstand zurücksetzen</button></div></section>
 <p class="small muted">Eigenständige Übungsbeispiele zur Sachtextanalyse; keine Originalaufgaben der Lehrkraft. Antworten werden nur in diesem Browser gespeichert.</p>
-</main><script>
+</main><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.2/dist/umd/supabase.js" integrity="sha384-A97u3Qnt9GZHURO9YJZRe7VQgGUeFzcv6I1oIGnUTxQrCxnpQMwR0/G8F2zt9abZ" crossorigin="anonymous"></script><script src="./lernkonto.js"></script><script>
+window.lernReady.then(()=>{
 const Q={
 phrases:[
 {skill:"Einleitung",q:"Der ___ „Von der Klette zum Klettverschluss“ informiert über die Entstehung einer Erfindung.",opts:["Sachtext","Roman","Kommentar"],a:0,why:"Die Einleitung nennt zuerst die Textsorte."},
@@ -427,13 +428,13 @@ Q.errors.push(...[{"kind":"rewrite","skill":"Fachbegriffe","stage":"terms","q":"
 Q.connectors.push(...[{"kind":"rewrite","skill":"Gemischte Anwendung","track":"mixed","q":"Sachtextinformationen: „Eine Bibliothek erweitert ihre Öffnungszeiten. Mehr Menschen können sie nach der Schule besuchen.“ Verbinde beide Aussagen in einem Satz und mache die zusätzliche Besuchsmöglichkeit als Folge deutlich. Wähle das Verbindungswort selbst.","model":"Die Bibliothek erweitert ihre Öffnungszeiten, sodass mehr Menschen sie nach der Schule besuchen können.","criteria":["Maßnahme korrekt genannt","Besuchsmöglichkeit als Folge dargestellt","Nebensatz grammatisch richtig"],"why":"Die Ursache-Folge-Beziehung kann mit „sodass“ oder einer passenden „wodurch“-Formulierung wiedergegeben werden."},{"kind":"rewrite","skill":"Gemischte Anwendung","track":"mixed","q":"Sachtextinformationen: „Die Zutatenliste nennt den Gewichtsanteil der Zutaten. Sie enthält keine allgemeine Aussage über die Gesundheit eines Produkts.“ Verbinde die Aussagen zu einem sachlichen Satz. Verwende ein passendes Verbindungswort, ohne eine unbelegte Ursache zu behaupten.","model":"Die Zutatenliste nennt die Zutaten nach ihrem Gewichtsanteil, und daraus lässt sich nicht unmittelbar ableiten, wie gesund ein Produkt ist.","criteria":["Gewichtsanteil als Information erfasst","Keine automatische Gesundheitsbewertung behauptet","Logische Verbindung ohne erfundene Ursache"],"why":"Nicht jede Verbindung ist eine Ursache-Folge-Beziehung. „Und“ kann unterschiedliche gleichrangige Informationen verknüpfen."},{"kind":"multi","skill":"Gemischte Anwendung","track":"mixed","q":"Ausgangstext: „Eine Nachricht wird oft geteilt. Das allein beweist nicht, dass sie richtig ist.“ Welche Verbindungen geben den Gegensatz wieder, ohne eine falsche Ursache zu behaupten?","opts":["Die Nachricht wird oft geteilt, aber das beweist ihre Richtigkeit nicht.","Die Nachricht wird oft geteilt, sodass sie automatisch richtig ist.","Viele Menschen teilen die Nachricht, doch daraus folgt nicht, dass sie stimmt.","Die Nachricht ist wahr, weil sie oft geteilt wird."],"correct":[0,2],"why":"Eine häufige Weiterverbreitung ist kein Beleg für die Wahrheit. Ein Gegensatz ist hier sinnvoller als eine erfundene Kausalbeziehung."},{"kind":"pair","skill":"Gemischte Anwendung","track":"mixed","q":"Ordne zu, welcher Satz den jeweiligen Zusammenhang korrekt und texttreu wiedergibt.","left":["Die Pflanzendecke spendet Schatten; die Erde erwärmt sich weniger.","Die Forschenden beobachten Blattoberflächen und untersuchen ihren Aufbau.","Regenwasser dringt leichter ein, nachdem eine Fläche entsiegelt wurde."],"right":["Die Pflanzendecke spendet Schatten, sodass sich die Erde weniger erwärmt.","Die Forschenden beobachten die Blattoberflächen und untersuchen ihren Aufbau.","Die Fläche wird entsiegelt, wodurch Regenwasser leichter versickern kann."],"solution":[0,1,2],"why":"Unterscheide Folge, gleichrangige Tätigkeiten und die Wirkung einer Maßnahme."}]);
 const KEYS={phrases:"Formulierungen",sections:"Sinnabschnitte",errors:"Fehler verbessern",connectors:"Sätze verbinden",analysis:"Sachtextanalyse üben"};
 const STORE="joshua-deutsch-focus-v2";
-let history={};try{history=JSON.parse(localStorage.getItem(STORE)||"{}")||{}}catch(e){}
+let history={};try{history=JSON.parse(lernStorage.getItem(STORE)||"{}")||{}}catch(e){}
 
 const SHARED_STORE="jl-progress-v1",MIGRATION_MARKER="jl-deutsch-migrated-v1",SKILL_STORE="jl-deutsch-skills-v1";
-function getSharedProgress(){try{return JSON.parse(localStorage.getItem(SHARED_STORE)||"{}")||{}}catch(e){return {}}}
+function getSharedProgress(){try{return JSON.parse(lernStorage.getItem(SHARED_STORE)||"{}")||{}}catch(e){return {}}}
 function migrateOldDeutschProgress(){
  try{
-  if(localStorage.getItem(MIGRATION_MARKER)==="1")return;
+  if(lernStorage.getItem(MIGRATION_MARKER)==="1")return;
   const shared=getSharedProgress();
   for(const [k,series] of Object.entries(history)){
    if(!Array.isArray(series))continue;
@@ -443,15 +444,15 @@ function migrateOldDeutschProgress(){
    if(shared[key])continue;
    shared[key]={right:series.filter(x=>x===true).length,wrong:series.filter(x=>x===false).length};
   }
-  localStorage.setItem(SHARED_STORE,JSON.stringify(shared));
-  localStorage.setItem(MIGRATION_MARKER,"1");
+  lernStorage.setItem(SHARED_STORE,JSON.stringify(shared));
+  lernStorage.setItem(MIGRATION_MARKER,"1");
  }catch(e){}
 }
 function saveSkillIndex(){
  try{
   const map={};
   for(const [m,qs] of Object.entries(Q))qs.forEach((q,i)=>{map["deutsch:trainer:"+m+":"+i]={mode:m,skill:q.skill}});
-  localStorage.setItem(SKILL_STORE,JSON.stringify(map));
+  lernStorage.setItem(SKILL_STORE,JSON.stringify(map));
  }catch(e){}
 }
 function recordSharedDeutsch(m,index,correct){
@@ -460,7 +461,7 @@ function recordSharedDeutsch(m,index,correct){
   const state=shared[key]||{right:0,wrong:0};
   state[correct?"right":"wrong"]++;
   shared[key]=state;
-  localStorage.setItem(SHARED_STORE,JSON.stringify(shared));
+  lernStorage.setItem(SHARED_STORE,JSON.stringify(shared));
  }catch(e){}
 }
 migrateOldDeutschProgress();
@@ -560,7 +561,7 @@ function newRound(m){
  session[m]=picked;pos=0;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false;
  try{sessionStorage.setItem("joshua-deutsch-last-"+m,JSON.stringify(picked))}catch(e){}
 }
-function save(){try{localStorage.setItem(STORE,JSON.stringify(history))}catch(e){}}
+function save(){try{lernStorage.setItem(STORE,JSON.stringify(history))}catch(e){}}
 function assess(m){const skills=[...new Set(Q[m].map(x=>x.skill))];return skills.map(skill=>{const ids=Q[m].map((x,i)=>x.skill===skill?m+"-"+i:null).filter(Boolean);const series=ids.flatMap(id=>(history[id]||[]).slice(-3));return {skill,attempts:series.length,rate:series.length?Math.round(series.filter(Boolean).length/series.length*100):null}})}
 function renderProfile(){
  document.getElementById("profiles").innerHTML=Object.keys(KEYS).map(m=>{
@@ -602,6 +603,8 @@ function render(){
  document.querySelectorAll("[data-mode]").forEach(b=>b.classList.toggle("active",b.dataset.mode===mode));
  if(!session[mode])newRound(mode);
  const ids=session[mode],idx=ids[pos],x=Q[mode][idx],kind=x.kind||"choice";
+ const journalKey="deutsch:"+mode+":"+idx;
+ if(!checked&&!typed)typed=lernJournal.draft(journalKey);
  let field="";
  if(kind==="choice"||kind==="multi"){
   field='<p class="small muted">'+(kind==="multi"?"Mehrere Antworten können richtig sein.":"Wähle eine Antwort.")+'</p>'+x.opts.map((o,i)=>'<button data-opt="'+i+'" class="answer '+(checked?((kind==="multi"?x.correct.includes(i):x.a===i)?"correct-answer":((kind==="multi"?Array.isArray(choice)&&choice.includes(i):choice===i)?"wrong-answer":"")):(kind==="multi"?(Array.isArray(choice)&&choice.includes(i)?"selected":""):(choice===i?"selected":"")))+'" '+(checked?"disabled":"")+'>'+escapeHTML(o)+'</button>').join("");
@@ -627,7 +630,7 @@ function render(){
  p.querySelectorAll("[data-error-stage]").forEach(b=>b.onclick=()=>{if(errorStage===b.dataset.errorStage)return;errorStage=b.dataset.errorStage;newRound("errors");render()});
  p.querySelectorAll("[data-connector-track]").forEach(b=>b.onclick=()=>{const track=b.dataset.connectorTrack;if(track===connectorTrack)return;connectorTrack=track;newRound("connectors");render()});
  p.querySelectorAll("[data-opt]").forEach(b=>b.onclick=()=>{let i=+b.dataset.opt;if(kind==="multi"){let a=Array.isArray(choice)?choice.slice():[];choice=a.includes(i)?a.filter(v=>v!==i):a.concat(i)}else choice=i;render()});
- let inp=p.querySelector("#typed")||p.querySelector("#rewrite-input");if(inp)inp.oninput=()=>{typed=inp.value;p.querySelector("#forward").disabled=!ready(x)};
+ let inp=p.querySelector("#typed")||p.querySelector("#rewrite-input");if(inp)inp.oninput=()=>{typed=inp.value;lernJournal.draft(journalKey,typed);p.querySelector("#forward").disabled=!ready(x)};
  p.querySelector("#self-yes")?.addEventListener("click",()=>scoreRewrite(true));
  p.querySelector("#self-no")?.addEventListener("click",()=>scoreRewrite(false));
  p.querySelectorAll("[data-part]").forEach(b=>b.onclick=()=>{placed.push(+b.dataset.part);render()});
@@ -635,16 +638,16 @@ function render(){
  p.querySelectorAll("[data-pair]").forEach(b=>b.onchange=()=>{if(b.value==="")delete pairs[+b.dataset.pair];else pairs[+b.dataset.pair]=+b.value;p.querySelector("#forward").disabled=!ready(x)});
  p.querySelector("#back").onclick=()=>{pos=Math.max(0,pos-1);choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false;render()};
  p.querySelector("#newround").onclick=()=>{newRound(mode);render()};
- function scoreRewrite(ok){if(selfAssessed)return;selfAssessed=true;const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);render()}
+ function scoreRewrite(ok){if(selfAssessed)return;selfAssessed=true;const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);lernJournal.add(journalKey,"Deutsch",x.q,typed,[x.model,...(x.criteria||[])].filter(Boolean).join("\n"),"Selbsteinschätzung",ok);render()}
  p.querySelector("#forward").onclick=()=>{
-  if(!checked){checked=true;if(kind!=="rewrite"){const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];const ok=isCorrect(x);history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok)}render()}
+  if(!checked){checked=true;if(kind!=="rewrite"){const key=mode+"-"+idx;if(!Array.isArray(history[key]))history[key]=[];const ok=isCorrect(x);history[key].push(ok);history[key]=history[key].slice(-3);save();recordSharedDeutsch(mode,idx,ok);const response=typed||(kind==="order"?placed.map(i=>x.parts[i]).join(" "):kind==="pair"?Object.entries(pairs).map(([i,j])=>x.left[i]+" → "+x.right[j]).join("\n"):Array.isArray(choice)?choice.map(i=>x.opts[i]).join(", "):x.opts?.[choice])||"";lernJournal.add(journalKey,"Deutsch",x.q,response,[expected(x),x.why].filter(Boolean).join("\n"),"Automatisch",ok)}render()}
   else{if(pos===ids.length-1)newRound(mode);else{pos++;choice=null;checked=false;typed="";placed=[];pairs={};selfAssessed=false}render()}
  };
  renderProfile();
  renderHelp();
 }
 document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;newRound(mode);render()});
-document.getElementById("reset").onclick=()=>{if(confirm("Lernstand für den Deutsch-Trainer wirklich zurücksetzen?")){history={};save();try{const shared=getSharedProgress();for(const k of Object.keys(shared)){if(k.startsWith("deutsch:trainer:"))delete shared[k]}localStorage.setItem(SHARED_STORE,JSON.stringify(shared))}catch(e){}renderProfile()}};
+document.getElementById("reset").onclick=()=>{if(confirm("Lernstand für den Deutsch-Trainer wirklich zurücksetzen?")){history={};save();try{const shared=getSharedProgress();for(const k of Object.keys(shared)){if(k.startsWith("deutsch:trainer:"))delete shared[k]}lernStorage.setItem(SHARED_STORE,JSON.stringify(shared))}catch(e){}renderProfile()}};
 function renderHelp(){
  const topic=mode==="errors"?errorStage:mode;
  document.querySelectorAll("[data-help]").forEach(node=>{node.hidden=node.dataset.help!==topic});
@@ -658,4 +661,5 @@ conjunctionToggle.addEventListener('click',()=>{const content=document.getElemen
 const exampleToggle=document.getElementById('toggle-example');
 exampleToggle.addEventListener('click',()=>{const content=document.getElementById('example-content');const opening=content.hidden;content.hidden=!opening;exampleToggle.setAttribute('aria-expanded',String(opening));exampleToggle.textContent=opening?'Beispiel schließen':'Beispiel öffnen';});
 render();
+});
 </script></body></html>

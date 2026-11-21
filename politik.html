@@ -1,11 +1,16 @@
 <!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Politique · Joshua Lernwelt</title><style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#091421;color:#eff7fd;font:16px/1.55 system-ui,Arial}.wrap{max-width:930px;margin:auto;padding:24px 16px 80px}a{color:#83e9d0}h1{font-size:clamp(30px,5vw,45px);margin:10px 0}h2{margin:0 0 12px}.card{background:#132739;border:1px solid #355064;border-radius:17px;padding:22px;margin:17px 0}.muted{color:#b3c9d8}.tag{color:#79e8cb;font-weight:bold;letter-spacing:.06em}.buttons{display:flex;flex-wrap:wrap;gap:9px}button,select{font:inherit;padding:11px 14px;border-radius:9px;border:1px solid #527185;background:#203b4d;color:white;cursor:pointer}button.active,button.primary{background:#43d9b7;color:#082a27;font-weight:700}textarea{width:100%;min-height:150px;background:#0a1d2b;border:1px solid #527185;color:white;border-radius:9px;padding:12px;font:inherit}.doc{background:#0b2131;padding:17px;border-left:4px solid #43d9b7;border-radius:8px;white-space:pre-line}.hidden{display:none}.feedback{background:#203b4d;padding:14px;border-radius:10px;margin-top:12px}.question{font-size:20px;font-weight:700}.choice{display:block;width:100%;text-align:left;margin:8px 0}.small{font-size:13px}.progress{margin:10px 0;color:#83e9d0}</style></head><body><main class="wrap"><a href="./index.html">← Tous les cours</a><p class="tag">SESB · CLASSE DE 5e (7. KLASSE) · ENTIÈREMENT EN FRANÇAIS</p><h1>🏛️ Politique</h1><p>Préparation à l'évaluation du vendredi 27 novembre 2026</p>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#091421;color:#eff7fd;font:16px/1.55 system-ui,Arial}.wrap{max-width:930px;margin:auto;padding:24px 16px 80px}a{color:#83e9d0}h1{font-size:clamp(30px,5vw,45px);margin:10px 0}h2{margin:0 0 12px}.card{background:#132739;border:1px solid #355064;border-radius:17px;padding:22px;margin:17px 0}.muted{color:#b3c9d8}.tag{color:#79e8cb;font-weight:bold;letter-spacing:.06em}.buttons{display:flex;flex-wrap:wrap;gap:9px}button,select{font:inherit;padding:11px 14px;border-radius:9px;border:1px solid #527185;background:#203b4d;color:white;cursor:pointer}button.active,button.primary{background:#43d9b7;color:#082a27;font-weight:700}textarea{width:100%;min-height:150px;background:#0a1d2b;border:1px solid #527185;color:white;border-radius:9px;padding:12px;font:inherit}.doc{background:#0b2131;padding:17px;border-left:4px solid #43d9b7;border-radius:8px;white-space:pre-line}.hidden{display:none}.feedback{background:#203b4d;padding:14px;border-radius:10px;margin-top:12px}.question{font-size:20px;font-weight:700}.choice{display:block;width:100%;text-align:left;margin:8px 0}.small{font-size:13px}.progress{margin:10px 0;color:#83e9d0}
+button{max-width:100%;overflow-wrap:anywhere}
+button:disabled{cursor:default}button.choice-correct{border-color:#43d9b7}button.choice-incorrect{border-color:#ff8793}
+#question:focus,#unknown-title:focus,#feedback:focus,#unknown-model:focus{outline:none}
+@media(max-width:480px){.wrap{padding:16px 12px 48px}.card{padding:15px}.doc{padding:12px}}
+</style></head><body><main class="wrap"><a href="./index.html">← Tous les cours</a><p class="tag">SESB · CLASSE DE 5e (7. KLASSE) · ENTIÈREMENT EN FRANÇAIS</p><h1>🏛️ Politique</h1><p>Préparation à l'évaluation du vendredi 27 novembre 2026</p>
 <section class="card"><h2>Consigne notée dans le cahier de textes</h2><div class="doc">« POL : LEK – analyse de document, expliquer les problèmes »</div><p class="muted small">Cette consigne est reproduite d'après le cahier de textes. Les exercices ci-dessous sont des entraînements originaux, et non des questions données par l'enseignante.</p></section>
 <section class="card"><h2>Ce qu'il faut savoir faire</h2><p><strong>Analyser un document :</strong> identifier sa nature et son sujet, relever des informations précises, les interpréter et répondre à la question sans inventer de faits.</p><p><strong>Expliquer un problème :</strong> nommer le problème, expliquer ses causes et ses conséquences, puis donner un exemple pertinent tiré du document.</p><p><strong>Phrase utile :</strong> « Ce document montre que… Cela pose un problème parce que… Par conséquent… »</p></section>
-<section class="card" id="unknown-panel"><h2>Documents inconnus — analyser et expliquer</h2><p class="muted">Documents fictifs créés pour l'entraînement : ils ne proviennent pas du cours. Les situations et les chiffres sont inventés pour apprendre à analyser un document nouveau.</p><div class="buttons"><button id="unknown-new" class="primary">Nouveau document</button><button id="unknown-check">Voir les critères et la correction</button></div><p id="unknown-count" class="progress"></p><h3 id="unknown-title"></h3><div id="unknown-doc" class="doc"></div><div id="unknown-questions"></div><label for="unknown-answer"><strong>Ta réponse rédigée :</strong></label><textarea id="unknown-answer" placeholder="Présente le document, relève des informations, puis explique le problème avec des preuves."></textarea><div id="unknown-model" class="feedback hidden"></div><div id="unknown-grade" class="buttons hidden"><button id="unknown-good">J'ai respecté tous les critères</button><button id="unknown-bad">Je dois m'entraîner encore</button></div></section><section class="card"><h2>Révisions</h2><div class="buttons" id="topics"></div><div id="lesson"></div></section>
+<section class="card" id="unknown-panel"><h2>Documents inconnus — analyser et expliquer</h2><p class="muted">Documents fictifs créés pour l'entraînement : ils ne proviennent pas du cours. Les situations et les chiffres sont inventés pour apprendre à analyser un document nouveau.</p><div class="buttons"><button id="unknown-new" class="primary">Nouveau document</button><button id="unknown-check">Voir les critères et la correction</button></div><p id="unknown-count" class="progress"></p><h3 id="unknown-title" tabindex="-1"></h3><div id="unknown-doc" class="doc"></div><div id="unknown-questions"></div><label for="unknown-answer"><strong>Ta réponse rédigée :</strong></label><textarea id="unknown-answer" placeholder="Présente le document, relève des informations, puis explique le problème avec des preuves."></textarea><div id="unknown-model" tabindex="-1" class="feedback hidden"></div><div id="unknown-grade" class="buttons hidden"><button id="unknown-good">J'ai respecté tous les critères</button><button id="unknown-bad">Recommencer ce document</button></div></section><section class="card"><h2>Révisions</h2><div class="buttons" id="topics"></div><div id="lesson"></div></section>
 
 <section class="card"><h2>Mission 1 — Le tour du monde d’un smartphone</h2><p>Repères du document de cours : Chili — lithium ; RDC — cobalt ; Taïwan — circuits électroniques ; Chine — assemblage ; États-Unis — conception et marketing ; Allemagne — vente et consommation.</p><p><strong>À maîtriser :</strong> localiser ces étapes, distinguer extraction, fabrication et commercialisation, puis expliquer pourquoi il s’agit d’une production mondialisée.</p></section>
-<section class="card"><h2>Mission 3 — Vrai ou faux écologique ?</h2><p>Pour chaque affirmation, réponds « vrai » ou « faux » et <strong>justifie toujours</strong> avec un mécanisme ou un exemple. Une réponse sans justification est incomplète.</p></section><section class="card"><h2>Autre étude de cas du cours : le parcours d’un tee-shirt</h2><p>Le document de cours présente sept étapes : <strong>matière première → traitement du coton → confection → vente → don → expédition → fin de vie</strong>. Il aborde notamment la consommation d’eau, les produits chimiques, les conditions de travail, les transports et les déchets textiles.</p><p>Pour l’évaluation, il faut savoir comparer cette chaîne avec celle du smartphone et expliquer les problèmes sociaux et écologiques à partir d’informations du document.</p></section><section class="card"><h2>La mondialisation : trois grandes étapes</h2><p><strong>Définition :</strong> la mondialisation désigne l’augmentation et l’intensification des échanges entre les différentes régions du monde (marchandises, personnes, informations, pratiques culturelles).</p><p><strong>Première mondialisation (XVe–XIXe siècles) :</strong> grandes explorations, développement des routes maritimes, conquêtes, colonisation et échanges, avec des conséquences violentes pour les populations colonisées.</p><p><strong>Deuxième mondialisation (XIXe–XXe siècles) :</strong> industrialisation, bateau à vapeur, chemin de fer, migrations et développement du commerce.</p><p><strong>Troisième mondialisation (XXe–XXIe siècles) :</strong> avion, informatique, conteneurisation, entreprises multinationales et échanges de plus en plus rapides.</p><p><strong>Étude de cas :</strong> les voyages de Christophe Colomb en 1492 ont contribué à relier durablement l’Europe et les Amériques, mais aussi à la conquête, à la domination coloniale, aux maladies et à l’exploitation des populations autochtones.</p></section><section class="card"><h2>Autres documents étudiés</h2><p>Le cours comporte également des textes sur le coût écologique des smartphones, la répartition de leur fabrication, des actions citoyennes pour de meilleures conditions de travail, ainsi que des schémas sur les migrations et les transports. Pour chaque document : identifier la nature, relever des preuves, expliquer les conséquences et nuancer la conclusion.</p></section><section class="card"><h2>Entraînement</h2><p class="muted">Les questions sont variées. Pour les réponses rédigées, compare ta réponse avec les critères et le modèle : l'outil ne prétend pas corriger automatiquement ton français.</p><div class="buttons"><button id="start" class="primary">Nouvelle série de 10 questions</button><button id="exam">Évaluation blanche · 45 min</button><button id="weak">Revoir les difficultés</button></div><div id="quiz" class="hidden"><p id="count" class="progress"></p><p id="timer" class="muted small"></p><div id="source" class="doc hidden"></div><p id="question" class="question"></p><div id="answers"></div><textarea id="writing" class="hidden" placeholder="Rédige ta réponse en français. Justifie-la avec des informations précises."></textarea><div class="buttons"><button id="check" class="primary">Voir les critères et le corrigé</button><button id="next" class="hidden">Question suivante →</button></div><div id="feedback" class="feedback hidden"></div><div id="self" class="buttons hidden"><button id="good">Réponse réussie</button><button id="bad">À retravailler</button></div></div></section>
+<section class="card"><h2>Mission 3 — Vrai ou faux écologique ?</h2><p>Pour chaque affirmation, réponds « vrai » ou « faux » et <strong>justifie toujours</strong> avec un mécanisme ou un exemple. Une réponse sans justification est incomplète.</p></section><section class="card"><h2>Autre étude de cas du cours : le parcours d’un tee-shirt</h2><p>Le document de cours présente sept étapes : <strong>matière première → traitement du coton → confection → vente → don → expédition → fin de vie</strong>. Il aborde notamment la consommation d’eau, les produits chimiques, les conditions de travail, les transports et les déchets textiles.</p><p>Pour l’évaluation, il faut savoir comparer cette chaîne avec celle du smartphone et expliquer les problèmes sociaux et écologiques à partir d’informations du document.</p></section><section class="card"><h2>La mondialisation : trois grandes étapes</h2><p><strong>Définition :</strong> la mondialisation désigne l’augmentation et l’intensification des échanges entre les différentes régions du monde (marchandises, personnes, informations, pratiques culturelles).</p><p><strong>Première mondialisation (XVe–XIXe siècles) :</strong> grandes explorations, développement des routes maritimes, conquêtes, colonisation et échanges, avec des conséquences violentes pour les populations colonisées.</p><p><strong>Deuxième mondialisation (XIXe–XXe siècles) :</strong> industrialisation, bateau à vapeur, chemin de fer, migrations et développement du commerce.</p><p><strong>Troisième mondialisation (XXe–XXIe siècles) :</strong> avion, informatique, conteneurisation, entreprises multinationales et échanges de plus en plus rapides.</p><p><strong>Étude de cas :</strong> les voyages de Christophe Colomb en 1492 ont contribué à relier durablement l’Europe et les Amériques, mais aussi à la conquête, à la domination coloniale, aux maladies et à l’exploitation des populations autochtones.</p></section><section class="card"><h2>Autres documents étudiés</h2><p>Le cours comporte également des textes sur le coût écologique des smartphones, la répartition de leur fabrication, des actions citoyennes pour de meilleures conditions de travail, ainsi que des schémas sur les migrations et les transports. Pour chaque document : identifier la nature, relever des preuves, expliquer les conséquences et nuancer la conclusion.</p></section><section class="card"><h2>Entraînement</h2><p class="muted">Les questions sont variées. Pour les réponses rédigées, compare ta réponse avec les critères et le modèle : l'outil ne prétend pas corriger automatiquement ton français.</p><div class="buttons"><button id="start" class="primary">Nouvelle série de 10 questions</button><button id="exam">Évaluation blanche · 45 min</button><button id="weak">Revoir les difficultés</button></div><p id="quiz-status" class="progress hidden" role="status"></p><div id="quiz" class="hidden"><p id="count" class="progress"></p><p id="timer" role="timer" class="muted small"></p><div id="source" class="doc hidden"></div><h3 id="question" class="question" tabindex="-1"></h3><div id="answers"></div><textarea id="writing" aria-label="Ta réponse rédigée" class="hidden" placeholder="Rédige ta réponse en français. Justifie-la avec des informations précises."></textarea><div class="buttons"><button id="check" class="primary">Voir les critères et le corrigé</button></div><div id="feedback" tabindex="-1" class="feedback hidden"></div><div id="self" class="buttons hidden"><button id="good">Réponse réussie</button><button id="bad">À retravailler</button></div><button id="next" class="hidden">Question suivante →</button></div></section>
 <p class="muted small">Sources de travail : documents et notes du dossier 09_Politik. Les documents d'entraînement sont des exemples rédigés pour apprendre ; ils ne remplacent pas les documents du cours.</p></main><script>
 const lessons=[
 ["Le trajet d'un smartphone","Un smartphone est conçu, fabriqué, transporté, utilisé puis recyclé ou jeté. Sa fabrication mobilise des matières premières extraites dans différents pays, des usines et des réseaux de transport. Il faut distinguer extraction, fabrication, assemblage, vente et fin de vie."],
@@ -47,20 +52,161 @@ const Q=[
 Q.push(...[[0,"Quel pays est associé au lithium dans le document « Le tour du monde d’un smartphone » ?",["Le Chili","La Chine","Taïwan"],0,"Le document associe le Chili au lithium."],[0,"Quel pays est associé au cobalt ?",["L’Allemagne","La République démocratique du Congo","Les États-Unis"],1,"Le document associe la RDC au cobalt."],[0,"Où se situe l’étape de l’assemblage dans le document de cours ?",["Au Chili","En Chine","En Allemagne"],1,"La Chine est associée à l’assemblage."],[0,"Quels lieux correspondent respectivement aux circuits électroniques et à la conception ?",["Taïwan et les États-Unis","Le Chili et la RDC","L’Allemagne et la Chine"],0,"Le document associe les circuits à Taïwan et la conception aux États-Unis."],[0,"Explique, avec trois pays et trois étapes, pourquoi un smartphone est un produit mondialisé.",null,"Un smartphone est un produit mondialisé car sa production mobilise plusieurs pays : le lithium peut venir du Chili, les circuits électroniques de Taïwan et l’assemblage se faire en Chine.","Trois étapes, trois lieux et une explication du lien entre eux."],[2,"Vrai ou faux ? « Un smartphone ne provoque aucun impact environnemental avant son utilisation. » Justifie.",null,"Faux. L’extraction des minerais, la fabrication des composants et le transport peuvent déjà consommer des ressources et polluer.","Décision correcte et au moins deux étapes expliquées."],[3,"Vrai ou faux ? « Réparer un téléphone peut limiter l’extraction de nouvelles ressources. » Justifie.",null,"Vrai. La réparation prolonge la durée de vie du téléphone et peut éviter ou retarder la fabrication d’un appareil neuf.","Décision, cause et conséquence."],[0,"Vrai ou faux ? « Tous les composants d’un smartphone sont forcément produits dans le même pays. » Justifie.",null,"Faux. Le document du cours montre des étapes réparties entre plusieurs pays, notamment Taïwan pour les circuits et la Chine pour l’assemblage.","Deux exemples précis du document."],[5,"Analyse ce document d’entraînement : « Chili : lithium ; RDC : cobalt ; Taïwan : circuits ; Chine : assemblage ». Présente sa nature, relève deux informations et tire une conclusion.",null,"Ce document est une liste d’étapes de production. Il associe le lithium au Chili et les circuits électroniques à Taïwan. Il montre que la fabrication d’un smartphone implique plusieurs pays.","Nature du document, deux informations exactes et conclusion justifiée."],[5,"Explique pourquoi un exemple de chaîne de production ne permet pas de connaître l’origine exacte des pièces de tous les smartphones.",null,"Un exemple présente certains pays et certaines étapes, mais les fournisseurs peuvent varier selon les modèles et les entreprises.","Distingue exemple et généralisation."],[1,"Explique deux problèmes sociaux possibles liés à la fabrication des smartphones.",null,"Des journées de travail excessives peuvent nuire à la santé. Une protection insuffisante peut augmenter les risques d’accident.","Deux problèmes distincts et leurs conséquences."],[2,"Explique un conflit d’usage de l’eau autour d’une mine.",null,"Une mine peut consommer de l’eau également nécessaire aux habitants et à l’agriculture. Dans une région sèche, cela peut créer des tensions.","Ressource, acteurs et conséquence."],[5,"Rédige un paragraphe de six phrases : présente la production mondiale d’un smartphone, explique un problème social et un problème environnemental.",null,"La production d’un smartphone est mondialisée. Le lithium peut venir du Chili et l’assemblage se faire en Chine. Cette organisation mobilise plusieurs territoires. Certaines conditions de travail peuvent exposer les ouvriers à des risques. L’extraction des minerais peut aussi polluer les milieux naturels. Il faut donc étudier les conséquences sociales et environnementales de cette production.","Exemples géographiques, problème social, problème écologique, causes et conséquences."]]);
 Q.push(...[[5,"Dans le document sur le tee-shirt, quelles sont les sept étapes du parcours, dans l’ordre ?",null,"Matière première, traitement du coton, confection, vente, don, expédition et fin de vie.","Nomme les sept étapes dans l’ordre."],[2,"Le document sur le tee-shirt indique qu’il faut beaucoup d’eau pour produire le coton. Explique pourquoi cela pose un problème environnemental.",null,"La culture du coton consomme de l’eau, qui est une ressource précieuse. Dans certaines régions, cette consommation peut réduire l’eau disponible pour d’autres usages.","Explique la cause et une conséquence, sans généraliser à tous les lieux."],[1,"Quel problème social est illustré par l’exemple d’une usine de confection au Bangladesh ?",null,"Le document évoque un effondrement d’usine meurtrier, qui illustre des conditions de travail dangereuses et une protection insuffisante des travailleurs.","Cite le fait présenté et explique le problème social."],[5,"Pourquoi le don d’un tee-shirt ne signifie-t-il pas nécessairement la fin de son transport ?",null,"Un vêtement donné peut être trié, revendu et expédié vers un autre pays. Son parcours continue après le don.","Utilise les étapes « don » et « expédition »."],[2,"Explique un problème écologique lié à la fin de vie d’un tee-shirt.",null,"Un tee-shirt peut finir dans une décharge ou être brûlé. Selon les matériaux et les traitements, sa dégradation et son élimination peuvent polluer l’environnement.","Relie la fin de vie à un impact précis."],[5,"Compare les parcours d’un smartphone et d’un tee-shirt : donne deux points communs et une différence.",null,"Les deux produits mobilisent plusieurs pays et peuvent poser des problèmes sociaux et environnementaux. Une différence est que le tee-shirt utilise notamment du coton, tandis que le smartphone nécessite des minerais et des composants électroniques.","Deux ressemblances pertinentes et une différence concrète."],[5,"Vrai ou faux ? « Donner un vêtement garantit qu’il ne deviendra jamais un déchet. » Justifie.",null,"Faux. Un vêtement donné peut être revendu, expédié ailleurs, puis finir en décharge ou être détruit.","Réponds et justifie avec la fin du parcours."],[4,"Explique comment une marque peut profiter de la vente de vêtements alors que des travailleurs de la confection subissent des risques.",null,"La vente peut générer des bénéfices pour la marque, alors que certains travailleurs de la chaîne de production sont exposés à des conditions dangereuses. Il faut distinguer les acteurs et la répartition des bénéfices et des risques.","Identifie les acteurs, les bénéfices et les risques."],[5,"Analyse le parcours d’un tee-shirt : cite une étape de production, une étape après la vente, un problème social et un problème écologique.",null,"Le coton est d’abord traité, puis le vêtement est confectionné et vendu. Après la vente, il peut être donné et expédié. La confection peut poser des problèmes de sécurité au travail ; la culture du coton peut consommer beaucoup d’eau.","Quatre éléments distincts, avec explication des problèmes."],[5,"Pourquoi faut-il lire les légendes et les étapes d’un schéma avant d’en tirer une conclusion ?",null,"Un schéma organise des informations précises. Il faut d’abord identifier les étapes et les légendes, puis formuler une conclusion fondée sur ces informations.","Méthode : observer, relever, expliquer, conclure."]]);
 Q.push(...[[5,"Définis la mondialisation en une ou deux phrases.",null,"La mondialisation est l’intensification des échanges et des relations entre différentes régions du monde. Elle concerne notamment les marchandises, les personnes, les informations et les pratiques culturelles.","Définition et au moins deux types d’échanges."],[5,"Pourquoi les voyages de Christophe Colomb marquent-ils un tournant dans l’histoire de la mondialisation ?",null,"Ils contribuent à établir des relations durables entre l’Europe et les Amériques, avec des échanges de produits et de personnes, mais aussi des conquêtes et une domination coloniale.","Explique les échanges et au moins une conséquence négative."],[5,"Cite deux conséquences négatives de la conquête européenne des Amériques.",null,"La conquête a entraîné des violences, des maladies dévastatrices et l’exploitation de populations autochtones.","Deux conséquences précises sans minimiser les violences."],[5,"Associe la première mondialisation à sa période.",["XVe–XIXe siècles","XIXe–XXe siècles","XXe–XXIe siècles"],0,"Le cours situe la première mondialisation du XVe au XIXe siècle."],[5,"Quel progrès caractérise particulièrement la deuxième mondialisation ?",["Le bateau à vapeur et le chemin de fer","Les réseaux sociaux","Les satellites de télécommunication"],0,"La deuxième mondialisation est marquée notamment par l’industrialisation et les transports à vapeur."],[5,"Quel ensemble correspond à la troisième mondialisation ?",["Avion, informatique et conteneurisation","Caravelles et grandes explorations","Premières locomotives à vapeur uniquement"],0,"Les innovations des XXe et XXIe siècles accélèrent les échanges."],[5,"Explique le rôle du conteneur dans l’accélération du commerce mondial.",null,"Le conteneur standardisé facilite le chargement et le transfert des marchandises entre navires, trains et camions, ce qui réduit les coûts et accélère les transports.","Explique le mécanisme et une conséquence."],[5,"Comment les transports et les migrations montrent-ils que les régions du monde sont reliées ?",null,"Les transports permettent la circulation des marchandises et des voyageurs ; les migrations correspondent aux déplacements de personnes entre territoires.","Distingue transport de marchandises et migration de personnes."],[5,"Compare la première et la troisième mondialisation : donne une différence de moyens de transport et un point commun.",null,"La première utilise surtout les navires à voile sur les grandes routes maritimes, tandis que la troisième s’appuie notamment sur les avions et les porte-conteneurs. Toutes deux relient des régions éloignées.","Différence historique et point commun."],[4,"Pourquoi les entreprises multinationales jouent-elles un rôle important dans la mondialisation actuelle ?",null,"Elles organisent des activités de production, d’achat ou de vente dans plusieurs pays et relient ainsi différents territoires.","Définis le rôle sans prétendre que toutes les entreprises fonctionnent de la même façon."],[5,"Dans une analyse de document historique, pourquoi faut-il préciser la date et le contexte ?",null,"La date et le contexte permettent de comprendre à quelle période appartient le document et d’éviter de confondre des situations historiques différentes.","Relie la datation à l’interprétation."],[1,"Quel est le rôle possible d’un collectif de consommateurs dans l’amélioration des conditions de travail ?",null,"Un collectif peut informer le public et faire pression sur les marques pour qu’elles améliorent la sécurité et les droits des travailleurs.","Identifie l’acteur, l’action et son objectif."],[5,"Explique pourquoi un article sur le coût écologique d’un smartphone doit être lu en distinguant faits, arguments et solutions.",null,"Les faits décrivent des éléments vérifiables ; les arguments expliquent pourquoi ils posent problème ; les solutions proposent des actions. Il faut les distinguer pour analyser le document correctement.","Distingue trois éléments et leur fonction."],[5,"Compare deux documents : un schéma du parcours d’un smartphone et un texte sur ses effets environnementaux. Que peut apporter chacun ?",null,"Le schéma permet de repérer les lieux et les étapes de production. Le texte peut expliquer les conséquences écologiques. Ensemble, ils éclairent l’organisation et les effets de la production.","Nature, informations et complémentarité."],[5,"Explique la différence entre mondialisation et simple déplacement d’un objet.",null,"Un déplacement isolé n’explique pas à lui seul la mondialisation. Celle-ci désigne des échanges et des relations multiples et croissants entre régions du monde.","Définition et distinction claire."]]);
-let queue=[],i=0,exam=false,answered=false,clock=null,remaining=2700;function getScores(){try{return JSON.parse(localStorage.getItem("politique-scores-v1")||"{}")}catch{return {}}}function record(id,ok){const p=getScores(),k=String(id);p[k]=p[k]||{right:0,wrong:0};p[k][ok?"right":"wrong"]++;localStorage.setItem("politique-scores-v1",JSON.stringify(p))}function stopClock(){if(clock)clearInterval(clock);clock=null}function finish(){stopClock();$("quiz").classList.add("hidden");alert("Série terminée. Revois les réponses à améliorer.")}const $=id=>document.getElementById(id);const topics=$("topics");lessons.forEach((l,j)=>{let b=document.createElement("button");b.textContent=l[0];b.onclick=()=>{document.querySelectorAll("#topics button").forEach(x=>x.classList.remove("active"));b.classList.add("active");$("lesson").innerHTML="<h3>"+l[0]+"</h3><p>"+l[1]+"</p>"};topics.append(b)});topics.firstChild.click();
+let queue=[], i=0, exam=false, answered=false, clock=null, deadline=0;
+const $=id=>document.getElementById(id);
+const scoreKey="politique-scores-v1";
+let scores={}, storageAvailable=true;
+function readScores(){
+  if(storageAvailable){
+    try {
+      const saved=JSON.parse(localStorage.getItem(scoreKey));
+      scores=saved && typeof saved==="object" ? saved : {};
+    } catch {}
+  }
+  return scores;
+}
+function record(id,ok){
+  readScores();
+  const score=scores[id] || {right:0,wrong:0};
+  score[ok?"right":"wrong"]++;
+  score.needsReview=!ok;
+  scores[id]=score;
+  try { localStorage.setItem(scoreKey,JSON.stringify(scores)); } catch { storageAvailable=false; }
+}
+function status(message){
+  $("quiz-status").textContent=message;
+  $("quiz-status").classList.toggle("hidden",!message);
+}
+function stopClock(){
+  clearInterval(clock);
+  clock=null;
+}
+function finish(expired=false){
+  stopClock();
+  $("quiz").classList.add("hidden");
+  status(expired?"Temps écoulé. Évaluation blanche terminée.":"Série terminée.");
+  $("start").focus();
+}
+function updateClock(){
+  const remaining=Math.max(0,Math.ceil((deadline-Date.now())/1000));
+  $("timer").textContent="Temps restant : "+Math.floor(remaining/60)+":"+String(remaining%60).padStart(2,"0");
+  if(remaining===0)finish(true);
+}
+const topics=$("topics");lessons.forEach((l,j)=>{let b=document.createElement("button");b.textContent=l[0];b.onclick=()=>{document.querySelectorAll("#topics button").forEach(x=>x.classList.remove("active"));b.classList.add("active");$("lesson").innerHTML="<h3>"+l[0]+"</h3><p>"+l[1]+"</p>"};topics.append(b)});topics.firstChild.click();
 function makeExam(shuffled){
 const categories=[[0,4],[1,2,3],[5]];
+const sourceQuestion=shuffled.find(id=>Q[id][0]===5 && Q[id][2]===null && Q[id][5]!==undefined);
 const chosen=[];
 for(const group of categories){
-const pool=shuffled.filter(id=>group.includes(Q[id][0])&&Q[id][2]===null);
-chosen.push(...pool.slice(0,group.length===1?3:2));
+  if(group[0]===5)chosen.push(sourceQuestion);
+  const pool=shuffled.filter(id=>id!==sourceQuestion && group.includes(Q[id][0]) && Q[id][2]===null);
+  chosen.push(...pool.slice(0,2));
 }
 chosen.push(...shuffled.filter(id=>!chosen.includes(id)).slice(0,9-chosen.length));
 return chosen.slice(0,9);
 }
-function start(test,weak=false){stopClock();exam=test;remaining=2700;$("timer").textContent=test?"Temps restant : 45:00":"";if(test)clock=setInterval(()=>{remaining--; $("timer").textContent="Temps restant : "+Math.floor(remaining/60)+":"+String(remaining%60).padStart(2,"0");if(remaining<=0)finish()},1000);let a=Q.map((_,j)=>j);for(let j=a.length-1;j>0;j--){let k=Math.floor(Math.random()*(j+1));[a[j],a[k]]=[a[k],a[j]]}const scores=getScores();if(weak)a=a.filter(j=>(scores[j]?.wrong||0)>0).sort((x,y)=>(scores[y].wrong-scores[y].right)-(scores[x].wrong-scores[x].right));queue=test?makeExam(a):a.slice(0,10);if(!queue.length){stopClock();alert("Aucune difficulté enregistrée.");return}i=0;$("quiz").classList.remove("hidden");show();$("quiz").scrollIntoView({behavior:"smooth"})}
-function show(){answered=false;const q=Q[queue[i]];$("count").textContent=(exam?"Évaluation blanche · ":"Entraînement · ")+"Question "+(i+1)+" / "+queue.length;$("question").textContent=q[1];$("source").classList.toggle("hidden",q[5]===undefined);if(q[5]!==undefined)$("source").textContent=docs[q[5]];$("answers").replaceChildren();$("writing").classList.toggle("hidden",!!q[2]);$("writing").value="";if(q[2])q[2].forEach((c,k)=>{let b=document.createElement("button");b.className="choice";b.textContent=c;b.onclick=()=>{if(answered)return;answered=true;record(queue[i],k===q[3]);document.querySelectorAll(".choice").forEach(x=>x.disabled=true);b.style.borderColor=k===q[3]?"#43d9b7":"#ff8793";$("feedback").textContent=(k===q[3]?"Bonne réponse. ":"À revoir. ")+q[4];$("feedback").classList.remove("hidden");$("check").classList.add("hidden");$("next").classList.remove("hidden")};$("answers").append(b)});$("feedback").classList.add("hidden");$("self").classList.add("hidden");$("next").classList.add("hidden");$("check").classList.toggle("hidden",!!q[2])}
-$("check").onclick=()=>{const q=Q[queue[i]];$("feedback").replaceChildren();let h=document.createElement("strong");h.textContent="Critères de vérification : ";let p=document.createElement("p");p.textContent=q[4];let m=document.createElement("p");m.textContent="Exemple de réponse : "+q[3];$("feedback").append(h,p,m);$("feedback").classList.remove("hidden");$("self").classList.remove("hidden");$("check").classList.add("hidden")};$("next").onclick=()=>{i++;if(i===queue.length)finish();else show()};$("start").onclick=()=>start(false);$("exam").onclick=()=>start(true);$("weak").onclick=()=>start(false,true);$("good").onclick=()=>{record(queue[i],true);$("self").classList.add("hidden");$("next").classList.remove("hidden")};$("bad").onclick=()=>{record(queue[i],false);$("self").classList.add("hidden");$("next").classList.remove("hidden")};
+function shuffle(items){
+  for(let j=items.length-1;j>0;j--){
+    const k=Math.floor(Math.random()*(j+1));
+    [items[j],items[k]]=[items[k],items[j]];
+  }
+  return items;
+}
+function start(test,weak=false){
+  let items=shuffle(Q.map((_,j)=>j));
+  if(weak){
+    readScores();
+    items=items.filter(j=>scores[j]?.needsReview ?? ((scores[j]?.wrong || 0)>0));
+    items.sort((x,y)=>(scores[y].wrong-scores[y].right)-(scores[x].wrong-scores[x].right));
+  }
+  if(!items.length){
+    status("Aucune difficulté enregistrée.");
+    return;
+  }
+  stopClock();
+  status("");
+  exam=test;
+  queue=test?makeExam(items):items.slice(0,10);
+  i=0;
+  $("timer").textContent="";
+  if(exam){
+    deadline=Date.now()+45*60*1000;
+    updateClock();
+    clock=setInterval(updateClock,1000);
+  }
+  $("quiz").classList.remove("hidden");
+  show();
+}
+function show(){
+  answered=false;
+  const q=Q[queue[i]];
+  $("count").textContent=(exam?"Évaluation blanche · ":"Entraînement · ")+"Question "+(i+1)+" / "+queue.length;
+  $("question").textContent=q[1];
+  $("source").classList.toggle("hidden",q[5]===undefined);
+  $("source").textContent=q[5]===undefined?"":docs[q[5]];
+  $("answers").replaceChildren();
+  $("writing").classList.toggle("hidden",!!q[2]);
+  $("writing").value="";
+  if(q[2])q[2].forEach((choice,k)=>{
+    const button=document.createElement("button");
+    button.className="choice";
+    button.textContent=choice;
+    button.onclick=()=>{
+      if(answered)return;
+      answered=true;
+      const correct=k===q[3];
+      record(queue[i],correct);
+      [...$("answers").children].forEach((option,index)=>{
+        option.disabled=true;
+        option.classList.toggle("choice-correct",index===q[3]);
+      });
+      if(!correct)button.classList.add("choice-incorrect");
+      $("feedback").textContent=(correct?"Bonne réponse. ":"À revoir. Bonne réponse : "+q[2][q[3]]+". ")+q[4];
+      $("feedback").classList.remove("hidden");
+      $("next").classList.remove("hidden");
+      $("feedback").focus();
+    };
+    $("answers").append(button);
+  });
+  $("feedback").classList.add("hidden");
+  $("self").classList.add("hidden");
+  $("next").classList.add("hidden");
+  $("check").classList.toggle("hidden",!!q[2]);
+  $("question").focus();
+  $("count").scrollIntoView({block:"start"});
+}
+$("check").onclick=()=>{
+  const q=Q[queue[i]];
+  const title=document.createElement("strong");
+  title.textContent="Critères de vérification";
+  const criteria=document.createElement("p");
+  criteria.textContent=q[4];
+  const model=document.createElement("p");
+  model.textContent="Exemple de réponse : "+q[3];
+  $("feedback").replaceChildren(title,criteria,model);
+  $("feedback").classList.remove("hidden");
+  $("self").classList.remove("hidden");
+  $("check").classList.add("hidden");
+  $("feedback").focus();
+};
+$("next").onclick=()=>{
+  i++;
+  if(i===queue.length)finish();
+  else show();
+};
+$("start").onclick=()=>start(false);
+$("exam").onclick=()=>start(true);
+$("weak").onclick=()=>start(false,true);
+function gradeWriting(ok){
+  if(answered)return;
+  answered=true;
+  record(queue[i],ok);
+  $("self").classList.add("hidden");
+  $("next").classList.remove("hidden");
+  $("next").focus();
+}
+$("good").onclick=()=>gradeWriting(true);
+$("bad").onclick=()=>gradeWriting(false);
 
 const unknownCases=[
 {title:"Le cacao et le chocolat — texte",doc:"Document fictif A — Dans une région agricole, des familles cultivent du cacao. Une entreprise achète les fèves à bas prix et les transforme dans un autre pays. Le chocolat est ensuite vendu beaucoup plus cher. Des producteurs expliquent que leurs revenus sont irréguliers.",questions:["Présente la nature et le sujet du document.","Relève deux informations précises.","Explique un problème économique ou social et ses conséquences.","Justifie ton analyse avec un élément du document."],model:"Ce document fictif est un texte sur la production et la vente du cacao. Les familles cultivent le cacao et une entreprise achète les fèves à bas prix. Le chocolat est vendu plus cher après transformation. Cela peut poser un problème d'inégalité des revenus : les producteurs peuvent gagner peu alors que d'autres acteurs vendent le produit plus cher. Le texte indique que leurs revenus sont irréguliers.",criteria:["Nature et sujet","Deux faits tirés du texte","Problème clairement nommé","Cause et conséquence","Justification précise"]},
@@ -70,35 +216,53 @@ const unknownCases=[
 {title:"Le transport des bananes — carte schématique textuelle",doc:"Document fictif E — Schéma d'un trajet : plantation en Équateur → port en Équateur → transport maritime → port en France → camion → magasin. Aucun kilométrage n'est fourni.",questions:["Présente la nature du document.","Reconstitue le trajet et cite deux modes de transport.","Explique un problème environnemental possible.","Quelle information manque pour calculer précisément la distance parcourue ?"],model:"Ce schéma fictif montre le trajet international de bananes entre l'Équateur et la France. Elles passent par un port et voyagent par bateau, puis par camion jusqu'au magasin. Ces transports peuvent produire des émissions polluantes. On ne peut pas calculer la distance exacte car aucune longueur de trajet n'est indiquée.",criteria:["Nature et sujet","Étapes et modes de transport","Impact possible expliqué","Limite des données"]},
 {title:"Une mine et les habitants — deux points de vue",doc:"Document fictif F — Une entreprise affirme : « La mine crée 300 emplois dans la région. » Une association d'habitants répond : « Les camions soulèvent de la poussière près des maisons. » Les deux déclarations sont imaginaires.",questions:["Identifie les deux acteurs et leurs points de vue.","Relève un avantage et un problème.","Explique pourquoi les intérêts des acteurs peuvent être différents.","Propose une mesure adaptée au problème en précisant ce que le document ne permet pas de vérifier."],model:"Ce document fictif présente les points de vue d'une entreprise et d'habitants. L'entreprise met en avant 300 emplois, tandis que l'association signale de la poussière. Les acteurs ont des intérêts différents : activité économique d'un côté, qualité de vie de l'autre. Une mesure pourrait être de limiter la poussière des camions. Les déclarations seules ne prouvent ni le nombre réel d'emplois ni le niveau de pollution.",criteria:["Deux acteurs identifiés","Avantage et problème","Intérêts expliqués","Mesure et limites des preuves"]}
 ];
-let unknownIndex=-1,unknownHistory=[],unknownRetry=[];
-function renderUnknown(){
-const pick=unknownRetry.length?unknownRetry.shift():unknownCases.map((_,i)=>i).filter(i=>i!==unknownIndex&& !unknownHistory.slice(-3).includes(i));
-const options=Array.isArray(pick)?pick:[pick];
-unknownIndex=options[Math.floor(Math.random()*options.length)];
-unknownHistory.push(unknownIndex);
-const d=unknownCases[unknownIndex];
-document.getElementById("unknown-title").textContent=d.title;
-document.getElementById("unknown-doc").textContent=d.doc;
-const ol=document.createElement("ol");
-d.questions.forEach(t=>{const li=document.createElement("li");li.textContent=t;ol.append(li)});
-document.getElementById("unknown-questions").replaceChildren(ol);
-document.getElementById("unknown-answer").value="";
-document.getElementById("unknown-model").classList.add("hidden");
-document.getElementById("unknown-grade").classList.add("hidden");
-document.getElementById("unknown-count").textContent="Étude de cas "+unknownHistory.length+" · "+unknownCases.length+" documents différents";
+let unknownIndex=-1, unknownOrder=[], unknownCount=0;
+function renderUnknown(retry=false,focus=true){
+  if(!retry){
+    if(!unknownOrder.length){
+      unknownOrder=shuffle(unknownCases.map((_,i)=>i));
+      if(unknownOrder.at(-1)===unknownIndex)unknownOrder.unshift(unknownOrder.pop());
+    }
+    unknownIndex=unknownOrder.pop();
+    unknownCount++;
+  }
+  const d=unknownCases[unknownIndex];
+  $("unknown-title").textContent=d.title;
+  $("unknown-doc").textContent=d.doc;
+  const questions=document.createElement("ol");
+  d.questions.forEach(question=>{
+    const li=document.createElement("li");
+    li.textContent=question;
+    questions.append(li);
+  });
+  $("unknown-questions").replaceChildren(questions);
+  $("unknown-answer").value="";
+  $("unknown-model").classList.add("hidden");
+  $("unknown-grade").classList.add("hidden");
+  $("unknown-check").classList.remove("hidden");
+  $("unknown-count").textContent="Étude de cas "+unknownCount+" · "+unknownCases.length+" documents différents"+(retry?" · nouvel essai":"");
+  if(focus)$("unknown-title").focus();
 }
-document.getElementById("unknown-new").onclick=renderUnknown;
-document.getElementById("unknown-check").onclick=()=>{
-if(unknownIndex<0)renderUnknown();
-const d=unknownCases[unknownIndex],target=document.getElementById("unknown-model");
-target.replaceChildren();
-const h=document.createElement("h3");h.textContent="Critères de réussite";
-const ul=document.createElement("ul");d.criteria.forEach(t=>{const li=document.createElement("li");li.textContent=t;ul.append(li)});
-const p=document.createElement("p");p.textContent="Exemple de réponse : "+d.model;
-target.append(h,ul,p);target.classList.remove("hidden");
-document.getElementById("unknown-grade").classList.remove("hidden");
+$("unknown-new").onclick=()=>renderUnknown();
+$("unknown-check").onclick=()=>{
+  const d=unknownCases[unknownIndex], target=$("unknown-model");
+  const title=document.createElement("h3");
+  title.textContent="Critères de réussite";
+  const criteria=document.createElement("ul");
+  d.criteria.forEach(criterion=>{
+    const li=document.createElement("li");
+    li.textContent=criterion;
+    criteria.append(li);
+  });
+  const model=document.createElement("p");
+  model.textContent="Exemple de réponse : "+d.model;
+  target.replaceChildren(title,criteria,model);
+  target.classList.remove("hidden");
+  $("unknown-grade").classList.remove("hidden");
+  $("unknown-check").classList.add("hidden");
+  target.focus();
 };
-document.getElementById("unknown-good").onclick=()=>{document.getElementById("unknown-grade").classList.add("hidden");renderUnknown()};
-document.getElementById("unknown-bad").onclick=()=>{if(unknownIndex>=0&&!unknownRetry.includes(unknownIndex))unknownRetry.push(unknownIndex);document.getElementById("unknown-grade").classList.add("hidden");renderUnknown()};
-renderUnknown();
+$("unknown-good").onclick=()=>renderUnknown();
+$("unknown-bad").onclick=()=>renderUnknown(true);
+renderUnknown(false,false);
 </script></body></html>

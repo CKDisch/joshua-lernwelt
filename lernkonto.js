@@ -8,20 +8,20 @@
   const client = window.supabase?.createClient(project, publishableKey);
   const root = document.createElement("details");
   root.className = "lern-account";
-  root.innerHTML = '<summary></summary><form hidden><label></label><input type="email" autocomplete="email" required><button></button></form><button type="button" data-sync hidden></button> <button type="button" data-logout hidden></button><p role="status"></p>';
+  root.innerHTML = '<summary></summary><form hidden><label for="learn-email"></label><input id="learn-email" type="email" autocomplete="username" required><label for="learn-password"></label><input id="learn-password" type="password" autocomplete="current-password" required><button type="submit"></button></form><button type="button" data-sync hidden></button> <button type="button" data-logout hidden></button><p role="status"></p>';
   document.querySelector("main").prepend(root);
   const fr = document.documentElement.lang === "fr";
   const label = (de, french) => fr ? french : de;
   const form = root.querySelector("form");
-  const email = form.querySelector("input");
+  const email = form.querySelector("#learn-email");
+  const password = form.querySelector("#learn-password");
   const sync = root.querySelector("[data-sync]");
   const logout = root.querySelector("[data-logout]");
   const status = message => { root.querySelector("[role=status]").textContent = message; };
   root.querySelector("summary").textContent = label("Lernkonto · Geräte synchronisieren", "Compte · Synchroniser les appareils");
-  root.querySelector("label").textContent = label("E-Mail-Adresse", "Adresse e-mail");
-  email.id = "learn-email";
-  root.querySelector("label").htmlFor = email.id;
-  form.querySelector("button").textContent = label("Anmeldelink senden", "Envoyer le lien de connexion");
+  form.querySelector('[for="learn-email"]').textContent = label("E-Mail-Adresse", "Adresse e-mail");
+  form.querySelector('[for="learn-password"]').textContent = label("Passwort", "Mot de passe");
+  form.querySelector("button").textContent = label("Anmelden", "Se connecter");
   sync.textContent = label("Jetzt synchronisieren", "Synchroniser maintenant");
   logout.textContent = label("Abmelden", "Se déconnecter");
 
@@ -208,10 +208,15 @@
     const button = form.querySelector("button");
     button.disabled = true;
     try {
-      const { error } = await client.auth.signInWithOtp({email:email.value.trim(), options:{emailRedirectTo:site}});
-      status(error
-        ? label("Anmeldelink konnte nicht gesendet werden. Prüfe E-Mail-Adresse und Mailversand.", "Échec de l’envoi. Vérifie l’adresse et le service d’envoi.")
-        : label("Öffne den Link aus der E-Mail auf diesem Gerät.", "Ouvre le lien reçu par e-mail sur cet appareil."));
+      const { error } = await client.auth.signInWithPassword({email:email.value.trim(),password:password.value});
+      if (error) {
+        status(error.code === "email_not_confirmed"
+          ? label("Das Lernkonto wurde noch nicht bestätigt.", "Ce compte n’a pas encore été confirmé.")
+          : label("Anmeldung fehlgeschlagen. Prüfe E-Mail-Adresse und Passwort.", "Connexion refusée. Vérifie l’adresse et le mot de passe."));
+        return;
+      }
+      form.reset();
+      location.reload();
     } catch {
       status(label("Verbindung fehlgeschlagen. Bitte erneut versuchen.", "Connexion impossible. Réessaie."));
     } finally {
